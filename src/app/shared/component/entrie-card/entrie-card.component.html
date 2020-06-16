@@ -1,0 +1,23 @@
+<div class="container center">
+  <div class="card" *ngIf="entrie">
+    <h2 *ngIf="entrie.API; else noData">{{ entrie.API }}</h2>
+    <hr />
+    <p *ngIf="entrie.Description; else noData">
+      {{ entrie.Description }}
+    </p>
+    <p>
+      Auth: <span appYesNo [valueString]="entrie.Auth">{{ entrie.Auth }}</span>
+    </p>
+    <p>
+      Cors: <span appYesNo [valueString]="entrie.Cors">{{ entrie.Cors }}</span>
+    </p>
+
+    <a [href]="entrie.Link" target="_blank">
+      <button>Discover it</button>
+    </a>
+  </div>
+</div>
+
+<ng-template #noData>
+  <p>Not available</p>
+</ng-template>

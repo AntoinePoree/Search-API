@@ -5,6 +5,19 @@
       <span translate>Hello world !</span>
     </h1>
     <app-loader [isLoading]="isLoading"></app-loader>
-    <q [hidden]="isLoading">{{ categorie }}</q>
+    <!-- <q [hidden]="isLoading">{{ categorie }}</q> -->
+  </div>
+  <div class="container">
+    <ng-container *ngIf="categorie; else noCategorie">
+      <div class="row d-none d-md-flex">
+        <div class="col-lg-3 col-md-4 mb-3" *ngFor="let item of categorie">
+          <app-card [title]="item"></app-card>
+        </div>
+      </div>
+    </ng-container>
   </div>
 </div>
+
+<ng-template #noCategorie>
+  <p>Not available</p>
+</ng-template>

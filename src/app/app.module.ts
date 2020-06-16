@@ -12,7 +12,11 @@ import { ShellModule } from './shell/shell.module';
 import { AboutModule } from './about/about.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ServicesModule } from './shared/services/services.module';
+import { CategorieModule } from './categorie/categorie.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { ToastrModule } from 'ngx-toastr';
 @NgModule({
   imports: [
     BrowserModule,
@@ -21,10 +25,16 @@ import { AppRoutingModule } from './app-routing.module';
     TranslateModule.forRoot(),
     NgbModule,
     CoreModule,
-    SharedModule,
+    ServicesModule.forRoot(),
+    SharedModule.forRoot(),
     ShellModule,
     HomeModule,
     AboutModule,
+    CategorieModule,
+    BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot({
+      positionClass: 'toast-top-right'
+    }), // ToastrModule added
     AppRoutingModule // must be imported as the last module as it contains the fallback route
   ],
   declarations: [AppComponent],

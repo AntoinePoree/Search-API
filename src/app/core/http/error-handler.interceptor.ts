@@ -5,6 +5,7 @@ import { catchError } from 'rxjs/operators';
 
 import { environment } from '@env/environment';
 import { Logger } from '../logger.service';
+import { ToastrService } from 'ngx-toastr';
 
 const log = new Logger('ErrorHandlerInterceptor');
 
@@ -15,12 +16,14 @@ const log = new Logger('ErrorHandlerInterceptor');
   providedIn: 'root'
 })
 export class ErrorHandlerInterceptor implements HttpInterceptor {
+  constructor(private toastrService: ToastrService) {}
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     return next.handle(request).pipe(catchError(error => this.errorHandler(error)));
   }
 
   // Customize the default error handler here if needed
   private errorHandler(response: HttpEvent<any>): Observable<HttpEvent<any>> {
+    this.toastrService.error('Not available, try later!');
     if (!environment.production) {
       // Do something with the error
       log.error('Request error', response);

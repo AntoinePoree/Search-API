@@ -2,8 +2,38 @@
 
 .navbar {
   margin-bottom: $spacer;
+  border-radius: 35px;
+  background: #eff0f1;
+  // box-shadow: 41px 41px 82px #cbcccd,
+  //   -41px -41px 82px #ffffff;
+  box-shadow: 11px 6px 36px #cbcccd, -41px -41px 61px #000;
 }
 
 .nav-link.dropdown-toggle {
   cursor: pointer;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background: linear-gradient(45deg, #b0b8bf, #d2dae3);
+  box-shadow: 41px -41px 82px #a7adb4, -41px 41px 82px #e1ebf4;
+}
+
+.navbar-toggler {
+  border-radius: 50px;
+  background: #c4ccd4;
+  box-shadow: inset 41px -41px 82px #a7adb4, inset -41px 41px 82px #e1ebf4;
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+span {
+  color: black;
 }

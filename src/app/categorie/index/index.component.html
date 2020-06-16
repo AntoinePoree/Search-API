@@ -1,0 +1,14 @@
+<div class="container mt-2">
+  <h2 class="mb-5" *ngIf="title">{{ title ? title : 'No title, No cookie' }}</h2>
+  <ng-container *ngIf="allEntries; else noEntries">
+    <div class="row ">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4" *ngFor="let item of allEntries">
+        <app-entrie-card [entrie]="item"></app-entrie-card>
+      </div>
+    </div>
+  </ng-container>
+</div>
+
+<ng-template #noEntries>
+  <p>No entries available</p>
+</ng-template>
