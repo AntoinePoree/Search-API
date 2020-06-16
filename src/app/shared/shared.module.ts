@@ -13,7 +13,7 @@ import { DirectiveModule } from './directives/directives.module';
   exports: [LoaderComponent, ServicesModule, ComponentModule]
 })
 export class SharedModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<SharedModule> {
     return {
       ngModule: SharedModule,
       providers: []
