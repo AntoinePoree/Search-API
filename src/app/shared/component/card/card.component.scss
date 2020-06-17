@@ -18,6 +18,7 @@ p {
 .property-card {
   height: 18em;
   width: 14em;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +48,7 @@ p {
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image: url("https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg");
+  background-image: url("src/assets/card/nothing.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -84,11 +85,11 @@ p {
 /* Property Cards Hover States */
 
 .property-card:hover .property-description {
-  height: 0em;
+  height: 3em;
   padding: 0px 1em;
 }
 .property-card:hover .property-image {
-  height: 18em;
+  height: 15em;
 }
 
 .property-card:hover .property-social-icons {
