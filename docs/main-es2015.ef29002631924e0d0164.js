@@ -10937,7 +10937,7 @@
               template: function(t, e) {
                 1 & t &&
                   (s.Rb(0, 'div', 0),
-                  s.Cc(1, '\n\n  '),
+                  s.Cc(1, '\n  '),
                   s.Rb(2, 'div', 1),
                   s.Cc(3, '\n    '),
                   s.Nb(4, 'div', 2),

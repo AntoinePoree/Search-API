@@ -16175,7 +16175,7 @@ function _createClass(e, t, n) {
             template: function(e, t) {
               1 & e &&
                 (i.Rb(0, 'div', 0),
-                i.Cc(1, '\n\n  '),
+                i.Cc(1, '\n  '),
                 i.Rb(2, 'div', 1),
                 i.Cc(3, '\n    '),
                 i.Nb(4, 'div', 2),
