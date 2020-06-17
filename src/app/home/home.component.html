@@ -1,14 +1,77 @@
 <div class="container-fluid">
   <div class="jumbotron text-center">
-    <h1>
-      <img class="logo" src="assets/ngx-rocket-logo.png" alt="angular logo" />
-      <span translate>Hello world !</span>
-    </h1>
+    <div class="container">
+      <h1 class="text-left">Welcome</h1>
+      <p class="text-left">Here, you can research an API with a name</p>
+
+      <div class="d-flex justify-content-center search-box" [ngClass]="{ focused: focus }">
+        <span>
+          <i class="fas fa-search"></i>
+        </span>
+        <input
+          type="search"
+          [(ngModel)]="searchedTerm"
+          (focus)="focusOn()"
+          (focusout)="focusOut()"
+          placeholder="Start a search..."
+          class="form-control"
+        />
+      </div>
+      <button class="clean justify-content-center" (click)="clean()" *ngIf="searchedTerm !== '' && !focus">
+        <span>
+          <i class="fas fa-trash"></i>
+        </span>
+      </button>
+    </div>
+
     <app-loader [isLoading]="isLoading"></app-loader>
     <!-- <q [hidden]="isLoading">{{ categorie }}</q> -->
+    <div class="container" *ngIf="searchedTerm !== ''">
+      <h1 class="mb-5 titre">{{ (allAPI | containsString: ['API']:[searchedTerm]).length }} API</h1>
+
+      <div class="d-flex justify-content-center mb-4" *ngIf="(allAPI | containsString: ['API']:[searchedTerm]).length">
+        <ngb-pagination
+          [page]="page"
+          [pageSize]="pageSize"
+          (pageChange)="pageChange($event)"
+          [collectionSize]="(allAPI | containsString: ['API']:[searchedTerm]).length"
+        ></ngb-pagination>
+      </div>
+
+      <div class="row d-none d-md-flex mb-4">
+        <div
+          class="col-sm-12 col-md-6 col-lg-4 mb-4"
+          *ngFor="
+            let item of allAPI
+              | containsString: ['API']:[searchedTerm]
+              | slice: (page - 1) * pageSize:(page - 1) * pageSize + pageSize
+          "
+        >
+          <app-entrie-card [entrie]="item"></app-entrie-card>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-4" *ngIf="(allAPI | containsString: ['API']:[searchedTerm]).length">
+        <ngb-pagination
+          [page]="page"
+          [pageSize]="pageSize"
+          (pageChange)="pageChange($event)"
+          [collectionSize]="(allAPI | containsString: ['API']:[searchedTerm]).length"
+        ></ngb-pagination>
+      </div>
+      <div class="d-flex justify-content-center mb-4">
+        <button class="clean box" (click)="clean()" *ngIf="searchedTerm !== '' && !focus">
+          <span>
+            <i class="fas fa-trash"></i>
+          </span>
+        </button>
+      </div>
+    </div>
   </div>
-  <div class="container">
+
+  <div class="container" *ngIf="searchedTerm === ''">
     <ng-container *ngIf="categorie; else noCategorie">
+      <h1 class="mb-5 titre">All API by categories</h1>
       <div class="row d-none d-md-flex">
         <div class="col-lg-3 col-md-4 mb-3" *ngFor="let item of categorie">
           <app-card [title]="item"></app-card>

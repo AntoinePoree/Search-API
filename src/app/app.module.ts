@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslateModule } from '@ngx-translate/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule, NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
@@ -31,6 +31,7 @@ import { ToastrModule } from 'ngx-toastr';
     HomeModule,
     AboutModule,
     CategorieModule,
+    NgbPaginationModule,
     BrowserAnimationsModule, // required animations module
     ToastrModule.forRoot({
       positionClass: 'toast-top-right'

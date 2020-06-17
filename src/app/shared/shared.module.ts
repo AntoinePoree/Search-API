@@ -6,11 +6,12 @@ import { ServicesModule } from './services/services.module';
 import { ComponentModule } from './component/component.module';
 import { ResolverModule } from './resolvers/resolver.module';
 import { DirectiveModule } from './directives/directives.module';
+import { PipesModule } from './pipes/pipes.module';
 
 @NgModule({
-  imports: [CommonModule, ServicesModule, ComponentModule, ResolverModule, DirectiveModule],
+  imports: [CommonModule, ServicesModule, ComponentModule, ResolverModule, DirectiveModule, PipesModule],
   declarations: [LoaderComponent],
-  exports: [LoaderComponent, ServicesModule, ComponentModule]
+  exports: [LoaderComponent, ServicesModule, ComponentModule, PipesModule]
 })
 export class SharedModule {
   static forRoot(): ModuleWithProviders<SharedModule> {
