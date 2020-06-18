@@ -17,6 +17,7 @@ import { CategorieModule } from './categorie/categorie.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ToastrModule } from 'ngx-toastr';
+import { AllModule } from './all/all.module';
 @NgModule({
   imports: [
     BrowserModule,
@@ -30,6 +31,7 @@ import { ToastrModule } from 'ngx-toastr';
     ShellModule,
     HomeModule,
     AboutModule,
+    AllModule,
     CategorieModule,
     NgbPaginationModule,
     BrowserAnimationsModule, // required animations module

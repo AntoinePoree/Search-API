@@ -1,6 +1,6 @@
 <header>
-  <nav class="navbar navbar-expand-lg navbar-white">
-    <span class="navbar-brand" routerLink="/">Find an API</span>
+  <nav class="navbar navbar-expand-lg navbar-">
+    <span class="navbar-brand" routerLink="/home">Find an API</span>
     <button
       class="navbar-toggler"
       type="button"
@@ -11,15 +11,38 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div id="navbar-menu" class="collapse navbar-collapse float-xs-none" [ngbCollapse]="menuHidden">
+    <div
+      id="navbar-menu"
+      class="collapse navbar-collapse float-xs-none justify-content-center"
+      [ngbCollapse]="menuHidden"
+    >
       <div class="navbar-nav">
-        <a class="nav-item nav-link text-uppercase" routerLink="/" routerLinkActive="active">
+        <a
+          class="nav-item nav-link text-uppercase bor"
+          routerLink="/home"
+          routerLinkActive="active"
+          [routerLinkActive]="{ exact: true }"
+        >
           <i class="fas fa-home"></i>
           <span>Home</span>
         </a>
-        <a class="nav-item nav-link text-uppercase" routerLink="/about" routerLinkActive="active">
-          <i class="fas fa-question-circle"></i>
-          <span>About</span>
+        <a
+          class="nav-item nav-link text-uppercase bor"
+          routerLink="/about"
+          routerLinkActive="active"
+          [routerLinkActive]="{ exact: true }"
+        >
+          <i class="fas fa-meteor"></i>
+          <span>About me</span>
+        </a>
+        <a
+          class="nav-item nav-link text-uppercase bor"
+          routerLink="/all"
+          routerLinkActive="active"
+          [routerLinkActive]="{ exact: true }"
+        >
+          <i class="fas fa-globe-europe"></i>
+          <span>Show me all api</span>
         </a>
       </div>
     </div>

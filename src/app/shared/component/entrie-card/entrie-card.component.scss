@@ -2,21 +2,21 @@ $black: #282828;
 $point: grey;
 $point-light: lighten($point, 5%);
 
-$ratio: 1.4;
-$card_width: 250px;
+$ratio: 1;
+$card_width: 200px;
 $card_height: $card_width * $ratio;
 $card_padding: 20px;
 $card-bgcolor: white;
 $card_margin: 5px;
 $card_round: 10px;
-$card-shadow: -15px -15px 2px 5px silver;
+$card-shadow: 0px 0px 3px 5px silver;
 
 $card-padding-basis: 15px;
 $card_head_padding: 0px 0px $card-padding-basis 0px;
 
 .card {
   background-color: $card-bgcolor;
-  width: $card_width;
+  width: 20rem;
   min-height: $card_height;
 
   display: -webkit-box;

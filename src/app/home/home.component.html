@@ -38,7 +38,7 @@
         ></ngb-pagination>
       </div>
 
-      <div class="row d-none d-md-flex mb-4">
+      <div class="row mb-4">
         <div
           class="col-sm-12 col-md-6 col-lg-4 mb-4"
           *ngFor="
@@ -71,9 +71,14 @@
 
   <div class="container" *ngIf="searchedTerm === ''">
     <ng-container *ngIf="categorie; else noCategorie">
-      <h1 class="mb-5 titre">All API by categories</h1>
-      <div class="row d-none d-md-flex">
-        <div class="col-lg-3 col-md-4 mb-3" *ngFor="let item of categorie">
+      <h1 class="mb-0 titre">All API by categories</h1>
+      <a href="https://unsplash.com/" target="_blank" class="unsplash mb-5">Thanks to Unsplash for all pictures</a>
+      <div class="row mt-5">
+        <div
+          class="col-lg-3 col-md-4 mb-3"
+          [ngStyle]="{ 'text-align': '-webkit-center' }"
+          *ngFor="let item of categorie"
+        >
           <app-card [title]="item"></app-card>
         </div>
       </div>

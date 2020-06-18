@@ -1,4 +1,4 @@
-<div class="container center">
+<div class="container center" [ngStyle]="{ 'text-align': '-webkit-center' }">
   <div class="card" *ngIf="entrie">
     <h2 *ngIf="entrie.API; else noData">{{ entrie.API }}</h2>
     <hr />
@@ -10,6 +10,9 @@
     </p>
     <p>
       Cors: <span appYesNo [valueString]="entrie.Cors">{{ entrie.Cors }}</span>
+    </p>
+    <p>
+      Https: <span appYesNo [value]="entrie.HTTPS">{{ entrie.HTTPS }}</span>
     </p>
 
     <a [href]="entrie.Link" target="_blank">

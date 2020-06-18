@@ -36,3 +36,19 @@ button:active {
 span {
   color: black;
 }
+a {
+  border-bottom: none;
+}
+.bor {
+  position: relative;
+  padding: 10px 10px 10px 65px;
+  border-bottom: solid 2px transparent;
+  transition: 1s all;
+  color: chocolate;
+
+  :hover,
+  &.active {
+    color: salmon;
+    border-bottom: solid 2px salmon;
+  }
+}
