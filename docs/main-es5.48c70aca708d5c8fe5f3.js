@@ -1874,7 +1874,7 @@ function _createClass(e, t, n) {
     ZAI4: function(e, t, n) {
       'use strict';
       n.d(t, 'a', function() {
-        return Hd;
+        return Ud;
       });
       var r = n('jhN1'),
         i = n('fXoL'),
@@ -16098,7 +16098,7 @@ function _createClass(e, t, n) {
             },
             directives: [a.l, a.k, il],
             styles: [
-              '.card[_ngcontent-%COMP%]{background-color:#fff;width:20rem;min-height:200px;display:flex;flex-direction:column;padding:20px;margin:5px;box-shadow:0 0 3px 5px silver;border-radius:10px;-webkit-animation-name:shadow-show;-webkit-animation-duration:1.5s;animation-name:shadow-show;animation-duration:1.5s;transition-timing-function:cubic-bezier(.795,0,.165,1)}.card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h5[_ngcontent-%COMP%]{margin:0;padding:0 0 15px;font-family:Noto Sans KR,sans-serif;font-size:30px;color:#282828}.card[_ngcontent-%COMP%]   hr[_ngcontent-%COMP%]{display:block;border:none;height:3px;background-color:grey;margin:0;-webkit-animation-name:line-show;-webkit-animation-duration:.3s;animation-name:line-show;animation-duration:.3s;transition-timing-function:cubic-bezier(.795,0,.165,1)}.card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{margin:15px 0 0;font-weight:100;letter-spacing:-.25px;line-height:1.25;font-size:16px;word-break:break-all;word-wrap:pre-wrap;color:#282828;-webkit-animation-name:p-show;-webkit-animation-duration:1.5s;animation-name:p-show;animation-duration:1.5s}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{font-family:Noto Sans KR,sans-serif}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]{border:none;background-color:#5f9ea0;width:100%;margin:10px auto;padding:10px 30px;border-radius:20px;color:#fff;text-transform:uppercase}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover{background-color:#d3d3d3}@-webkit-keyframes line-show{0%{margin:0 100px}to{margin:0}}@keyframes line-show{0%{margin:0 100px}to{margin:0}}@-webkit-keyframes p-show{0%{color:#fff}to{color:#282828}}@keyframes p-show{0%{color:#fff}to{color:#282828}}@-webkit-keyframes shadow-show{0%{box-shadow:0 0 0 0 #e0e0e0}to{box-shadow:0 0 3px 5px silver}}@keyframes shadow-show{0%{box-shadow:0 0 0 0 #e0e0e0}to{box-shadow:0 0 3px 5px silver}}'
+              '.card[_ngcontent-%COMP%]{background-color:#fff;width:100%;min-height:200px;display:flex;flex-direction:column;padding:20px;margin:5px;box-shadow:0 0 3px 5px #d2691e;border-radius:10px;-webkit-animation-name:shadow-show;-webkit-animation-duration:1.5s;animation-name:shadow-show;animation-duration:1.5s;transition-timing-function:cubic-bezier(.795,0,.165,1)}.card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h5[_ngcontent-%COMP%]{margin:0;padding:0 0 15px;font-family:Noto Sans KR,sans-serif;font-size:30px;color:#000}.card[_ngcontent-%COMP%]   hr[_ngcontent-%COMP%]{display:block;border:none;height:3px;background-color:#deb887;margin:0;-webkit-animation-name:line-show;-webkit-animation-duration:.3s;animation-name:line-show;animation-duration:.3s;transition-timing-function:cubic-bezier(.795,0,.165,1)}.card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{margin:15px 0 0;font-weight:100;letter-spacing:-.25px;line-height:1.25;font-size:16px;word-break:break-all;word-wrap:pre-wrap;color:#000;-webkit-animation-name:p-show;-webkit-animation-duration:1.5s;animation-name:p-show;animation-duration:1.5s}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{font-family:Noto Sans KR,sans-serif}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]{border:none;background-color:#d2691e;width:100%;margin:10px auto;padding:10px 30px;border-radius:20px;color:#fff;text-transform:uppercase}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover{background-color:#deb887}@-webkit-keyframes line-show{0%{margin:0 100px}to{margin:0}}@keyframes line-show{0%{margin:0 100px}to{margin:0}}@-webkit-keyframes p-show{0%{color:#fff}to{color:#000}}@keyframes p-show{0%{color:#fff}to{color:#000}}@-webkit-keyframes shadow-show{0%{box-shadow:0 0 0 0 #e0e0e0}to{box-shadow:0 0 3px 5px #d2691e}}@keyframes shadow-show{0%{box-shadow:0 0 0 0 #e0e0e0}to{box-shadow:0 0 3px 5px #d2691e}}'
             ]
           })),
           cl),
@@ -16218,7 +16218,7 @@ function _createClass(e, t, n) {
             },
             directives: [Zs, a.l],
             styles: [
-              '*[_ngcontent-%COMP%]{box-sizing:border-box}h5[_ngcontent-%COMP%]{margin:0;font-size:1.4em;font-weight:700}p[_ngcontent-%COMP%]{font-size:12px}.property-card[_ngcontent-%COMP%]{height:18em;cursor:pointer;display:flex;flex-direction:column;position:relative;border-radius:16px;overflow:hidden;box-shadow:15px 15px 27px #e1e1e3,-15px -15px 27px #fff}.property-card[_ngcontent-%COMP%], .property-image[_ngcontent-%COMP%]{width:14em;transition:all .4s cubic-bezier(.645,.045,.355,1)}.property-image[_ngcontent-%COMP%]{height:100%;padding:1em 2em;position:Absolute;top:0;background-image:url(nothing.6ce26b55900d4c525236.jpg);background-size:cover;background-repeat:no-repeat}.property-description[_ngcontent-%COMP%]{background-color:#fafafc;height:4em;width:14em;bottom:0;padding:.5em 1em;text-align:center}.property-description[_ngcontent-%COMP%], .property-social-icons[_ngcontent-%COMP%]{position:absolute;transition:all .4s cubic-bezier(.645,.045,.355,1)}.property-social-icons[_ngcontent-%COMP%]{width:1em;height:1em;background-color:#000;bottom:1em;left:1em}.property-card[_ngcontent-%COMP%]:hover   .property-description[_ngcontent-%COMP%]{height:3em;padding:0 1em}.property-card[_ngcontent-%COMP%]:hover   .property-image[_ngcontent-%COMP%]{height:15em}.property-card[_ngcontent-%COMP%]:hover   .property-social-icons[_ngcontent-%COMP%]{background-color:#fff}.property-card[_ngcontent-%COMP%]:hover   .property-social-icons[_ngcontent-%COMP%]:hover{background-color:#00f;cursor:pointer}'
+              '*[_ngcontent-%COMP%]{box-sizing:border-box}h5[_ngcontent-%COMP%]{margin:0;font-size:1.4em;font-weight:700}p[_ngcontent-%COMP%]{font-size:12px}.property-card[_ngcontent-%COMP%]{height:18em;cursor:pointer;display:flex;flex-direction:column;position:relative;border-radius:16px;overflow:hidden;box-shadow:15px 15px 27px #e1e1e3,-15px -15px 27px #fff}.property-card[_ngcontent-%COMP%], .property-image[_ngcontent-%COMP%]{width:100%;transition:all .4s cubic-bezier(.645,.045,.355,1)}.property-image[_ngcontent-%COMP%]{height:100%;padding:1em 2em;position:Absolute;top:0;background-image:url(nothing.6ce26b55900d4c525236.jpg);background-size:cover;background-repeat:no-repeat}.property-description[_ngcontent-%COMP%]{background-color:#fafafc;height:4em;width:100%;bottom:0;padding:.5em 1em;text-align:center}.property-description[_ngcontent-%COMP%], .property-social-icons[_ngcontent-%COMP%]{position:absolute;transition:all .4s cubic-bezier(.645,.045,.355,1)}.property-social-icons[_ngcontent-%COMP%]{width:1em;height:1em;background-color:#000;bottom:1em;left:1em}.property-card[_ngcontent-%COMP%]:hover   .property-description[_ngcontent-%COMP%]{height:3em;padding:0 1em}.property-card[_ngcontent-%COMP%]:hover   .property-image[_ngcontent-%COMP%]{height:15em}.property-card[_ngcontent-%COMP%]:hover   .property-social-icons[_ngcontent-%COMP%]{background-color:#fff}.property-card[_ngcontent-%COMP%]:hover   .property-social-icons[_ngcontent-%COMP%]:hover{background-color:#00f;cursor:pointer}'
             ]
           })),
           hl),
@@ -16421,43 +16421,54 @@ function _createClass(e, t, n) {
       function xl(e, t) {
         if (
           (1 & e &&
-            (i.Rb(0, 'div', 28), i.Cc(1, '\n          '), i.Nb(2, 'app-card', 29), i.Cc(3, '\n        '), i.Qb()),
+            (i.Rb(0, 'div', 29), i.Cc(1, '\n          '), i.Nb(2, 'app-card', 30), i.Cc(3, '\n        '), i.Qb()),
           2 & e)
         ) {
           var n = t.$implicit;
           i.kc('ngStyle', i.nc(2, Tl)), i.zb(2), i.kc('title', n);
         }
       }
-      function Al(e, t) {
+      var Al = function() {
+        return { float: 'right' };
+      };
+      function Il(e, t) {
         if (
           (1 & e &&
             (i.Pb(0),
             i.Cc(1, '\n      '),
             i.Rb(2, 'h1', 24),
-            i.Cc(3, 'All API by categories'),
+            i.Cc(3, 'All API by categories '),
+            i.Rb(4, 'span', 25),
+            i.Cc(5),
             i.Qb(),
-            i.Cc(4, '\n      '),
-            i.Rb(5, 'a', 25),
-            i.Cc(6, 'Thanks to Unsplash for all pictures'),
             i.Qb(),
-            i.Cc(7, '\n      '),
-            i.Rb(8, 'div', 26),
-            i.Cc(9, '\n        '),
-            i.Ac(10, xl, 4, 3, 'div', 27),
-            i.Cc(11, '\n      '),
+            i.Cc(6, '\n      '),
+            i.Rb(7, 'a', 26),
+            i.Cc(8, 'Thanks to Unsplash for all pictures'),
             i.Qb(),
-            i.Cc(12, '\n    '),
+            i.Cc(9, '\n      '),
+            i.Rb(10, 'div', 27),
+            i.Cc(11, '\n        '),
+            i.Ac(12, xl, 4, 3, 'div', 28),
+            i.Cc(13, '\n      '),
+            i.Qb(),
+            i.Cc(14, '\n    '),
             i.Ob()),
           2 & e)
         ) {
           var n = i.fc(2);
-          i.zb(10), i.kc('ngForOf', n.categorie);
+          i.zb(4),
+            i.kc('ngStyle', i.nc(3, Al)),
+            i.zb(1),
+            i.Ec('(', n.categorie.length, ')'),
+            i.zb(7),
+            i.kc('ngForOf', n.categorie);
         }
       }
-      function Il(e, t) {
+      function Pl(e, t) {
         if (
           (1 & e &&
-            (i.Rb(0, 'div', 2), i.Cc(1, '\n    '), i.Ac(2, Al, 13, 1, 'ng-container', 23), i.Cc(3, '\n  '), i.Qb()),
+            (i.Rb(0, 'div', 2), i.Cc(1, '\n    '), i.Ac(2, Il, 15, 4, 'ng-container', 23), i.Cc(3, '\n  '), i.Qb()),
           2 & e)
         ) {
           var n = i.fc(),
@@ -16465,11 +16476,10 @@ function _createClass(e, t, n) {
           i.zb(2), i.kc('ngIf', n.categorie)('ngIfElse', r);
         }
       }
-      function Pl(e, t) {
+      function jl(e, t) {
         1 & e && (i.Cc(0, '\n  '), i.Rb(1, 'p'), i.Cc(2, 'Not available'), i.Qb(), i.Cc(3, '\n'));
       }
-      var jl,
-        Rl,
+      var Rl,
         Dl,
         Nl,
         Ml,
@@ -16479,11 +16489,12 @@ function _createClass(e, t, n) {
         Hl,
         zl,
         Ul,
-        Bl = function(e) {
+        Bl,
+        ql = function(e) {
           return { focused: e };
         },
-        ql =
-          (((jl = (function() {
+        Ql =
+          (((Rl = (function() {
             function e(t, n) {
               _classCallCheck(this, e),
                 (this.categoriesService = t),
@@ -16564,10 +16575,10 @@ function _createClass(e, t, n) {
               e
             );
           })()).ɵfac = function(e) {
-            return new (e || jl)(i.Mb(rl), i.Mb(Gc));
+            return new (e || Rl)(i.Mb(rl), i.Mb(Gc));
           }),
-          (jl.ɵcmp = i.Gb({
-            type: jl,
+          (Rl.ɵcmp = i.Gb({
+            type: Rl,
             selectors: [['app-home']],
             decls: 37,
             vars: 8,
@@ -16609,10 +16620,11 @@ function _createClass(e, t, n) {
               [1, 'clean', 'box', 3, 'click'],
               [4, 'ngIf', 'ngIfElse'],
               [1, 'mb-0', 'titre'],
+              [1, 'text-muted', 3, 'ngStyle'],
               ['href', 'https://unsplash.com/', 'target', '_blank', 1, 'unsplash', 'mb-5'],
               [1, 'row', 'mt-5'],
-              ['class', 'col-lg-3 col-md-4 mb-3', 3, 'ngStyle', 4, 'ngFor', 'ngForOf'],
-              [1, 'col-lg-3', 'col-md-4', 'mb-3', 3, 'ngStyle'],
+              ['class', 'col-lg-3 col-md-4 col-12 mb-3', 3, 'ngStyle', 4, 'ngFor', 'ngForOf'],
+              [1, 'col-lg-3', 'col-md-4', 'col-12', 'mb-3', 3, 'ngStyle'],
               [3, 'title']
             ],
             template: function(e, t) {
@@ -16662,15 +16674,15 @@ function _createClass(e, t, n) {
                 i.Cc(29, '\n  '),
                 i.Qb(),
                 i.Cc(30, '\n\n  '),
-                i.Ac(31, Il, 4, 2, 'div', 9),
+                i.Ac(31, Pl, 4, 2, 'div', 9),
                 i.Cc(32, '\n'),
                 i.Qb(),
                 i.Cc(33, '\n\n'),
-                i.Ac(34, Pl, 4, 0, 'ng-template', null, 10, i.Bc),
+                i.Ac(34, jl, 4, 0, 'ng-template', null, 10, i.Bc),
                 i.Cc(36, '\n')),
                 2 & e &&
                   (i.zb(12),
-                  i.kc('ngClass', i.oc(6, Bl, t.focus)),
+                  i.kc('ngClass', i.oc(6, ql, t.focus)),
                   i.zb(7),
                   i.kc('ngModel', t.searchedTerm),
                   i.zb(3),
@@ -16685,15 +16697,18 @@ function _createClass(e, t, n) {
             directives: [a.i, C, x, De, a.k, nl, a.j, Ji, dl, a.l, gl],
             pipes: [ml, a.p],
             styles: [
-              '@charset "UTF-8";.logo[_ngcontent-%COMP%]{width:100px}q[_ngcontent-%COMP%]{font-style:italic;font-size:1.2rem;quotes:"\xab " " \xbb"}.titre[_ngcontent-%COMP%]{border-bottom:1px solid #000}.focused[_ngcontent-%COMP%]{box-shadow:0 0 6px rgba(0,0,0,.3)}.clean[_ngcontent-%COMP%]{height:48px;border:none;font-size:1.2rem;border-radius:40px;color:#000;background-color:#fff;width:3rem}.box[_ngcontent-%COMP%]{box-shadow:0 0 1px 1px}.search-box[_ngcontent-%COMP%]{margin:2rem auto;border-radius:40px}.search-box[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]{display:flex;justify-content:center;align-items:center;border-radius:40px 0 0 40px;background-color:#fff;width:48px;height:48px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]{height:48px;border:none;font-size:1.2rem;border-radius:0 40px 40px 0;color:grey;display:block;width:300px;transition:all .25s;box-shadow:20%}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:focus{box-shadow:none;width:100%}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-moz-placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.unsplash[_ngcontent-%COMP%]{color:#e51050;font-weight:700}'
+              '@charset "UTF-8";.logo[_ngcontent-%COMP%]{width:100px}q[_ngcontent-%COMP%]{font-style:italic;font-size:1.2rem;quotes:"\xab " " \xbb"}.titre[_ngcontent-%COMP%]{border-bottom:1px solid #000}.focused[_ngcontent-%COMP%]{box-shadow:0 0 6px rgba(0,0,0,.3)}.clean[_ngcontent-%COMP%]{height:48px;border:none;font-size:1.2rem;border-radius:40px;color:#000;background-color:#fff;width:3rem}.box[_ngcontent-%COMP%]{box-shadow:0 0 1px 1px}.search-box[_ngcontent-%COMP%]{margin:2rem auto;border-radius:40px}.search-box[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]{display:flex;justify-content:center;align-items:center;border-radius:40px 0 0 40px;background-color:#fff;width:48px;height:48px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]{height:48px;border:none;font-size:1.2rem;border-radius:0 40px 40px 0;color:grey;display:block;width:300px;transition:all .25s;box-shadow:20%}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:focus{box-shadow:none;width:100%}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-moz-placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.unsplash[_ngcontent-%COMP%]{color:#deb887;font-weight:700}'
             ]
           })),
-          jl),
-        Ql = function() {
+          Rl),
+        Zl = function() {
+          return { 'font-size': '2rem', color: 'chocolate' };
+        },
+        Gl = function() {
           return { exact: !0 };
         },
-        Zl =
-          (((Dl = (function() {
+        Wl =
+          (((Nl = (function() {
             function e() {
               _classCallCheck(this, e), (this.menuHidden = !0);
             }
@@ -16710,16 +16725,17 @@ function _createClass(e, t, n) {
               e
             );
           })()).ɵfac = function(e) {
-            return new (e || Dl)();
+            return new (e || Nl)();
           }),
-          (Dl.ɵcmp = i.Gb({
-            type: Dl,
+          (Nl.ɵcmp = i.Gb({
+            type: Nl,
             selectors: [['app-header']],
             decls: 44,
-            vars: 8,
+            vars: 10,
             consts: [
               [1, 'navbar', 'navbar-expand-lg', 'navbar-'],
               ['routerLink', '/home', 1, 'navbar-brand'],
+              [1, 'fas', 'fa-search', 3, 'ngStyle'],
               [
                 'type',
                 'button',
@@ -16795,25 +16811,25 @@ function _createClass(e, t, n) {
                 i.Rb(2, 'nav', 0),
                 i.Cc(3, '\n    '),
                 i.Rb(4, 'span', 1),
-                i.Cc(5, 'Find an API'),
+                i.Nb(5, 'i', 2),
                 i.Qb(),
                 i.Cc(6, '\n    '),
-                i.Rb(7, 'button', 2),
+                i.Rb(7, 'button', 3),
                 i.dc('click', function() {
                   return t.toggleMenu();
                 }),
                 i.Cc(8, '\n      '),
-                i.Nb(9, 'span', 3),
+                i.Nb(9, 'span', 4),
                 i.Cc(10, '\n    '),
                 i.Qb(),
                 i.Cc(11, '\n    '),
-                i.Rb(12, 'div', 4),
+                i.Rb(12, 'div', 5),
                 i.Cc(13, '\n      '),
-                i.Rb(14, 'div', 5),
+                i.Rb(14, 'div', 6),
                 i.Cc(15, '\n        '),
-                i.Rb(16, 'a', 6),
+                i.Rb(16, 'a', 7),
                 i.Cc(17, '\n          '),
-                i.Nb(18, 'i', 7),
+                i.Nb(18, 'i', 8),
                 i.Cc(19, '\n          '),
                 i.Rb(20, 'span'),
                 i.Cc(21, 'Home'),
@@ -16821,9 +16837,9 @@ function _createClass(e, t, n) {
                 i.Cc(22, '\n        '),
                 i.Qb(),
                 i.Cc(23, '\n        '),
-                i.Rb(24, 'a', 8),
+                i.Rb(24, 'a', 9),
                 i.Cc(25, '\n          '),
-                i.Nb(26, 'i', 9),
+                i.Nb(26, 'i', 10),
                 i.Cc(27, '\n          '),
                 i.Rb(28, 'span'),
                 i.Cc(29, 'About me'),
@@ -16831,9 +16847,9 @@ function _createClass(e, t, n) {
                 i.Cc(30, '\n        '),
                 i.Qb(),
                 i.Cc(31, '\n        '),
-                i.Rb(32, 'a', 10),
+                i.Rb(32, 'a', 11),
                 i.Cc(33, '\n          '),
-                i.Nb(34, 'i', 11),
+                i.Nb(34, 'i', 12),
                 i.Cc(35, '\n          '),
                 i.Rb(36, 'span'),
                 i.Cc(37, 'Show me all api'),
@@ -16850,45 +16866,47 @@ function _createClass(e, t, n) {
                 i.Qb(),
                 i.Cc(43, '\n')),
                 2 & e &&
-                  (i.zb(7),
+                  (i.zb(5),
+                  i.kc('ngStyle', i.nc(6, Zl)),
+                  i.zb(2),
                   i.Ab('aria-expanded', !t.menuHidden),
                   i.zb(5),
                   i.kc('ngbCollapse', t.menuHidden),
                   i.zb(4),
-                  i.kc('routerLinkActive', i.nc(5, Ql)),
+                  i.kc('routerLinkActive', i.nc(7, Gl)),
                   i.zb(8),
-                  i.kc('routerLinkActive', i.nc(6, Ql)),
+                  i.kc('routerLinkActive', i.nc(8, Gl)),
                   i.zb(8),
-                  i.kc('routerLinkActive', i.nc(7, Ql)));
+                  i.kc('routerLinkActive', i.nc(9, Gl)));
             },
-            directives: [xi, Zs, Gr, Gs, Xs],
+            directives: [xi, Zs, a.l, Gr, Gs, Xs],
             styles: [
               ".navbar[_ngcontent-%COMP%]{border-radius:35px;background:#eff0f1;box-shadow:11px 6px 36px #cbcccd,-41px -41px 61px #000}.nav-link.dropdown-toggle[_ngcontent-%COMP%]{cursor:pointer;border:none}button[_ngcontent-%COMP%]:focus{outline:none}button[_ngcontent-%COMP%]:active{background:linear-gradient(45deg,#b0b8bf,#d2dae3);box-shadow:41px -41px 82px #a7adb4,-41px 41px 82px #e1ebf4}.navbar-toggler[_ngcontent-%COMP%]{border-radius:50px;background:#c4ccd4;box-shadow:inset 41px -41px 82px #a7adb4,inset -41px 41px 82px #e1ebf4;border:none}.navbar-toggler-icon[_ngcontent-%COMP%]{background-image:url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")}span[_ngcontent-%COMP%]{color:#000}a[_ngcontent-%COMP%]{border-bottom:none}.bor[_ngcontent-%COMP%]{position:relative;padding:10px 10px 10px 65px;border-bottom:2px solid transparent;transition:all 1s;color:#d2691e}.bor.active[_ngcontent-%COMP%], .bor[_ngcontent-%COMP%]   [_ngcontent-%COMP%]:hover{color:salmon;border-bottom:2px solid salmon}"
             ]
           })),
-          Dl),
-        Gl =
-          (((Rl = (function() {
+          Nl),
+        Kl =
+          (((Dl = (function() {
             function e() {
               _classCallCheck(this, e);
             }
             return _createClass(e, [{ key: 'ngOnInit', value: function() {} }]), e;
           })()).ɵfac = function(e) {
-            return new (e || Rl)();
+            return new (e || Dl)();
           }),
-          (Rl.ɵcmp = i.Gb({
-            type: Rl,
+          (Dl.ɵcmp = i.Gb({
+            type: Dl,
             selectors: [['app-shell']],
             decls: 4,
             vars: 0,
             template: function(e, t) {
               1 & e && (i.Nb(0, 'app-header'), i.Cc(1, '\n'), i.Nb(2, 'router-outlet'), i.Cc(3, '\n'));
             },
-            directives: [Zl, nu],
+            directives: [Wl, nu],
             styles: ['']
           })),
-          Rl),
-        Wl = (function() {
+          Dl),
+        Jl = (function() {
           function e() {
             _classCallCheck(this, e);
           }
@@ -16897,20 +16915,32 @@ function _createClass(e, t, n) {
               {
                 key: 'childRoutes',
                 value: function(e) {
-                  return { path: '', component: Gl, children: e, data: { reuse: !0 } };
+                  return { path: '', component: Kl, children: e, data: { reuse: !0 } };
                 }
               }
             ]),
             e
           );
         })(),
-        Kl = [
-          Wl.childRoutes([
+        $l = [
+          Jl.childRoutes([
             { path: '', redirectTo: '/home', pathMatch: 'full' },
-            { path: 'home', component: ql, data: { title: 'Search API' } }
+            { path: 'home', component: Ql, data: { title: 'Search API' } }
           ])
         ],
-        Jl =
+        Yl =
+          (((Fl = function e() {
+            _classCallCheck(this, e);
+          }).ɵmod = i.Kb({ type: Fl })),
+          (Fl.ɵinj = i.Jb({
+            factory: function(e) {
+              return new (e || Fl)();
+            },
+            providers: [],
+            imports: [[pu.forChild($l)], pu]
+          })),
+          Fl),
+        Xl =
           (((Ll = function e() {
             _classCallCheck(this, e);
           }).ɵmod = i.Kb({ type: Ll })),
@@ -16918,11 +16948,10 @@ function _createClass(e, t, n) {
             factory: function(e) {
               return new (e || Ll)();
             },
-            providers: [],
-            imports: [[pu.forChild(Kl)], pu]
+            imports: [[a.b, Nn, zc, tl, Yl, Me, $i]]
           })),
           Ll),
-        $l =
+        eh =
           (((Ml = function e() {
             _classCallCheck(this, e);
           }).ɵmod = i.Kb({ type: Ml })),
@@ -16930,36 +16959,25 @@ function _createClass(e, t, n) {
             factory: function(e) {
               return new (e || Ml)();
             },
-            imports: [[a.b, Nn, zc, tl, Jl, Me, $i]]
-          })),
-          Ml),
-        Yl =
-          (((Nl = function e() {
-            _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: Nl })),
-          (Nl.ɵinj = i.Jb({
-            factory: function(e) {
-              return new (e || Nl)();
-            },
             imports: [[a.b, Nn, sa, pu]]
           })),
-          Nl),
-        Xl = [
-          Wl.childRoutes([
+          Ml),
+        th = [
+          Jl.childRoutes([
             {
               path: 'about',
               component:
-                ((Fl = (function() {
+                ((Vl = (function() {
                   function e() {
                     _classCallCheck(this, e), (this.version = Tu.a.version);
                   }
                   return _createClass(e, [{ key: 'ngOnInit', value: function() {} }]), e;
                 })()),
-                (Fl.ɵfac = function(e) {
-                  return new (e || Fl)();
+                (Vl.ɵfac = function(e) {
+                  return new (e || Vl)();
                 }),
-                (Fl.ɵcmp = i.Gb({
-                  type: Fl,
+                (Vl.ɵcmp = i.Gb({
+                  type: Vl,
                   selectors: [['app-about']],
                   decls: 33,
                   vars: 0,
@@ -16999,7 +17017,7 @@ function _createClass(e, t, n) {
                       i.Rb(18, 'p'),
                       i.Cc(19, '\n        '),
                       i.Rb(20, 'a', 5),
-                      i.Cc(21, 'If you want to address me a little coffee, is here!'),
+                      i.Cc(21, 'If you want to support me, is here!'),
                       i.Qb(),
                       i.Cc(22, '\n      '),
                       i.Qb(),
@@ -17020,14 +17038,26 @@ function _createClass(e, t, n) {
                       i.Cc(32, '\n'));
                   },
                   directives: [Dn],
-                  styles: ['']
+                  styles: ['a[_ngcontent-%COMP%]{color:#d2691e}']
                 })),
-                Fl),
+                Vl),
               data: { title: 'About' }
             }
           ])
         ],
-        eh =
+        nh =
+          (((zl = function e() {
+            _classCallCheck(this, e);
+          }).ɵmod = i.Kb({ type: zl })),
+          (zl.ɵinj = i.Jb({
+            factory: function(e) {
+              return new (e || zl)();
+            },
+            providers: [],
+            imports: [[pu.forChild(th)], pu]
+          })),
+          zl),
+        rh =
           (((Hl = function e() {
             _classCallCheck(this, e);
           }).ɵmod = i.Kb({ type: Hl })),
@@ -17035,24 +17065,12 @@ function _createClass(e, t, n) {
             factory: function(e) {
               return new (e || Hl)();
             },
-            providers: [],
-            imports: [[pu.forChild(Xl)], pu]
+            imports: [[a.b, Nn, nh]]
           })),
           Hl),
-        th =
-          (((Vl = function e() {
-            _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: Vl })),
-          (Vl.ɵinj = i.Jb({
-            factory: function(e) {
-              return new (e || Vl)();
-            },
-            imports: [[a.b, Nn, eh]]
-          })),
-          Vl),
-        nh = new Au('App'),
-        rh =
-          (((zl = (function() {
+        ih = new Au('App'),
+        ah =
+          (((Ul = (function() {
             function e(t, n, r, i, a) {
               _classCallCheck(this, e),
                 (this.router = t),
@@ -17068,7 +17086,7 @@ function _createClass(e, t, n) {
                   value: function() {
                     var e = this;
                     Tu.a.production && Au.enableProductionMode(),
-                      nh.debug('init'),
+                      ih.debug('init'),
                       this.i18nService.init(Tu.a.defaultLanguage, Tu.a.supportedLanguages);
                     var t = this.router.events.pipe(
                       qe(function(e) {
@@ -17125,10 +17143,10 @@ function _createClass(e, t, n) {
               e
             );
           })()).ɵfac = function(e) {
-            return new (e || zl)(i.Mb(Qs), i.Mb(Do), i.Mb(r.c), i.Mb(Rn), i.Mb(Qc));
+            return new (e || Ul)(i.Mb(Qs), i.Mb(Do), i.Mb(r.c), i.Mb(Rn), i.Mb(Qc));
           }),
-          (zl.ɵcmp = i.Gb({
-            type: zl,
+          (Ul.ɵcmp = i.Gb({
+            type: Ul,
             selectors: [['app-root']],
             decls: 2,
             vars: 0,
@@ -17138,47 +17156,47 @@ function _createClass(e, t, n) {
             directives: [nu],
             styles: ['']
           })),
-          zl),
-        ih = [{ path: '**', redirectTo: '', pathMatch: 'full' }],
-        ah =
-          (((Ul = function e() {
+          Ul),
+        oh = [{ path: '**', redirectTo: '', pathMatch: 'full' }],
+        sh =
+          (((Bl = function e() {
             _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: Ul })),
-          (Ul.ɵinj = i.Jb({
+          }).ɵmod = i.Kb({ type: Bl })),
+          (Bl.ɵinj = i.Jb({
             factory: function(e) {
-              return new (e || Ul)();
+              return new (e || Bl)();
             },
             providers: [],
             imports: [
-              [pu.forRoot(ih, { enableTracing: !1, preloadingStrategy: au, scrollPositionRestoration: 'enabled' })],
+              [pu.forRoot(oh, { enableTracing: !1, preloadingStrategy: au, scrollPositionRestoration: 'enabled' })],
               pu
             ]
           })),
-          Ul);
-      function oh(e, t) {
-        if ((1 & e && (i.Rb(0, 'h2', 5), i.Cc(1), i.Qb()), 2 & e)) {
+          Bl);
+      function uh(e, t) {
+        if ((1 & e && (i.Rb(0, 'h2', 6), i.Cc(1), i.Qb()), 2 & e)) {
           var n = i.fc();
           i.zb(1), i.Dc(n.title ? n.title : 'No title, No cookie');
         }
       }
-      function sh(e, t) {
+      function ch(e, t) {
         if (
           (1 & e &&
-            (i.Rb(0, 'div', 8), i.Cc(1, '\n          '), i.Nb(2, 'app-entrie-card', 9), i.Cc(3, '\n        '), i.Qb()),
+            (i.Rb(0, 'div', 9), i.Cc(1, '\n          '), i.Nb(2, 'app-entrie-card', 10), i.Cc(3, '\n        '), i.Qb()),
           2 & e)
         ) {
           var n = t.$implicit;
           i.zb(2), i.kc('entrie', n);
         }
       }
-      function uh(e, t) {
+      function lh(e, t) {
         if (
           (1 & e &&
             (i.Pb(0),
             i.Cc(1, '\n      '),
-            i.Rb(2, 'div', 6),
+            i.Rb(2, 'div', 7),
             i.Cc(3, '\n        '),
-            i.Ac(4, sh, 4, 1, 'div', 7),
+            i.Ac(4, ch, 4, 1, 'div', 8),
             i.Cc(5, '\n      '),
             i.Qb(),
             i.Cc(6, '\n    '),
@@ -17189,19 +17207,19 @@ function _createClass(e, t, n) {
           i.zb(4), i.kc('ngForOf', n.allEntries);
         }
       }
-      function ch(e, t) {
+      function hh(e, t) {
         1 & e && (i.Cc(0, '\n  '), i.Rb(1, 'p'), i.Cc(2, 'No entries available'), i.Qb(), i.Cc(3, '\n'));
       }
-      var lh,
-        hh,
-        fh,
-        dh = [
-          Wl.childRoutes([
+      var fh,
+        dh,
+        ph,
+        vh = [
+          Jl.childRoutes([
             {
               path: 'categorie',
               resolve: { entries: Yc },
               component:
-                ((lh = (function() {
+                ((fh = (function() {
                   function e(t) {
                     _classCallCheck(this, e), (this.route = t), (this.allEntries = []);
                   }
@@ -17224,19 +17242,20 @@ function _createClass(e, t, n) {
                     e
                   );
                 })()),
-                (lh.ɵfac = function(e) {
-                  return new (e || lh)(i.Mb(Do));
+                (fh.ɵfac = function(e) {
+                  return new (e || fh)(i.Mb(Do));
                 }),
-                (lh.ɵcmp = i.Gb({
-                  type: lh,
+                (fh.ɵcmp = i.Gb({
+                  type: fh,
                   selectors: [['app-index']],
-                  decls: 13,
+                  decls: 16,
                   vars: 3,
                   consts: [
                     [1, 'full'],
                     [1, 'container'],
                     ['class', 'mb-5 titre pt-5', 4, 'ngIf'],
                     [4, 'ngIf', 'ngIfElse'],
+                    ['routerLink', '/home', 1, 'back'],
                     ['noEntries', ''],
                     [1, 'mb-5', 'titre', 'pt-5'],
                     [1, 'row'],
@@ -17251,57 +17270,61 @@ function _createClass(e, t, n) {
                         i.Cc(1, '\n  '),
                         i.Rb(2, 'div', 1),
                         i.Cc(3, '\n    '),
-                        i.Ac(4, oh, 2, 1, 'h2', 2),
+                        i.Ac(4, uh, 2, 1, 'h2', 2),
                         i.Cc(5, '\n    '),
-                        i.Ac(6, uh, 7, 1, 'ng-container', 3),
+                        i.Ac(6, lh, 7, 1, 'ng-container', 3),
                         i.Cc(7, '\n  '),
                         i.Qb(),
-                        i.Cc(8, '\n'),
+                        i.Cc(8, '\n  '),
+                        i.Rb(9, 'button', 4),
+                        i.Cc(10, 'Back'),
                         i.Qb(),
-                        i.Cc(9, '\n'),
-                        i.Ac(10, ch, 4, 0, 'ng-template', null, 4, i.Bc),
-                        i.Cc(12, '\n')),
+                        i.Cc(11, '\n'),
+                        i.Qb(),
+                        i.Cc(12, '\n'),
+                        i.Ac(13, hh, 4, 0, 'ng-template', null, 5, i.Bc),
+                        i.Cc(15, '\n')),
                       2 & e)
                     ) {
-                      var n = i.sc(11);
+                      var n = i.sc(14);
                       i.zb(4), i.kc('ngIf', t.title), i.zb(2), i.kc('ngIf', t.allEntries)('ngIfElse', n);
                     }
                   },
-                  directives: [a.k, a.j, dl],
+                  directives: [a.k, Zs, a.j, dl],
                   styles: [
-                    '.titre[_ngcontent-%COMP%]{border-bottom:1px solid #000}.full[_ngcontent-%COMP%]{background-color:#f5f5f5}'
+                    '.titre[_ngcontent-%COMP%]{border-bottom:1px solid #000}.full[_ngcontent-%COMP%]{background-color:#f5f5f5}.back[_ngcontent-%COMP%]{padding:.4rem;border-radius:0 20px 20px 20px;position:relative;bottom:2rem;left:90%;color:#d2691e;background:#fff;border:none;font-weight:700;box-shadow:0 0 0 3px}.back[_ngcontent-%COMP%]:hover{box-shadow:0 0 0 5px;color:#deb887}'
                   ]
                 })),
-                lh)
+                fh)
             }
           ])
         ],
-        ph =
-          (((fh = function e() {
+        yh =
+          (((ph = function e() {
             _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: fh })),
-          (fh.ɵinj = i.Jb({
+          }).ɵmod = i.Kb({ type: ph })),
+          (ph.ɵinj = i.Jb({
             factory: function(e) {
-              return new (e || fh)();
+              return new (e || ph)();
             },
-            imports: [[pu.forChild(dh)], pu]
+            imports: [[pu.forChild(vh)], pu]
           })),
-          fh),
-        vh =
-          (((hh = function e() {
+          ph),
+        gh =
+          (((dh = function e() {
             _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: hh })),
-          (hh.ɵinj = i.Jb({
+          }).ɵmod = i.Kb({ type: dh })),
+          (dh.ɵinj = i.Jb({
             factory: function(e) {
-              return new (e || hh)();
+              return new (e || dh)();
             },
-            imports: [[a.b, ph, tl]]
+            imports: [[a.b, yh, tl]]
           })),
-          hh);
-      function yh() {
+          dh);
+      function mh() {
         return 'undefined' != typeof process && '[object process]' === {}.toString.call(process);
       }
-      function gh(e) {
+      function _h(e) {
         switch (e.length) {
           case 0:
             return new Lu();
@@ -17311,7 +17334,7 @@ function _createClass(e, t, n) {
             return new Fu(e);
         }
       }
-      function mh(e, t, n, r) {
+      function bh(e, t, n, r) {
         var i = arguments.length > 4 && void 0 !== arguments[4] ? arguments[4] : {},
           a = arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : {},
           o = [],
@@ -17350,27 +17373,27 @@ function _createClass(e, t, n) {
         }
         return s;
       }
-      function _h(e, t, n, r) {
+      function Ch(e, t, n, r) {
         switch (t) {
           case 'start':
             e.onStart(function() {
-              return r(n && bh(n, 'start', e));
+              return r(n && kh(n, 'start', e));
             });
             break;
           case 'done':
             e.onDone(function() {
-              return r(n && bh(n, 'done', e));
+              return r(n && kh(n, 'done', e));
             });
             break;
           case 'destroy':
             e.onDestroy(function() {
-              return r(n && bh(n, 'destroy', e));
+              return r(n && kh(n, 'destroy', e));
             });
         }
       }
-      function bh(e, t, n) {
+      function kh(e, t, n) {
         var r = n.totalTime,
-          i = Ch(
+          i = wh(
             e.element,
             e.triggerName,
             e.fromState,
@@ -17382,36 +17405,36 @@ function _createClass(e, t, n) {
           a = e._data;
         return null != a && (i._data = a), i;
       }
-      function Ch(e, t, n, r) {
+      function wh(e, t, n, r) {
         var i = arguments.length > 4 && void 0 !== arguments[4] ? arguments[4] : '',
           a = arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : 0,
           o = arguments.length > 6 ? arguments[6] : void 0;
         return { element: e, triggerName: t, fromState: n, toState: r, phaseName: i, totalTime: a, disabled: !!o };
       }
-      function kh(e, t, n) {
+      function Sh(e, t, n) {
         var r;
         return e instanceof Map ? (r = e.get(t)) || e.set(t, (r = n)) : (r = e[t]) || (r = e[t] = n), r;
       }
-      function wh(e) {
+      function Eh(e) {
         var t = e.indexOf(':');
         return [e.substring(1, t), e.substr(t + 1)];
       }
-      var Sh = function(e, t) {
+      var Oh = function(e, t) {
           return !1;
         },
-        Eh = function(e, t) {
+        Th = function(e, t) {
           return !1;
         },
-        Oh = function(e, t, n) {
+        xh = function(e, t, n) {
           return [];
         },
-        Th = yh();
-      (Th || 'undefined' != typeof Element) &&
-        ((Sh = function(e, t) {
+        Ah = mh();
+      (Ah || 'undefined' != typeof Element) &&
+        ((Oh = function(e, t) {
           return e.contains(t);
         }),
-        (Eh = (function() {
-          if (Th || Element.prototype.matches)
+        (Th = (function() {
+          if (Ah || Element.prototype.matches)
             return function(e, t) {
               return e.matches(t);
             };
@@ -17426,9 +17449,9 @@ function _createClass(e, t, n) {
             ? function(e, n) {
                 return t.apply(e, [n]);
               }
-            : Eh;
+            : Th;
         })()),
-        (Oh = function(e, t, n) {
+        (xh = function(e, t, n) {
           var r = [];
           if (n) r.push.apply(r, _toConsumableArray(e.querySelectorAll(t)));
           else {
@@ -17437,27 +17460,27 @@ function _createClass(e, t, n) {
           }
           return r;
         }));
-      var xh = null,
-        Ah = !1;
-      function Ih(e) {
-        xh ||
-          ((xh = ('undefined' != typeof document ? document.body : null) || {}),
-          (Ah = !!xh.style && 'WebkitAppearance' in xh.style));
+      var Ih = null,
+        Ph = !1;
+      function jh(e) {
+        Ih ||
+          ((Ih = ('undefined' != typeof document ? document.body : null) || {}),
+          (Ph = !!Ih.style && 'WebkitAppearance' in Ih.style));
         var t = !0;
         return (
-          xh.style &&
+          Ih.style &&
             !(function(e) {
               return 'ebkit' == e.substring(1, 6);
             })(e) &&
-            !(t = e in xh.style) && Ah &&
-            (t = 'Webkit' + e.charAt(0).toUpperCase() + e.substr(1) in xh.style),
+            !(t = e in Ih.style) && Ph &&
+            (t = 'Webkit' + e.charAt(0).toUpperCase() + e.substr(1) in Ih.style),
           t
         );
       }
-      var Ph = Eh,
-        jh = Sh,
-        Rh = Oh;
-      function Dh(e) {
+      var Rh = Th,
+        Dh = Oh,
+        Nh = xh;
+      function Mh(e) {
         var t = {};
         return (
           Object.keys(e).forEach(function(n) {
@@ -17467,9 +17490,9 @@ function _createClass(e, t, n) {
           t
         );
       }
-      var Nh,
-        Mh =
-          (((Nh = (function() {
+      var Lh,
+        Fh =
+          (((Lh = (function() {
             function e() {
               _classCallCheck(this, e);
             }
@@ -17478,25 +17501,25 @@ function _createClass(e, t, n) {
                 {
                   key: 'validateStyleProperty',
                   value: function(e) {
-                    return Ih(e);
+                    return jh(e);
                   }
                 },
                 {
                   key: 'matchesElement',
                   value: function(e, t) {
-                    return Ph(e, t);
+                    return Rh(e, t);
                   }
                 },
                 {
                   key: 'containsElement',
                   value: function(e, t) {
-                    return jh(e, t);
+                    return Dh(e, t);
                   }
                 },
                 {
                   key: 'query',
                   value: function(e, t, n) {
-                    return Rh(e, t, n);
+                    return Nh(e, t, n);
                   }
                 },
                 {
@@ -17519,22 +17542,22 @@ function _createClass(e, t, n) {
               e
             );
           })()).ɵfac = function(e) {
-            return new (e || Nh)();
+            return new (e || Lh)();
           }),
-          (Nh.ɵprov = i.Ib({ token: Nh, factory: Nh.ɵfac })),
-          Nh),
-        Lh = (function() {
+          (Lh.ɵprov = i.Ib({ token: Lh, factory: Lh.ɵfac })),
+          Lh),
+        Vh = (function() {
           var e = function e() {
             _classCallCheck(this, e);
           };
-          return (e.NOOP = new Mh()), e;
+          return (e.NOOP = new Fh()), e;
         })();
-      function Fh(e) {
+      function Hh(e) {
         if ('number' == typeof e) return e;
         var t = e.match(/^(-?[\.\d]+)(m?s)/);
-        return !t || t.length < 2 ? 0 : Vh(parseFloat(t[1]), t[2]);
+        return !t || t.length < 2 ? 0 : zh(parseFloat(t[1]), t[2]);
       }
-      function Vh(e, t) {
+      function zh(e, t) {
         switch (t) {
           case 's':
             return 1e3 * e;
@@ -17542,7 +17565,7 @@ function _createClass(e, t, n) {
             return e;
         }
       }
-      function Hh(e, t, n) {
+      function Uh(e, t, n) {
         return e.hasOwnProperty('duration')
           ? e
           : (function(e, t, n) {
@@ -17556,9 +17579,9 @@ function _createClass(e, t, n) {
                     t.push('The provided timing value "'.concat(e, '" is invalid.')),
                     { duration: 0, delay: 0, easing: '' }
                   );
-                r = Vh(parseFloat(o[1]), o[2]);
+                r = zh(parseFloat(o[1]), o[2]);
                 var s = o[3];
-                null != s && (i = Vh(parseFloat(s), o[4]));
+                null != s && (i = zh(parseFloat(s), o[4]));
                 var u = o[5];
                 u && (a = u);
               } else r = e;
@@ -17572,7 +17595,7 @@ function _createClass(e, t, n) {
               return { duration: r, delay: i, easing: a };
             })(e, t, n);
       }
-      function zh(e) {
+      function Bh(e) {
         var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
         return (
           Object.keys(e).forEach(function(n) {
@@ -17581,57 +17604,57 @@ function _createClass(e, t, n) {
           t
         );
       }
-      function Uh(e, t) {
+      function qh(e, t) {
         var n = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : {};
         if (t) for (var r in e) n[r] = e[r];
-        else zh(e, n);
+        else Bh(e, n);
         return n;
       }
-      function Bh(e, t, n) {
+      function Qh(e, t, n) {
         return n ? t + ':' + n + ';' : '';
       }
-      function qh(e) {
+      function Zh(e) {
         for (var t = '', n = 0; n < e.style.length; n++) {
           var r = e.style.item(n);
-          t += Bh(0, r, e.style.getPropertyValue(r));
+          t += Qh(0, r, e.style.getPropertyValue(r));
         }
         for (var i in e.style)
           e.style.hasOwnProperty(i) &&
             !i.startsWith('_') &&
-            (t += Bh(0, i.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase(), e.style[i]));
+            (t += Qh(0, i.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase(), e.style[i]));
         e.setAttribute('style', t);
       }
-      function Qh(e, t, n) {
+      function Gh(e, t, n) {
         e.style &&
           (Object.keys(t).forEach(function(r) {
-            var i = Xh(r);
+            var i = tf(r);
             n && !n.hasOwnProperty(r) && (n[r] = e.style[i]), (e.style[i] = t[r]);
           }),
-          yh() && qh(e));
+          mh() && Zh(e));
       }
-      function Zh(e, t) {
+      function Wh(e, t) {
         e.style &&
           (Object.keys(t).forEach(function(t) {
-            var n = Xh(t);
+            var n = tf(t);
             e.style[n] = '';
           }),
-          yh() && qh(e));
+          mh() && Zh(e));
       }
-      function Gh(e) {
+      function Kh(e) {
         return Array.isArray(e) ? (1 == e.length ? e[0] : ju(e)) : e;
       }
-      var Wh = new RegExp('{{\\s*(.+?)\\s*}}', 'g');
-      function Kh(e) {
+      var Jh = new RegExp('{{\\s*(.+?)\\s*}}', 'g');
+      function $h(e) {
         var t = [];
         if ('string' == typeof e) {
-          for (var n; (n = Wh.exec(e)); ) t.push(n[1]);
-          Wh.lastIndex = 0;
+          for (var n; (n = Jh.exec(e)); ) t.push(n[1]);
+          Jh.lastIndex = 0;
         }
         return t;
       }
-      function Jh(e, t, n) {
+      function Yh(e, t, n) {
         var r = e.toString(),
-          i = r.replace(Wh, function(e, r) {
+          i = r.replace(Jh, function(e, r) {
             var i = t[r];
             return (
               t.hasOwnProperty(r) || (n.push('Please provide a value for the animation param ' + r), (i = '')),
@@ -17640,21 +17663,21 @@ function _createClass(e, t, n) {
           });
         return i == r ? e : i;
       }
-      function $h(e) {
+      function Xh(e) {
         for (var t = [], n = e.next(); !n.done; ) t.push(n.value), (n = e.next());
         return t;
       }
-      var Yh = /-+([a-z0-9])/g;
-      function Xh(e) {
-        return e.replace(Yh, function() {
+      var ef = /-+([a-z0-9])/g;
+      function tf(e) {
+        return e.replace(ef, function() {
           for (var e = arguments.length, t = new Array(e), n = 0; n < e; n++) t[n] = arguments[n];
           return t[1].toUpperCase();
         });
       }
-      function ef(e, t) {
+      function nf(e, t) {
         return 0 === e || 0 === t;
       }
-      function tf(e, t, n) {
+      function rf(e, t, n) {
         var r = Object.keys(n);
         if (r.length && t.length) {
           var i = t[0],
@@ -17669,7 +17692,7 @@ function _createClass(e, t, n) {
               var o = function() {
                   var n = t[s];
                   a.forEach(function(t) {
-                    n[t] = rf(e, t);
+                    n[t] = of(e, t);
                   });
                 },
                 s = 1;
@@ -17680,7 +17703,7 @@ function _createClass(e, t, n) {
         }
         return t;
       }
-      function nf(e, t, n) {
+      function af(e, t, n) {
         switch (t.type) {
           case 7:
             return e.visitTrigger(t, n);
@@ -17712,29 +17735,29 @@ function _createClass(e, t, n) {
             throw new Error('Unable to resolve animation metadata node #' + t.type);
         }
       }
-      function rf(e, t) {
+      function of(e, t) {
         return window.getComputedStyle(e)[t];
       }
-      var af = new Set(['true', '1']),
-        of = new Set(['false', '0']);
-      function sf(e, t) {
-        var n = af.has(e) || of.has(e),
-          r = af.has(t) || of.has(t);
+      var sf = new Set(['true', '1']),
+        uf = new Set(['false', '0']);
+      function cf(e, t) {
+        var n = sf.has(e) || uf.has(e),
+          r = sf.has(t) || uf.has(t);
         return function(i, a) {
           var o = '*' == e || e == i,
             s = '*' == t || t == a;
           return (
-            !o && n && 'boolean' == typeof i && (o = i ? af.has(e) : of.has(e)),
-            !s && r && 'boolean' == typeof a && (s = a ? af.has(t) : of.has(t)),
+            !o && n && 'boolean' == typeof i && (o = i ? sf.has(e) : uf.has(e)),
+            !s && r && 'boolean' == typeof a && (s = a ? sf.has(t) : uf.has(t)),
             o && s
           );
         };
       }
-      var uf = new RegExp('s*:selfs*,?', 'g');
-      function cf(e, t, n) {
-        return new lf(e).build(t, n);
+      var lf = new RegExp('s*:selfs*,?', 'g');
+      function hf(e, t, n) {
+        return new ff(e).build(t, n);
       }
-      var lf = (function() {
+      var ff = (function() {
           function e(t) {
             _classCallCheck(this, e), (this._driver = t);
           }
@@ -17743,8 +17766,8 @@ function _createClass(e, t, n) {
               {
                 key: 'build',
                 value: function(e, t) {
-                  var n = new hf(t);
-                  return this._resetContextStyleTimingState(n), nf(this, Gh(e), n);
+                  var n = new df(t);
+                  return this._resetContextStyleTimingState(n), af(this, Kh(e), n);
                 }
               },
               {
@@ -17799,10 +17822,10 @@ function _createClass(e, t, n) {
                       a = r || {};
                     if (
                       (n.styles.forEach(function(e) {
-                        if (ff(e)) {
+                        if (pf(e)) {
                           var t = e;
                           Object.keys(t).forEach(function(e) {
-                            Kh(t[e]).forEach(function(e) {
+                            $h(t[e]).forEach(function(e) {
                               a.hasOwnProperty(e) || i.add(e);
                             });
                           });
@@ -17810,7 +17833,7 @@ function _createClass(e, t, n) {
                       }),
                       i.size)
                     ) {
-                      var o = $h(i.values());
+                      var o = Xh(i.values());
                       t.errors.push(
                         'state("'
                           .concat(
@@ -17831,7 +17854,7 @@ function _createClass(e, t, n) {
                   var n,
                     r,
                     i,
-                    a = nf(this, Gh(e.animation), t);
+                    a = af(this, Kh(e.animation), t);
                   return {
                     type: 1,
                     matchers:
@@ -17873,7 +17896,7 @@ function _createClass(e, t, n) {
                               var a = i[1],
                                 o = i[2],
                                 s = i[3];
-                              t.push(sf(a, s)), '<' != o[0] || ('*' == a && '*' == s) || t.push(sf(s, a));
+                              t.push(cf(a, s)), '<' != o[0] || ('*' == a && '*' == s) || t.push(cf(s, a));
                             })(e, i, r);
                           })
                         : i.push(n),
@@ -17881,7 +17904,7 @@ function _createClass(e, t, n) {
                     animation: a,
                     queryCount: t.queryCount,
                     depCount: t.depCount,
-                    options: df(e.options)
+                    options: vf(e.options)
                   };
                 }
               },
@@ -17892,9 +17915,9 @@ function _createClass(e, t, n) {
                   return {
                     type: 2,
                     steps: e.steps.map(function(e) {
-                      return nf(n, e, t);
+                      return af(n, e, t);
                     }),
-                    options: df(e.options)
+                    options: vf(e.options)
                   };
                 }
               },
@@ -17906,10 +17929,10 @@ function _createClass(e, t, n) {
                     i = 0,
                     a = e.steps.map(function(e) {
                       t.currentTime = r;
-                      var a = nf(n, e, t);
+                      var a = af(n, e, t);
                       return (i = Math.max(i, t.currentTime)), a;
                     });
-                  return (t.currentTime = i), { type: 3, steps: a, options: df(e.options) };
+                  return (t.currentTime = i), { type: 3, steps: a, options: vf(e.options) };
                 }
               },
               {
@@ -17919,17 +17942,17 @@ function _createClass(e, t, n) {
                     r = (function(e, t) {
                       var n = null;
                       if (e.hasOwnProperty('duration')) n = e;
-                      else if ('number' == typeof e) return pf(Hh(e, t).duration, 0, '');
+                      else if ('number' == typeof e) return yf(Uh(e, t).duration, 0, '');
                       var r = e;
                       if (
                         r.split(/\s+/).some(function(e) {
                           return '{' == e.charAt(0) && '{' == e.charAt(1);
                         })
                       ) {
-                        var i = pf(0, 0, '');
+                        var i = yf(0, 0, '');
                         return (i.dynamic = !0), (i.strValue = r), i;
                       }
-                      return pf((n = n || Hh(r, t)).duration, n.delay, n.easing);
+                      return yf((n = n || Uh(r, t)).duration, n.delay, n.easing);
                     })(e.timings, t.errors);
                   t.currentAnimateTimings = r;
                   var i = e.styles ? e.styles : Ru({});
@@ -17973,7 +17996,7 @@ function _createClass(e, t, n) {
                     i = null;
                   return (
                     n.forEach(function(e) {
-                      if (ff(e)) {
+                      if (pf(e)) {
                         var t = e,
                           n = t.easing;
                         if ((n && ((i = n), delete t.easing), !r))
@@ -18031,7 +18054,7 @@ function _createClass(e, t, n) {
                                 (s = t.options),
                                 (u = t.errors),
                                 (c = s.params || {}),
-                                (l = Kh(o)).length &&
+                                (l = $h(o)).length &&
                                   l.forEach(function(e) {
                                     c.hasOwnProperty(e) ||
                                       u.push(
@@ -18074,12 +18097,12 @@ function _createClass(e, t, n) {
                                 var t = null;
                                 if (Array.isArray(e))
                                   e.forEach(function(e) {
-                                    if (ff(e) && e.hasOwnProperty('offset')) {
+                                    if (pf(e) && e.hasOwnProperty('offset')) {
                                       var n = e;
                                       (t = parseFloat(n.offset)), delete n.offset;
                                     }
                                   });
-                                else if (ff(e) && e.hasOwnProperty('offset')) {
+                                else if (pf(e) && e.hasOwnProperty('offset')) {
                                   var n = e;
                                   (t = parseFloat(n.offset)), delete n.offset;
                                 }
@@ -18123,19 +18146,19 @@ function _createClass(e, t, n) {
               {
                 key: 'visitReference',
                 value: function(e, t) {
-                  return { type: 8, animation: nf(this, Gh(e.animation), t), options: df(e.options) };
+                  return { type: 8, animation: af(this, Kh(e.animation), t), options: vf(e.options) };
                 }
               },
               {
                 key: 'visitAnimateChild',
                 value: function(e, t) {
-                  return t.depCount++, { type: 9, options: df(e.options) };
+                  return t.depCount++, { type: 9, options: vf(e.options) };
                 }
               },
               {
                 key: 'visitAnimateRef',
                 value: function(e, t) {
-                  return { type: 10, animation: this.visitReference(e.animation, t), options: df(e.options) };
+                  return { type: 10, animation: this.visitReference(e.animation, t), options: vf(e.options) };
                 }
               },
               {
@@ -18150,7 +18173,7 @@ function _createClass(e, t, n) {
                           return ':self' == e;
                         });
                         return (
-                          t && (e = e.replace(uf, '')),
+                          t && (e = e.replace(lf, '')),
                           [
                             (e = e
                               .replace(/@\*/g, '.ng-trigger')
@@ -18167,8 +18190,8 @@ function _createClass(e, t, n) {
                     a = i[0],
                     o = i[1];
                   (t.currentQuerySelector = n.length ? n + ' ' + a : a),
-                    kh(t.collectedStyles, t.currentQuerySelector, {});
-                  var s = nf(this, Gh(e.animation), t);
+                    Sh(t.collectedStyles, t.currentQuerySelector, {});
+                  var s = af(this, Kh(e.animation), t);
                   return (
                     (t.currentQuery = null),
                     (t.currentQuerySelector = n),
@@ -18180,7 +18203,7 @@ function _createClass(e, t, n) {
                       includeSelf: o,
                       animation: s,
                       originalSelector: e.selector,
-                      options: df(e.options)
+                      options: vf(e.options)
                     }
                   );
                 }
@@ -18190,15 +18213,15 @@ function _createClass(e, t, n) {
                 value: function(e, t) {
                   t.currentQuery || t.errors.push('stagger() can only be used inside of query()');
                   var n =
-                    'full' === e.timings ? { duration: 0, delay: 0, easing: 'full' } : Hh(e.timings, t.errors, !0);
-                  return { type: 12, animation: nf(this, Gh(e.animation), t), timings: n, options: null };
+                    'full' === e.timings ? { duration: 0, delay: 0, easing: 'full' } : Uh(e.timings, t.errors, !0);
+                  return { type: 12, animation: af(this, Kh(e.animation), t), timings: n, options: null };
                 }
               }
             ]),
             e
           );
         })(),
-        hf = function e(t) {
+        df = function e(t) {
           _classCallCheck(this, e),
             (this.errors = t),
             (this.queryCount = 0),
@@ -18211,17 +18234,17 @@ function _createClass(e, t, n) {
             (this.collectedStyles = {}),
             (this.options = null);
         };
-      function ff(e) {
+      function pf(e) {
         return !Array.isArray(e) && 'object' == typeof e;
       }
-      function df(e) {
+      function vf(e) {
         var t;
-        return e ? (e = zh(e)).params && (e.params = (t = e.params) ? zh(t) : null) : (e = {}), e;
+        return e ? (e = Bh(e)).params && (e.params = (t = e.params) ? Bh(t) : null) : (e = {}), e;
       }
-      function pf(e, t, n) {
+      function yf(e, t, n) {
         return { duration: e, delay: t, easing: n };
       }
-      function vf(e, t, n, r, i, a) {
+      function gf(e, t, n, r, i, a) {
         var o = arguments.length > 6 && void 0 !== arguments[6] ? arguments[6] : null,
           s = arguments.length > 7 && void 0 !== arguments[7] && arguments[7];
         return {
@@ -18237,7 +18260,7 @@ function _createClass(e, t, n) {
           subTimeline: s
         };
       }
-      var yf = (function() {
+      var mf = (function() {
           function e() {
             _classCallCheck(this, e), (this._map = new Map());
           }
@@ -18274,17 +18297,17 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        gf = new RegExp(':enter', 'g'),
-        mf = new RegExp(':leave', 'g');
-      function _f(e, t, n, r, i) {
+        _f = new RegExp(':enter', 'g'),
+        bf = new RegExp(':leave', 'g');
+      function Cf(e, t, n, r, i) {
         var a = arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : {},
           o = arguments.length > 6 && void 0 !== arguments[6] ? arguments[6] : {},
           s = arguments.length > 7 ? arguments[7] : void 0,
           u = arguments.length > 8 ? arguments[8] : void 0,
           c = arguments.length > 9 && void 0 !== arguments[9] ? arguments[9] : [];
-        return new bf().buildKeyframes(e, t, n, r, i, a, o, s, u, c);
+        return new kf().buildKeyframes(e, t, n, r, i, a, o, s, u, c);
       }
-      var bf = (function() {
+      var kf = (function() {
           function e() {
             _classCallCheck(this, e);
           }
@@ -18294,9 +18317,9 @@ function _createClass(e, t, n) {
                 key: 'buildKeyframes',
                 value: function(e, t, n, r, i, a, o, s, u) {
                   var c = arguments.length > 9 && void 0 !== arguments[9] ? arguments[9] : [];
-                  u = u || new yf();
-                  var l = new kf(e, t, u, r, i, c, []);
-                  (l.options = s), l.currentTimeline.setStyles([a], null, l.errors, s), nf(this, n, l);
+                  u = u || new mf();
+                  var l = new Sf(e, t, u, r, i, c, []);
+                  (l.options = s), l.currentTimeline.setStyles([a], null, l.errors, s), af(this, n, l);
                   var h = l.timelines.filter(function(e) {
                     return e.containsAnimation();
                   });
@@ -18308,7 +18331,7 @@ function _createClass(e, t, n) {
                     ? h.map(function(e) {
                         return e.buildKeyframes();
                       })
-                    : [vf(t, [], [], [], 0, 0, '', !1)];
+                    : [gf(t, [], [], [], 0, 0, '', !1)];
                 }
               },
               { key: 'visitTrigger', value: function(e, t) {} },
@@ -18341,8 +18364,8 @@ function _createClass(e, t, n) {
                 key: '_visitSubInstructions',
                 value: function(e, t, n) {
                   var r = t.currentTimeline.currentTime,
-                    i = null != n.duration ? Fh(n.duration) : null,
-                    a = null != n.delay ? Fh(n.delay) : null;
+                    i = null != n.duration ? Hh(n.duration) : null,
+                    a = null != n.delay ? Hh(n.delay) : null;
                   return (
                     0 !== i &&
                       e.forEach(function(e) {
@@ -18356,7 +18379,7 @@ function _createClass(e, t, n) {
               {
                 key: 'visitReference',
                 value: function(e, t) {
-                  t.updateOptions(e.options, !0), nf(this, e.animation, t), (t.previousNode = e);
+                  t.updateOptions(e.options, !0), af(this, e.animation, t), (t.previousNode = e);
                 }
               },
               {
@@ -18371,13 +18394,13 @@ function _createClass(e, t, n) {
                     (a.params || a.delay) &&
                     ((i = t.createSubContext(a)).transformIntoNewTimeline(), null != a.delay)
                   ) {
-                    6 == i.previousNode.type && (i.currentTimeline.snapshotCurrentStyles(), (i.previousNode = Cf));
-                    var o = Fh(a.delay);
+                    6 == i.previousNode.type && (i.currentTimeline.snapshotCurrentStyles(), (i.previousNode = wf));
+                    var o = Hh(a.delay);
                     i.delayNextStep(o);
                   }
                   e.steps.length &&
                     (e.steps.forEach(function(e) {
-                      return nf(n, e, i);
+                      return af(n, e, i);
                     }),
                     i.currentTimeline.applyStylesToKeyframe(),
                     i.subContextCount > r && i.transformIntoNewTimeline()),
@@ -18390,11 +18413,11 @@ function _createClass(e, t, n) {
                   var n = this,
                     r = [],
                     i = t.currentTimeline.currentTime,
-                    a = e.options && e.options.delay ? Fh(e.options.delay) : 0;
+                    a = e.options && e.options.delay ? Hh(e.options.delay) : 0;
                   e.steps.forEach(function(o) {
                     var s = t.createSubContext(e.options);
                     a && s.delayNextStep(a),
-                      nf(n, o, s),
+                      af(n, o, s),
                       (i = Math.max(i, s.currentTimeline.currentTime)),
                       r.push(s.currentTimeline);
                   }),
@@ -18410,7 +18433,7 @@ function _createClass(e, t, n) {
                 value: function(e, t) {
                   if (e.dynamic) {
                     var n = e.strValue;
-                    return Hh(t.params ? Jh(n, t.params, t.errors) : n, t.errors);
+                    return Uh(t.params ? Yh(n, t.params, t.errors) : n, t.errors);
                   }
                   return { duration: e.duration, delay: e.delay, easing: e.easing };
                 }
@@ -18464,10 +18487,10 @@ function _createClass(e, t, n) {
                   var n = this,
                     r = t.currentTimeline.currentTime,
                     i = e.options || {},
-                    a = i.delay ? Fh(i.delay) : 0;
+                    a = i.delay ? Hh(i.delay) : 0;
                   a &&
                     (6 === t.previousNode.type || (0 == r && t.currentTimeline.getCurrentStyleProperties().length)) &&
-                    (t.currentTimeline.snapshotCurrentStyles(), (t.previousNode = Cf));
+                    (t.currentTimeline.snapshotCurrentStyles(), (t.previousNode = wf));
                   var o = r,
                     s = t.invokeQuery(e.selector, e.originalSelector, e.limit, e.includeSelf, !!i.optional, t.errors);
                   t.currentQueryTotal = s.length;
@@ -18477,7 +18500,7 @@ function _createClass(e, t, n) {
                     var s = t.createSubContext(e.options, r);
                     a && s.delayNextStep(a),
                       r === t.element && (u = s.currentTimeline),
-                      nf(n, e.animation, s),
+                      af(n, e.animation, s),
                       s.currentTimeline.applyStylesToKeyframe(),
                       (o = Math.max(o, s.currentTimeline.currentTime));
                   }),
@@ -18507,7 +18530,7 @@ function _createClass(e, t, n) {
                   var u = t.currentTimeline;
                   s && u.delayNextStep(s);
                   var c = u.currentTime;
-                  nf(this, e.animation, t),
+                  af(this, e.animation, t),
                     (t.previousNode = e),
                     (n.currentStaggerTime = r.currentTime - c + (r.startTime - n.currentTimeline.startTime));
                 }
@@ -18516,8 +18539,8 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        Cf = {},
-        kf = (function() {
+        wf = {},
+        Sf = (function() {
           function e(t, n, r, i, a, o, s, u) {
             _classCallCheck(this, e),
               (this._driver = t),
@@ -18529,13 +18552,13 @@ function _createClass(e, t, n) {
               (this.timelines = s),
               (this.parentContext = null),
               (this.currentAnimateTimings = null),
-              (this.previousNode = Cf),
+              (this.previousNode = wf),
               (this.subContextCount = 0),
               (this.options = {}),
               (this.currentQueryIndex = 0),
               (this.currentQueryTotal = 0),
               (this.currentStaggerTime = 0),
-              (this.currentTimeline = u || new wf(this._driver, n, 0)),
+              (this.currentTimeline = u || new Ef(this._driver, n, 0)),
               s.push(this.currentTimeline);
           }
           return (
@@ -18547,13 +18570,13 @@ function _createClass(e, t, n) {
                   if (e) {
                     var r = e,
                       i = this.options;
-                    null != r.duration && (i.duration = Fh(r.duration)), null != r.delay && (i.delay = Fh(r.delay));
+                    null != r.duration && (i.duration = Hh(r.duration)), null != r.delay && (i.delay = Hh(r.delay));
                     var a = r.params;
                     if (a) {
                       var o = i.params;
                       o || (o = this.options.params = {}),
                         Object.keys(a).forEach(function(e) {
-                          (t && o.hasOwnProperty(e)) || (o[e] = Jh(a[e], o, n.errors));
+                          (t && o.hasOwnProperty(e)) || (o[e] = Yh(a[e], o, n.errors));
                         });
                     }
                   }
@@ -18609,7 +18632,7 @@ function _createClass(e, t, n) {
                 key: 'transformIntoNewTimeline',
                 value: function(e) {
                   return (
-                    (this.previousNode = Cf),
+                    (this.previousNode = wf),
                     (this.currentTimeline = this.currentTimeline.fork(this.element, e)),
                     this.timelines.push(this.currentTimeline),
                     this.currentTimeline
@@ -18624,7 +18647,7 @@ function _createClass(e, t, n) {
                       delay: this.currentTimeline.currentTime + (null != n ? n : 0) + e.delay,
                       easing: ''
                     },
-                    i = new Sf(
+                    i = new Of(
                       this._driver,
                       e.element,
                       e.keyframes,
@@ -18653,7 +18676,7 @@ function _createClass(e, t, n) {
                 value: function(e, t, n, r, i, a) {
                   var o = [];
                   if ((r && o.push(this.element), e.length > 0)) {
-                    e = (e = e.replace(gf, '.' + this._enterClassName)).replace(mf, '.' + this._leaveClassName);
+                    e = (e = e.replace(_f, '.' + this._enterClassName)).replace(bf, '.' + this._leaveClassName);
                     var s = this._driver.query(this.element, e, 1 != n);
                     0 !== n && (s = n < 0 ? s.slice(s.length + n, s.length) : s.slice(0, n)),
                       o.push.apply(o, _toConsumableArray(s));
@@ -18680,7 +18703,7 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        wf = (function() {
+        Ef = (function() {
           function e(t, n, r, i) {
             _classCallCheck(this, e),
               (this._driver = t),
@@ -18804,13 +18827,13 @@ function _createClass(e, t, n) {
                             ? (n = n || Object.keys(t)).forEach(function(e) {
                                 r[e] = '*';
                               })
-                            : Uh(e, !1, r);
+                            : qh(e, !1, r);
                         }),
                         r
                       );
                     })(e, this._globalTimelineStyles);
                   Object.keys(o).forEach(function(e) {
-                    var t = Jh(o[e], a, n);
+                    var t = Yh(o[e], a, n);
                     (i._pendingStyles[e] = t),
                       i._localTimelineStyles.hasOwnProperty(e) ||
                         (i._backFill[e] = i._globalTimelineStyles.hasOwnProperty(e) ? i._globalTimelineStyles[e] : '*'),
@@ -18871,7 +18894,7 @@ function _createClass(e, t, n) {
                     r = 1 === this._keyframes.size && 0 === this.duration,
                     i = [];
                   this._keyframes.forEach(function(a, o) {
-                    var s = Uh(a, !0);
+                    var s = qh(a, !0);
                     Object.keys(s).forEach(function(e) {
                       var r = s[e];
                       '!' == r ? t.add(e) : '*' == r && n.add(e);
@@ -18879,14 +18902,14 @@ function _createClass(e, t, n) {
                       r || (s.offset = o / e.duration),
                       i.push(s);
                   });
-                  var a = t.size ? $h(t.values()) : [],
-                    o = n.size ? $h(n.values()) : [];
+                  var a = t.size ? Xh(t.values()) : [],
+                    o = n.size ? Xh(n.values()) : [];
                   if (r) {
                     var s = i[0],
-                      u = zh(s);
+                      u = Bh(s);
                     (s.offset = 0), (u.offset = 1), (i = [s, u]);
                   }
-                  return vf(this.element, i, a, o, this.duration, this.startTime, this.easing, !1);
+                  return gf(this.element, i, a, o, this.duration, this.startTime, this.easing, !1);
                 }
               },
               {
@@ -18907,7 +18930,7 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        Sf = (function(e) {
+        Of = (function(e) {
           _inherits(n, e);
           var t = _createSuper(n);
           function n(e, r, i, a, o, s) {
@@ -18944,32 +18967,32 @@ function _createClass(e, t, n) {
                     var a = [],
                       o = r + n,
                       s = n / o,
-                      u = Uh(e[0], !1);
+                      u = qh(e[0], !1);
                     (u.offset = 0), a.push(u);
-                    var c = Uh(e[0], !1);
-                    (c.offset = Ef(s)), a.push(c);
+                    var c = qh(e[0], !1);
+                    (c.offset = Tf(s)), a.push(c);
                     for (var l = e.length - 1, h = 1; h <= l; h++) {
-                      var f = Uh(e[h], !1);
-                      (f.offset = Ef((n + f.offset * r) / o)), a.push(f);
+                      var f = qh(e[h], !1);
+                      (f.offset = Tf((n + f.offset * r) / o)), a.push(f);
                     }
                     (r = o), (n = 0), (i = ''), (e = a);
                   }
-                  return vf(this.element, e, this.preStyleProps, this.postStyleProps, r, n, i, !0);
+                  return gf(this.element, e, this.preStyleProps, this.postStyleProps, r, n, i, !0);
                 }
               }
             ]),
             n
           );
-        })(wf);
-      function Ef(e) {
+        })(Ef);
+      function Tf(e) {
         var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 3,
           n = Math.pow(10, t - 1);
         return Math.round(e * n) / n;
       }
-      var Of = function e() {
+      var xf = function e() {
           _classCallCheck(this, e);
         },
-        Tf = (function(e) {
+        Af = (function(e) {
           _inherits(n, e);
           var t = _createSuper(n);
           function n() {
@@ -18980,7 +19003,7 @@ function _createClass(e, t, n) {
               {
                 key: 'normalizePropertyName',
                 value: function(e, t) {
-                  return Xh(e);
+                  return tf(e);
                 }
               },
               {
@@ -18988,7 +19011,7 @@ function _createClass(e, t, n) {
                 value: function(e, t, n, r) {
                   var i = '',
                     a = n.toString().trim();
-                  if (xf[t] && 0 !== n && '0' !== n)
+                  if (If[t] && 0 !== n && '0' !== n)
                     if ('number' == typeof n) i = 'px';
                     else {
                       var o = n.match(/^[+-]?[\d\.]+([a-z]*)$/);
@@ -19000,8 +19023,8 @@ function _createClass(e, t, n) {
             ]),
             n
           );
-        })(Of),
-        xf = (function(e) {
+        })(xf),
+        If = (function(e) {
           var t = {};
           return (
             e.forEach(function(e) {
@@ -19014,7 +19037,7 @@ function _createClass(e, t, n) {
             ','
           )
         );
-      function Af(e, t, n, r, i, a, o, s, u, c, l, h, f) {
+      function Pf(e, t, n, r, i, a, o, s, u, c, l, h, f) {
         return {
           type: 0,
           element: e,
@@ -19032,8 +19055,8 @@ function _createClass(e, t, n) {
           errors: f
         };
       }
-      var If = {},
-        Pf = (function() {
+      var jf = {},
+        Rf = (function() {
           function e(t, n, r) {
             _classCallCheck(this, e), (this._triggerName = t), (this.ast = n), (this._stateStyles = r);
           }
@@ -19062,16 +19085,16 @@ function _createClass(e, t, n) {
                 key: 'build',
                 value: function(e, t, n, r, i, a, o, s, u, c) {
                   var l = [],
-                    h = (this.ast.options && this.ast.options.params) || If,
-                    f = this.buildStyles(n, (o && o.params) || If, l),
-                    d = (s && s.params) || If,
+                    h = (this.ast.options && this.ast.options.params) || jf,
+                    f = this.buildStyles(n, (o && o.params) || jf, l),
+                    d = (s && s.params) || jf,
                     p = this.buildStyles(r, d, l),
                     v = new Set(),
                     y = new Map(),
                     g = new Map(),
                     m = 'void' === r,
                     _ = { params: Object.assign(Object.assign({}, h), d) },
-                    b = c ? [] : _f(e, t, this.ast.animation, i, a, f, p, _, u, l),
+                    b = c ? [] : Cf(e, t, this.ast.animation, i, a, f, p, _, u, l),
                     C = 0;
                   if (
                     (b.forEach(function(e) {
@@ -19079,28 +19102,28 @@ function _createClass(e, t, n) {
                     }),
                     l.length)
                   )
-                    return Af(t, this._triggerName, n, r, m, f, p, [], [], y, g, C, l);
+                    return Pf(t, this._triggerName, n, r, m, f, p, [], [], y, g, C, l);
                   b.forEach(function(e) {
                     var n = e.element,
-                      r = kh(y, n, {});
+                      r = Sh(y, n, {});
                     e.preStyleProps.forEach(function(e) {
                       return (r[e] = !0);
                     });
-                    var i = kh(g, n, {});
+                    var i = Sh(g, n, {});
                     e.postStyleProps.forEach(function(e) {
                       return (i[e] = !0);
                     }),
                       n !== t && v.add(n);
                   });
-                  var k = $h(v.values());
-                  return Af(t, this._triggerName, n, r, m, f, p, b, k, y, g, C);
+                  var k = Xh(v.values());
+                  return Pf(t, this._triggerName, n, r, m, f, p, b, k, y, g, C);
                 }
               }
             ]),
             e
           );
         })(),
-        jf = (function() {
+        Df = (function() {
           function e(t, n) {
             _classCallCheck(this, e), (this.styles = t), (this.defaultParams = n);
           }
@@ -19110,7 +19133,7 @@ function _createClass(e, t, n) {
                 key: 'buildStyles',
                 value: function(e, t) {
                   var n = {},
-                    r = zh(this.defaultParams);
+                    r = Bh(this.defaultParams);
                   return (
                     Object.keys(e).forEach(function(t) {
                       var n = e[t];
@@ -19121,7 +19144,7 @@ function _createClass(e, t, n) {
                         var i = e;
                         Object.keys(i).forEach(function(e) {
                           var a = i[e];
-                          a.length > 1 && (a = Jh(a, r, t)), (n[e] = a);
+                          a.length > 1 && (a = Yh(a, r, t)), (n[e] = a);
                         });
                       }
                     }),
@@ -19133,7 +19156,7 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        Rf = (function() {
+        Nf = (function() {
           function e(t, n) {
             var r = this;
             _classCallCheck(this, e),
@@ -19142,14 +19165,14 @@ function _createClass(e, t, n) {
               (this.transitionFactories = []),
               (this.states = {}),
               n.states.forEach(function(e) {
-                r.states[e.name] = new jf(e.style, (e.options && e.options.params) || {});
+                r.states[e.name] = new Df(e.style, (e.options && e.options.params) || {});
               }),
-              Df(this.states, 'true', '1'),
-              Df(this.states, 'false', '0'),
+              Mf(this.states, 'true', '1'),
+              Mf(this.states, 'false', '0'),
               n.transitions.forEach(function(e) {
-                r.transitionFactories.push(new Pf(t, e, r.states));
+                r.transitionFactories.push(new Rf(t, e, r.states));
               }),
-              (this.fallbackTransition = new Pf(
+              (this.fallbackTransition = new Rf(
                 t,
                 {
                   type: 1,
@@ -19194,11 +19217,11 @@ function _createClass(e, t, n) {
             e
           );
         })();
-      function Df(e, t, n) {
+      function Mf(e, t, n) {
         e.hasOwnProperty(t) ? e.hasOwnProperty(n) || (e[n] = e[t]) : e.hasOwnProperty(n) && (e[t] = e[n]);
       }
-      var Nf = new yf(),
-        Mf = (function() {
+      var Lf = new mf(),
+        Ff = (function() {
           function e(t, n, r) {
             _classCallCheck(this, e),
               (this.bodyNode = t),
@@ -19214,7 +19237,7 @@ function _createClass(e, t, n) {
                 key: 'register',
                 value: function(e, t) {
                   var n = [],
-                    r = cf(this._driver, t, n);
+                    r = hf(this._driver, t, n);
                   if (n.length)
                     throw new Error('Unable to build the animation due to the following errors: ' + n.join('\n'));
                   this._animations[e] = r;
@@ -19224,7 +19247,7 @@ function _createClass(e, t, n) {
                 key: '_buildPlayer',
                 value: function(e, t, n) {
                   var r = e.element,
-                    i = mh(0, this._normalizer, 0, e.keyframes, t, n);
+                    i = bh(0, this._normalizer, 0, e.keyframes, t, n);
                   return this._driver.animate(r, i, e.duration, e.delay, e.easing, [], !0);
                 }
               },
@@ -19239,8 +19262,8 @@ function _createClass(e, t, n) {
                     s = new Map();
                   if (
                     (o
-                      ? (n = _f(this._driver, t, o, 'ng-enter', 'ng-leave', {}, {}, i, Nf, a)).forEach(function(e) {
-                          var t = kh(s, e.element, {});
+                      ? (n = Cf(this._driver, t, o, 'ng-enter', 'ng-leave', {}, {}, i, Lf, a)).forEach(function(e) {
+                          var t = Sh(s, e.element, {});
                           e.postStyleProps.forEach(function(e) {
                             return (t[e] = null);
                           });
@@ -19254,7 +19277,7 @@ function _createClass(e, t, n) {
                       e[n] = r._driver.computeStyle(t, n, '*');
                     });
                   });
-                  var u = gh(
+                  var u = _h(
                     n.map(function(e) {
                       var t = s.get(e.element);
                       return r._buildPlayer(e, {}, t);
@@ -19290,8 +19313,8 @@ function _createClass(e, t, n) {
               {
                 key: 'listen',
                 value: function(e, t, n, r) {
-                  var i = Ch(t, '', '', '');
-                  return _h(this._getPlayer(e), n, i, r), function() {};
+                  var i = wh(t, '', '', '');
+                  return Ch(this._getPlayer(e), n, i, r), function() {};
                 }
               },
               {
@@ -19333,17 +19356,17 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        Lf = [],
-        Ff = { namespaceId: '', setForRemoval: !1, setForMove: !1, hasAnimation: !1, removedBeforeQueried: !1 },
-        Vf = { namespaceId: '', setForMove: !1, setForRemoval: !1, hasAnimation: !1, removedBeforeQueried: !0 },
-        Hf = (function() {
+        Vf = [],
+        Hf = { namespaceId: '', setForRemoval: !1, setForMove: !1, hasAnimation: !1, removedBeforeQueried: !1 },
+        zf = { namespaceId: '', setForMove: !1, setForRemoval: !1, hasAnimation: !1, removedBeforeQueried: !0 },
+        Uf = (function() {
           function e(t) {
             var n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : '';
             _classCallCheck(this, e), (this.namespaceId = n);
             var r,
               i = t && t.hasOwnProperty('value');
             if (((this.value = null != (r = i ? t.value : t) ? r : null), i)) {
-              var a = zh(t);
+              var a = Bh(t);
               delete a.value, (this.options = a);
             } else this.options = {};
             this.options.params || (this.options.params = {});
@@ -19372,8 +19395,8 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        zf = new Hf('void'),
-        Uf = (function() {
+        Bf = new Uf('void'),
+        qf = (function() {
           function e(t, n, r) {
             _classCallCheck(this, e),
               (this.id = t),
@@ -19384,7 +19407,7 @@ function _createClass(e, t, n) {
               (this._queue = []),
               (this._elementListeners = new Map()),
               (this._hostClassName = 'ng-tns-' + t),
-              Kf(n, this._hostClassName);
+              $f(n, this._hostClassName);
           }
           return (
             _createClass(e, [
@@ -19412,12 +19435,12 @@ function _createClass(e, t, n) {
                         .concat(n, '" for the animation trigger "')
                         .concat(t, '" is not supported!')
                     );
-                  var o = kh(this._elementListeners, e, []),
+                  var o = Sh(this._elementListeners, e, []),
                     s = { name: t, phase: n, callback: r };
                   o.push(s);
-                  var u = kh(this._engine.statesByElement, e, {});
+                  var u = Sh(this._engine.statesByElement, e, {});
                   return (
-                    u.hasOwnProperty(t) || (Kf(e, 'ng-trigger'), Kf(e, 'ng-trigger-' + t), (u[t] = zf)),
+                    u.hasOwnProperty(t) || ($f(e, 'ng-trigger'), $f(e, 'ng-trigger-' + t), (u[t] = Bf)),
                     function() {
                       a._engine.afterFlush(function() {
                         var e = o.indexOf(s);
@@ -19447,18 +19470,18 @@ function _createClass(e, t, n) {
                   var r = this,
                     i = !(arguments.length > 3 && void 0 !== arguments[3]) || arguments[3],
                     a = this._getTrigger(t),
-                    o = new qf(this.id, t, e),
+                    o = new Zf(this.id, t, e),
                     s = this._engine.statesByElement.get(e);
-                  s || (Kf(e, 'ng-trigger'), Kf(e, 'ng-trigger-' + t), this._engine.statesByElement.set(e, (s = {})));
+                  s || ($f(e, 'ng-trigger'), $f(e, 'ng-trigger-' + t), this._engine.statesByElement.set(e, (s = {})));
                   var u = s[t],
-                    c = new Hf(n, this.id);
+                    c = new Uf(n, this.id);
                   if (
                     (!(n && n.hasOwnProperty('value')) && u && c.absorbOptions(u.options),
                     (s[t] = c),
-                    u || (u = zf),
+                    u || (u = Bf),
                     'void' === c.value || u.value !== c.value)
                   ) {
-                    var l = kh(this._engine.playersByElement, e, []);
+                    var l = Sh(this._engine.playersByElement, e, []);
                     l.forEach(function(e) {
                       e.namespaceId == r.id && e.triggerName == t && e.queued && e.destroy();
                     });
@@ -19480,9 +19503,9 @@ function _createClass(e, t, n) {
                         isFallbackTransition: f
                       }),
                       f ||
-                        (Kf(e, 'ng-animate-queued'),
+                        ($f(e, 'ng-animate-queued'),
                         o.onStart(function() {
-                          Jf(e, 'ng-animate-queued');
+                          Yf(e, 'ng-animate-queued');
                         })),
                       o.onDone(function() {
                         var t = r.players.indexOf(o);
@@ -19516,7 +19539,7 @@ function _createClass(e, t, n) {
                     d.length
                       ? this._engine.reportError(d)
                       : this._engine.afterFlush(function() {
-                          Zh(e, p), Qh(e, v);
+                          Wh(e, p), Gh(e, v);
                         });
                   }
                 }
@@ -19592,7 +19615,7 @@ function _createClass(e, t, n) {
                       return (
                         this._engine.markElementAsRemoved(this.id, e, !0, t),
                         n &&
-                          gh(o).onDone(function() {
+                          _h(o).onDone(function() {
                             return i._engine.processLeaveNode(e);
                           }),
                         !0
@@ -19613,9 +19636,9 @@ function _createClass(e, t, n) {
                       if (!r.has(i)) {
                         r.add(i);
                         var a = t._triggers[i].fallbackTransition,
-                          o = t._engine.statesByElement.get(e)[i] || zf,
-                          s = new Hf('void'),
-                          u = new qf(t.id, i, e);
+                          o = t._engine.statesByElement.get(e)[i] || Bf,
+                          s = new Uf('void'),
+                          u = new Zf(t.id, i, e);
                         t._engine.totalQueuedPlayers++,
                           t._queue.push({
                             element: e,
@@ -19654,7 +19677,7 @@ function _createClass(e, t, n) {
                     if ((this.prepareLeaveAnimationListeners(e), i)) r.markElementAsRemoved(this.id, e, !1, t);
                     else {
                       var s = e.__ng_removed;
-                      (s && s !== Ff) ||
+                      (s && s !== Hf) ||
                         (r.afterFlush(function() {
                           return n.clearElementCache(e);
                         }),
@@ -19667,7 +19690,7 @@ function _createClass(e, t, n) {
               {
                 key: 'insertNode',
                 value: function(e, t) {
-                  Kf(e, this._hostClassName);
+                  $f(e, this._hostClassName);
                 }
               },
               {
@@ -19684,8 +19707,8 @@ function _createClass(e, t, n) {
                         o &&
                           o.forEach(function(t) {
                             if (t.name == r.triggerName) {
-                              var n = Ch(a, r.triggerName, r.fromState.value, r.toState.value);
-                              (n._data = e), _h(r.player, t.phase, n, t.callback);
+                              var n = wh(a, r.triggerName, r.fromState.value, r.toState.value);
+                              (n._data = e), Ch(r.player, t.phase, n, t.callback);
                             }
                           }),
                           i.markedForDestroy
@@ -19730,7 +19753,7 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        Bf = (function() {
+        Qf = (function() {
           function e(t, n, r) {
             _classCallCheck(this, e),
               (this.bodyNode = t),
@@ -19764,7 +19787,7 @@ function _createClass(e, t, n) {
               {
                 key: 'createNamespace',
                 value: function(e, t) {
-                  var n = new Uf(e, t, this);
+                  var n = new qf(e, t, this);
                   return (
                     t.parentNode
                       ? this._balanceNamespaceList(n, t)
@@ -19844,7 +19867,7 @@ function _createClass(e, t, n) {
               {
                 key: 'trigger',
                 value: function(e, t, n, r) {
-                  if (Qf(t)) {
+                  if (Gf(t)) {
                     var i = this._fetchNamespace(e);
                     if (i) return i.trigger(t, n, r), !0;
                   }
@@ -19854,7 +19877,7 @@ function _createClass(e, t, n) {
               {
                 key: 'insertNode',
                 value: function(e, t, n, r) {
-                  if (Qf(t)) {
+                  if (Gf(t)) {
                     var i = t.__ng_removed;
                     if (i && i.setForRemoval) {
                       (i.setForRemoval = !1), (i.setForMove = !0);
@@ -19879,14 +19902,14 @@ function _createClass(e, t, n) {
                 key: 'markElementAsDisabled',
                 value: function(e, t) {
                   t
-                    ? this.disabledNodes.has(e) || (this.disabledNodes.add(e), Kf(e, 'ng-animate-disabled'))
-                    : this.disabledNodes.has(e) && (this.disabledNodes.delete(e), Jf(e, 'ng-animate-disabled'));
+                    ? this.disabledNodes.has(e) || (this.disabledNodes.add(e), $f(e, 'ng-animate-disabled'))
+                    : this.disabledNodes.has(e) && (this.disabledNodes.delete(e), Yf(e, 'ng-animate-disabled'));
                 }
               },
               {
                 key: 'removeNode',
                 value: function(e, t, n, r) {
-                  if (Qf(t)) {
+                  if (Gf(t)) {
                     var i = e ? this._fetchNamespace(e) : null;
                     if ((i ? i.removeNode(t, r) : this.markElementAsRemoved(e, t, !1, r), n)) {
                       var a = this.namespacesByHostElement.get(t);
@@ -19905,7 +19928,7 @@ function _createClass(e, t, n) {
               {
                 key: 'listen',
                 value: function(e, t, n, r, i) {
-                  return Qf(t) ? this._fetchNamespace(e).listen(t, n, r, i) : function() {};
+                  return Gf(t) ? this._fetchNamespace(e).listen(t, n, r, i) : function() {};
                 }
               },
               {
@@ -19965,7 +19988,7 @@ function _createClass(e, t, n) {
                   var e = this;
                   return new Promise(function(t) {
                     if (e.players.length)
-                      return gh(e.players).onDone(function() {
+                      return _h(e.players).onDone(function() {
                         return t();
                       });
                     t();
@@ -19978,7 +20001,7 @@ function _createClass(e, t, n) {
                   var t = this,
                     n = e.__ng_removed;
                   if (n && n.setForRemoval) {
-                    if (((e.__ng_removed = Ff), n.namespaceId)) {
+                    if (((e.__ng_removed = Hf), n.namespaceId)) {
                       this.destroyInnerAnimations(e);
                       var r = this._fetchNamespace(n.namespaceId);
                       r && r.clearElementCache(e);
@@ -20006,7 +20029,7 @@ function _createClass(e, t, n) {
                     this.totalAnimations && this.collectedEnterElements.length)
                   )
                     for (var r = 0; r < this.collectedEnterElements.length; r++)
-                      Kf(this.collectedEnterElements[r], 'ng-star-inserted');
+                      $f(this.collectedEnterElements[r], 'ng-star-inserted');
                   if (this._namespaceList.length && (this.totalQueuedPlayers || this.collectedLeaveElements.length)) {
                     var i = [];
                     try {
@@ -20030,7 +20053,7 @@ function _createClass(e, t, n) {
                     var s = this._whenQuietFns;
                     (this._whenQuietFns = []),
                       n.length
-                        ? gh(n).onDone(function() {
+                        ? _h(n).onDone(function() {
                             s.forEach(function(e) {
                               return e();
                             });
@@ -20053,7 +20076,7 @@ function _createClass(e, t, n) {
                 key: '_flushAnimations',
                 value: function(e, t) {
                   var n = this,
-                    r = new yf(),
+                    r = new mf(),
                     i = [],
                     a = new Map(),
                     o = [],
@@ -20067,14 +20090,14 @@ function _createClass(e, t, n) {
                   });
                   var h = this.bodyNode,
                     f = Array.from(this.statesByElement.keys()),
-                    d = Wf(f, this.collectedEnterElements),
+                    d = Jf(f, this.collectedEnterElements),
                     p = new Map(),
                     v = 0;
                   d.forEach(function(e, t) {
                     var n = 'ng-enter' + v++;
                     p.set(t, n),
                       e.forEach(function(e) {
-                        return Kf(e, n);
+                        return $f(e, n);
                       });
                   });
                   for (var y = [], g = new Set(), m = new Set(), _ = 0; _ < this.collectedLeaveElements.length; _++) {
@@ -20091,25 +20114,25 @@ function _createClass(e, t, n) {
                         : m.add(b));
                   }
                   var k = new Map(),
-                    w = Wf(f, Array.from(g));
+                    w = Jf(f, Array.from(g));
                   w.forEach(function(e, t) {
                     var n = 'ng-leave' + v++;
                     k.set(t, n),
                       e.forEach(function(e) {
-                        return Kf(e, n);
+                        return $f(e, n);
                       });
                   }),
                     e.push(function() {
                       d.forEach(function(e, t) {
                         var n = p.get(t);
                         e.forEach(function(e) {
-                          return Jf(e, n);
+                          return Yf(e, n);
                         });
                       }),
                         w.forEach(function(e, t) {
                           var n = k.get(t);
                           e.forEach(function(e) {
-                            return Jf(e, n);
+                            return Yf(e, n);
                           });
                         }),
                         y.forEach(function(e) {
@@ -20133,20 +20156,20 @@ function _createClass(e, t, n) {
                         if (f)
                           return (
                             t.onStart(function() {
-                              return Zh(a, y.fromStyles);
+                              return Wh(a, y.fromStyles);
                             }),
                             t.onDestroy(function() {
-                              return Qh(a, y.toStyles);
+                              return Gh(a, y.toStyles);
                             }),
                             void i.push(t)
                           );
                         if (e.isFallbackTransition)
                           return (
                             t.onStart(function() {
-                              return Zh(a, y.fromStyles);
+                              return Wh(a, y.fromStyles);
                             }),
                             t.onDestroy(function() {
-                              return Qh(a, y.toStyles);
+                              return Gh(a, y.toStyles);
                             }),
                             void i.push(t)
                           );
@@ -20156,7 +20179,7 @@ function _createClass(e, t, n) {
                           r.append(a, y.timelines),
                           o.push({ instruction: y, player: t, element: a }),
                           y.queriedElements.forEach(function(e) {
-                            return kh(s, e, []).push(t);
+                            return Sh(s, e, []).push(t);
                           }),
                           y.preStyleProps.forEach(function(e, t) {
                             var n = Object.keys(e);
@@ -20200,19 +20223,19 @@ function _createClass(e, t, n) {
                     i.forEach(function(e) {
                       var t = e.element;
                       n._getPreviousPlayers(t, !1, e.namespaceId, e.triggerName, null).forEach(function(e) {
-                        kh(x, t, []).push(e), e.destroy();
+                        Sh(x, t, []).push(e), e.destroy();
                       });
                     });
                   var I = y.filter(function(e) {
-                      return Yf(e, u, c);
+                      return ed(e, u, c);
                     }),
                     P = new Map();
-                  Gf(P, this.driver, m, c, '*').forEach(function(e) {
-                    Yf(e, u, c) && I.push(e);
+                  Kf(P, this.driver, m, c, '*').forEach(function(e) {
+                    ed(e, u, c) && I.push(e);
                   });
                   var j = new Map();
                   d.forEach(function(e, t) {
-                    Gf(j, n.driver, new Set(e), u, '!');
+                    Kf(j, n.driver, new Set(e), u, '!');
                   }),
                     I.forEach(function(e) {
                       var t = P.get(e),
@@ -20230,7 +20253,7 @@ function _createClass(e, t, n) {
                       if (l.has(t))
                         return (
                           o.onDestroy(function() {
-                            return Qh(t, s.toStyles);
+                            return Gh(t, s.toStyles);
                           }),
                           (o.disabled = !0),
                           o.overrideTotalTime(s.totalTime),
@@ -20254,12 +20277,12 @@ function _createClass(e, t, n) {
                       if ((o.setRealPlayer(d), u === N)) R.push(o);
                       else {
                         var p = n.playersByElement.get(u);
-                        p && p.length && (o.parentPlayer = gh(p)), i.push(o);
+                        p && p.length && (o.parentPlayer = _h(p)), i.push(o);
                       }
                     } else
-                      Zh(t, s.fromStyles),
+                      Wh(t, s.fromStyles),
                         o.onDestroy(function() {
-                          return Qh(t, s.toStyles);
+                          return Gh(t, s.toStyles);
                         }),
                         D.push(o),
                         l.has(t) && i.push(o);
@@ -20267,7 +20290,7 @@ function _createClass(e, t, n) {
                     D.forEach(function(e) {
                       var t = a.get(e.element);
                       if (t && t.length) {
-                        var n = gh(t);
+                        var n = _h(t);
                         e.setRealPlayer(n);
                       }
                     }),
@@ -20277,7 +20300,7 @@ function _createClass(e, t, n) {
                   for (var M = 0; M < y.length; M++) {
                     var L = y[M],
                       F = L.__ng_removed;
-                    if ((Jf(L, 'ng-leave'), !F || !F.hasAnimation)) {
+                    if ((Yf(L, 'ng-leave'), !F || !F.hasAnimation)) {
                       var V = [];
                       if (s.size) {
                         var H = s.get(L);
@@ -20290,7 +20313,7 @@ function _createClass(e, t, n) {
                       var q = V.filter(function(e) {
                         return !e.destroyed;
                       });
-                      q.length ? $f(this, L, q) : this.processLeaveNode(L);
+                      q.length ? Xf(this, L, q) : this.processLeaveNode(L);
                     }
                   }
                   return (
@@ -20372,7 +20395,7 @@ function _createClass(e, t, n) {
                     var c = function() {
                       var e = r.value.element,
                         u = e !== a,
-                        c = kh(n, e, []);
+                        c = Sh(n, e, []);
                       i._getPreviousPlayers(e, u, o, s, t.toState).forEach(function(e) {
                         var t = e.getRealPlayer();
                         t.beforeDestroy && t.beforeDestroy(), e.destroy(), c.push(e);
@@ -20384,7 +20407,7 @@ function _createClass(e, t, n) {
                   } finally {
                     u.f();
                   }
-                  Zh(a, t.fromStyles);
+                  Wh(a, t.fromStyles);
                 }
               },
               {
@@ -20404,7 +20427,7 @@ function _createClass(e, t, n) {
                       var p,
                         v,
                         y = f !== u,
-                        g = ((p = (n.get(f) || Lf).map(function(e) {
+                        g = ((p = (n.get(f) || Vf).map(function(e) {
                           return e.getRealPlayer();
                         })),
                         (v = []),
@@ -20419,16 +20442,16 @@ function _createClass(e, t, n) {
                         }),
                         m = i.get(f),
                         _ = a.get(f),
-                        b = mh(0, o._normalizer, 0, t.keyframes, m, _),
+                        b = bh(0, o._normalizer, 0, t.keyframes, m, _),
                         C = o._buildPlayer(t, b, g);
                       if ((t.subTimeline && r && h.add(f), y)) {
-                        var k = new qf(e, s, f);
+                        var k = new Zf(e, s, f);
                         k.setRealPlayer(C), c.push(k);
                       }
                       return C;
                     });
                   c.forEach(function(e) {
-                    kh(o.playersByQueriedElement, e.element, []).push(e),
+                    Sh(o.playersByQueriedElement, e.element, []).push(e),
                       e.onDone(function() {
                         return (function(e, t, n) {
                           var r;
@@ -20452,18 +20475,18 @@ function _createClass(e, t, n) {
                       });
                   }),
                     l.forEach(function(e) {
-                      return Kf(e, 'ng-animating');
+                      return $f(e, 'ng-animating');
                     });
-                  var d = gh(f);
+                  var d = _h(f);
                   return (
                     d.onDestroy(function() {
                       l.forEach(function(e) {
-                        return Jf(e, 'ng-animating');
+                        return Yf(e, 'ng-animating');
                       }),
-                        Qh(u, t.toStyles);
+                        Gh(u, t.toStyles);
                     }),
                     h.forEach(function(e) {
-                      kh(r, e, []).push(d);
+                      Sh(r, e, []).push(d);
                     }),
                     d
                   );
@@ -20495,7 +20518,7 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        qf = (function() {
+        Zf = (function() {
           function e(t, n, r) {
             _classCallCheck(this, e),
               (this.namespaceId = t),
@@ -20520,7 +20543,7 @@ function _createClass(e, t, n) {
                     ((this._player = e),
                     Object.keys(this._queuedCallbacks).forEach(function(n) {
                       t._queuedCallbacks[n].forEach(function(t) {
-                        return _h(e, n, void 0, t);
+                        return Ch(e, n, void 0, t);
                       });
                     }),
                     (this._queuedCallbacks = {}),
@@ -20561,7 +20584,7 @@ function _createClass(e, t, n) {
               {
                 key: '_queueEvent',
                 value: function(e, t) {
-                  kh(this._queuedCallbacks, e, []).push(t);
+                  Sh(this._queuedCallbacks, e, []).push(t);
                 }
               },
               {
@@ -20653,36 +20676,36 @@ function _createClass(e, t, n) {
             e
           );
         })();
-      function Qf(e) {
+      function Gf(e) {
         return e && 1 === e.nodeType;
       }
-      function Zf(e, t) {
+      function Wf(e, t) {
         var n = e.style.display;
         return (e.style.display = null != t ? t : 'none'), n;
       }
-      function Gf(e, t, n, r, i) {
+      function Kf(e, t, n, r, i) {
         var a = [];
         n.forEach(function(e) {
-          return a.push(Zf(e));
+          return a.push(Wf(e));
         });
         var o = [];
         r.forEach(function(n, r) {
           var a = {};
           n.forEach(function(e) {
             var n = (a[e] = t.computeStyle(r, e, i));
-            (n && 0 != n.length) || ((r.__ng_removed = Vf), o.push(r));
+            (n && 0 != n.length) || ((r.__ng_removed = zf), o.push(r));
           }),
             e.set(r, a);
         });
         var s = 0;
         return (
           n.forEach(function(e) {
-            return Zf(e, a[s++]);
+            return Wf(e, a[s++]);
           }),
           o
         );
       }
-      function Wf(e, t) {
+      function Jf(e, t) {
         var n = new Map();
         if (
           (e.forEach(function(e) {
@@ -20707,26 +20730,26 @@ function _createClass(e, t, n) {
           n
         );
       }
-      function Kf(e, t) {
+      function $f(e, t) {
         if (e.classList) e.classList.add(t);
         else {
           var n = e.$$classes;
           n || (n = e.$$classes = {}), (n[t] = !0);
         }
       }
-      function Jf(e, t) {
+      function Yf(e, t) {
         if (e.classList) e.classList.remove(t);
         else {
           var n = e.$$classes;
           n && delete n[t];
         }
       }
-      function $f(e, t, n) {
-        gh(n).onDone(function() {
+      function Xf(e, t, n) {
+        _h(n).onDone(function() {
           return e.processLeaveNode(t);
         });
       }
-      function Yf(e, t, n) {
+      function ed(e, t, n) {
         var r = n.get(e);
         if (!r) return !1;
         var i = t.get(e);
@@ -20740,7 +20763,7 @@ function _createClass(e, t, n) {
           !0
         );
       }
-      var Xf = (function() {
+      var td = (function() {
         function e(t, n, r) {
           var i = this;
           _classCallCheck(this, e),
@@ -20748,8 +20771,8 @@ function _createClass(e, t, n) {
             (this._driver = n),
             (this._triggerCache = {}),
             (this.onRemovalComplete = function(e, t) {}),
-            (this._transitionEngine = new Bf(t, n, r)),
-            (this._timelineEngine = new Mf(t, n, r)),
+            (this._transitionEngine = new Qf(t, n, r)),
+            (this._timelineEngine = new Ff(t, n, r)),
             (this._transitionEngine.onRemovalComplete = function(e, t) {
               return i.onRemovalComplete(e, t);
             });
@@ -20763,7 +20786,7 @@ function _createClass(e, t, n) {
                   o = this._triggerCache[a];
                 if (!o) {
                   var s = [],
-                    u = cf(this._driver, i, s);
+                    u = hf(this._driver, i, s);
                   if (s.length)
                     throw new Error(
                       'The animation trigger "'
@@ -20771,7 +20794,7 @@ function _createClass(e, t, n) {
                         .concat(s.join('\n - '))
                     );
                   (o = (function(e, t) {
-                    return new Rf(e, t);
+                    return new Nf(e, t);
                   })(r, u)),
                     (this._triggerCache[a] = o);
                 }
@@ -20812,7 +20835,7 @@ function _createClass(e, t, n) {
               key: 'process',
               value: function(e, t, n, r) {
                 if ('@' == n.charAt(0)) {
-                  var i = _slicedToArray(wh(n), 2),
+                  var i = _slicedToArray(Eh(n), 2),
                     a = i[0],
                     o = i[1];
                   this._timelineEngine.command(a, t, o, r);
@@ -20823,7 +20846,7 @@ function _createClass(e, t, n) {
               key: 'listen',
               value: function(e, t, n, r, i) {
                 if ('@' == n.charAt(0)) {
-                  var a = _slicedToArray(wh(n), 2),
+                  var a = _slicedToArray(Eh(n), 2),
                     o = a[0],
                     s = a[1];
                   return this._timelineEngine.listen(o, t, s, i);
@@ -20854,15 +20877,15 @@ function _createClass(e, t, n) {
           e
         );
       })();
-      function ed(e, t) {
+      function nd(e, t) {
         var n = null,
           r = null;
         return (
-          Array.isArray(t) && t.length ? ((n = nd(t[0])), t.length > 1 && (r = nd(t[t.length - 1]))) : t && (n = nd(t)),
-          n || r ? new td(e, n, r) : null
+          Array.isArray(t) && t.length ? ((n = id(t[0])), t.length > 1 && (r = id(t[t.length - 1]))) : t && (n = id(t)),
+          n || r ? new rd(e, n, r) : null
         );
       }
-      var td = (function() {
+      var rd = (function() {
         var e = (function() {
           function e(t, n, r) {
             _classCallCheck(this, e),
@@ -20879,7 +20902,7 @@ function _createClass(e, t, n) {
                 key: 'start',
                 value: function() {
                   this._state < 1 &&
-                    (this._startStyles && Qh(this._element, this._startStyles, this._initialStyles), (this._state = 1));
+                    (this._startStyles && Gh(this._element, this._startStyles, this._initialStyles), (this._state = 1));
                 }
               },
               {
@@ -20887,8 +20910,8 @@ function _createClass(e, t, n) {
                 value: function() {
                   this.start(),
                     this._state < 2 &&
-                      (Qh(this._element, this._initialStyles),
-                      this._endStyles && (Qh(this._element, this._endStyles), (this._endStyles = null)),
+                      (Gh(this._element, this._initialStyles),
+                      this._endStyles && (Gh(this._element, this._endStyles), (this._endStyles = null)),
                       (this._state = 1));
                 }
               },
@@ -20898,9 +20921,9 @@ function _createClass(e, t, n) {
                   this.finish(),
                     this._state < 3 &&
                       (e.initialStylesByElement.delete(this._element),
-                      this._startStyles && (Zh(this._element, this._startStyles), (this._endStyles = null)),
-                      this._endStyles && (Zh(this._element, this._endStyles), (this._endStyles = null)),
-                      Qh(this._element, this._initialStyles),
+                      this._startStyles && (Wh(this._element, this._startStyles), (this._endStyles = null)),
+                      this._endStyles && (Wh(this._element, this._endStyles), (this._endStyles = null)),
+                      Gh(this._element, this._initialStyles),
                       (this._state = 3));
                 }
               }
@@ -20910,17 +20933,17 @@ function _createClass(e, t, n) {
         })();
         return (e.initialStylesByElement = new WeakMap()), e;
       })();
-      function nd(e) {
+      function id(e) {
         for (var t = null, n = Object.keys(e), r = 0; r < n.length; r++) {
           var i = n[r];
-          rd(i) && ((t = t || {})[i] = e[i]);
+          ad(i) && ((t = t || {})[i] = e[i]);
         }
         return t;
       }
-      function rd(e) {
+      function ad(e) {
         return 'display' === e || 'position' === e;
       }
-      var id = (function() {
+      var od = (function() {
         function e(t, n, r, i, a, o, s) {
           var u = this;
           _classCallCheck(this, e),
@@ -20952,33 +20975,33 @@ function _createClass(e, t, n) {
                     .concat(this._delay, 'ms 1 normal ')
                     .concat(this._fillMode, ' ')
                     .concat(this._name)),
-                  (n = ld(e, '').trim()).length &&
+                  (n = fd(e, '').trim()).length &&
                     ((function(e, t) {
                       for (var n = 0; n < e.length; n++) e.charAt(n);
                     })(n),
                     (t = ''.concat(n, ', ').concat(t))),
-                  cd(e, '', t),
-                  ud(this._element, this._eventFn, !1),
+                  hd(e, '', t),
+                  ld(this._element, this._eventFn, !1),
                   (this._startTime = Date.now());
               }
             },
             {
               key: 'pause',
               value: function() {
-                ad(this._element, this._name, 'paused');
+                sd(this._element, this._name, 'paused');
               }
             },
             {
               key: 'resume',
               value: function() {
-                ad(this._element, this._name, 'running');
+                sd(this._element, this._name, 'running');
               }
             },
             {
               key: 'setPosition',
               value: function(e) {
-                var t = od(this._element, this._name);
-                (this._position = e * this._duration), cd(this._element, 'Delay', '-'.concat(this._position, 'ms'), t);
+                var t = ud(this._element, this._name);
+                (this._position = e * this._duration), hd(this._element, 'Delay', '-'.concat(this._position, 'ms'), t);
               }
             },
             {
@@ -21001,7 +21024,7 @@ function _createClass(e, t, n) {
             {
               key: 'finish',
               value: function() {
-                this._finished || ((this._finished = !0), this._onDoneFn(), ud(this._element, this._eventFn, !0));
+                this._finished || ((this._finished = !0), this._onDoneFn(), ld(this._element, this._eventFn, !0));
               }
             },
             {
@@ -21011,9 +21034,9 @@ function _createClass(e, t, n) {
                   ((this._destroyed = !0),
                   this.finish(),
                   (function(e, t) {
-                    var n = ld(e, '').split(','),
-                      r = sd(n, t);
-                    r >= 0 && (n.splice(r, 1), cd(e, '', n.join(',')));
+                    var n = fd(e, '').split(','),
+                      r = cd(n, t);
+                    r >= 0 && (n.splice(r, 1), hd(e, '', n.join(',')));
                   })(this._element, this._name));
               }
             }
@@ -21021,21 +21044,21 @@ function _createClass(e, t, n) {
           e
         );
       })();
-      function ad(e, t, n) {
-        cd(e, 'PlayState', n, od(e, t));
+      function sd(e, t, n) {
+        hd(e, 'PlayState', n, ud(e, t));
       }
-      function od(e, t) {
-        var n = ld(e, '');
-        return n.indexOf(',') > 0 ? sd(n.split(','), t) : sd([n], t);
+      function ud(e, t) {
+        var n = fd(e, '');
+        return n.indexOf(',') > 0 ? cd(n.split(','), t) : cd([n], t);
       }
-      function sd(e, t) {
+      function cd(e, t) {
         for (var n = 0; n < e.length; n++) if (e[n].indexOf(t) >= 0) return n;
         return -1;
       }
-      function ud(e, t, n) {
+      function ld(e, t, n) {
         n ? e.removeEventListener('animationend', t) : e.addEventListener('animationend', t);
       }
-      function cd(e, t, n, r) {
+      function hd(e, t, n, r) {
         var i = 'animation' + t;
         if (null != r) {
           var a = e.style[i];
@@ -21046,10 +21069,10 @@ function _createClass(e, t, n) {
         }
         e.style[i] = n;
       }
-      function ld(e, t) {
+      function fd(e, t) {
         return e.style['animation' + t];
       }
-      var hd = (function() {
+      var dd = (function() {
           function e(t, n, r, i, a, o, s, u) {
             _classCallCheck(this, e),
               (this.element = t),
@@ -21190,7 +21213,7 @@ function _createClass(e, t, n) {
                 key: '_buildStyler',
                 value: function() {
                   var e = this;
-                  this._styler = new id(
+                  this._styler = new od(
                     this.element,
                     this.animationName,
                     this._duration,
@@ -21222,7 +21245,7 @@ function _createClass(e, t, n) {
                   if (this.hasStarted()) {
                     var n = this._state >= 3;
                     Object.keys(this._finalStyles).forEach(function(r) {
-                      'offset' != r && (t[r] = n ? e._finalStyles[r] : rf(e.element, r));
+                      'offset' != r && (t[r] = n ? e._finalStyles[r] : of(e.element, r));
                     });
                   }
                   this.currentSnapshot = t;
@@ -21232,7 +21255,7 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        fd = (function(e) {
+        pd = (function(e) {
           _inherits(n, e);
           var t = _createSuper(n);
           function n(e, r) {
@@ -21242,7 +21265,7 @@ function _createClass(e, t, n) {
               ((i = t.call(this)).element = e),
               (i._startingStyles = {}),
               (i.__initialized = !1),
-              (i._styles = Dh(r)),
+              (i._styles = Mh(r)),
               i
             );
           }
@@ -21290,7 +21313,7 @@ function _createClass(e, t, n) {
             n
           );
         })(Lu),
-        dd = (function() {
+        vd = (function() {
           function e() {
             _classCallCheck(this, e),
               (this._count = 0),
@@ -21302,25 +21325,25 @@ function _createClass(e, t, n) {
               {
                 key: 'validateStyleProperty',
                 value: function(e) {
-                  return Ih(e);
+                  return jh(e);
                 }
               },
               {
                 key: 'matchesElement',
                 value: function(e, t) {
-                  return Ph(e, t);
+                  return Rh(e, t);
                 }
               },
               {
                 key: 'containsElement',
                 value: function(e, t) {
-                  return jh(e, t);
+                  return Dh(e, t);
                 }
               },
               {
                 key: 'query',
                 value: function(e, t, n) {
-                  return Rh(e, t, n);
+                  return Nh(e, t, n);
                 }
               },
               {
@@ -21333,7 +21356,7 @@ function _createClass(e, t, n) {
                 key: 'buildKeyframeElement',
                 value: function(e, t, n) {
                   n = n.map(function(e) {
-                    return Dh(e);
+                    return Mh(e);
                   });
                   var r = '@keyframes '.concat(t, ' {\n'),
                     i = '';
@@ -21370,10 +21393,10 @@ function _createClass(e, t, n) {
                     o = arguments.length > 6 ? arguments[6] : void 0;
                   o && this._notifyFaultyScrubber();
                   var s = a.filter(function(e) {
-                      return e instanceof hd;
+                      return e instanceof dd;
                     }),
                     u = {};
-                  ef(n, r) &&
+                  nf(n, r) &&
                     s.forEach(function(e) {
                       var t = e.currentSnapshot;
                       Object.keys(t).forEach(function(e) {
@@ -21391,13 +21414,13 @@ function _createClass(e, t, n) {
                         }),
                       t
                     );
-                  })((t = tf(e, t, u)));
-                  if (0 == n) return new fd(e, c);
+                  })((t = rf(e, t, u)));
+                  if (0 == n) return new pd(e, c);
                   var l = 'gen_css_kf_' + this._count++,
                     h = this.buildKeyframeElement(e, l, t);
                   document.querySelector('head').appendChild(h);
-                  var f = ed(e, t),
-                    d = new hd(e, t, l, n, r, i, c, f);
+                  var f = nd(e, t),
+                    d = new dd(e, t, l, n, r, i, c, f);
                   return (
                     d.onDestroy(function() {
                       var e;
@@ -21422,7 +21445,7 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        pd = (function() {
+        yd = (function() {
           function e(t, n, r, i) {
             _classCallCheck(this, e),
               (this.element = t),
@@ -21593,7 +21616,7 @@ function _createClass(e, t, n) {
                     t = {};
                   this.hasStarted() &&
                     Object.keys(this._finalKeyframe).forEach(function(n) {
-                      'offset' != n && (t[n] = e._finished ? e._finalKeyframe[n] : rf(e.element, n));
+                      'offset' != n && (t[n] = e._finished ? e._finalKeyframe[n] : of(e.element, n));
                     }),
                     (this.currentSnapshot = t);
                 }
@@ -21618,36 +21641,36 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        vd = (function() {
+        gd = (function() {
           function e() {
             _classCallCheck(this, e),
-              (this._isNativeImpl = /\{\s*\[native\s+code\]\s*\}/.test(yd().toString())),
-              (this._cssKeyframesDriver = new dd());
+              (this._isNativeImpl = /\{\s*\[native\s+code\]\s*\}/.test(md().toString())),
+              (this._cssKeyframesDriver = new vd());
           }
           return (
             _createClass(e, [
               {
                 key: 'validateStyleProperty',
                 value: function(e) {
-                  return Ih(e);
+                  return jh(e);
                 }
               },
               {
                 key: 'matchesElement',
                 value: function(e, t) {
-                  return Ph(e, t);
+                  return Rh(e, t);
                 }
               },
               {
                 key: 'containsElement',
                 value: function(e, t) {
-                  return jh(e, t);
+                  return Dh(e, t);
                 }
               },
               {
                 key: 'query',
                 value: function(e, t, n) {
-                  return Rh(e, t, n);
+                  return Nh(e, t, n);
                 }
               },
               {
@@ -21672,38 +21695,38 @@ function _createClass(e, t, n) {
                   i && (s.easing = i);
                   var u = {},
                     c = a.filter(function(e) {
-                      return e instanceof pd;
+                      return e instanceof yd;
                     });
-                  ef(n, r) &&
+                  nf(n, r) &&
                     c.forEach(function(e) {
                       var t = e.currentSnapshot;
                       Object.keys(t).forEach(function(e) {
                         return (u[e] = t[e]);
                       });
                     });
-                  var l = ed(
+                  var l = nd(
                     e,
-                    (t = tf(
+                    (t = rf(
                       e,
                       (t = t.map(function(e) {
-                        return Uh(e, !1);
+                        return qh(e, !1);
                       })),
                       u
                     ))
                   );
-                  return new pd(e, t, s, l);
+                  return new yd(e, t, s, l);
                 }
               }
             ]),
             e
           );
         })();
-      function yd() {
+      function md() {
         return ('undefined' != typeof window && void 0 !== window.document && Element.prototype.animate) || {};
       }
-      var gd,
-        md =
-          (((gd = (function(e) {
+      var _d,
+        bd =
+          (((_d = (function(e) {
             _inherits(n, e);
             var t = _createSuper(n);
             function n(e, r) {
@@ -21728,18 +21751,18 @@ function _createClass(e, t, n) {
                     var t = this._nextAnimationId.toString();
                     this._nextAnimationId++;
                     var n = Array.isArray(e) ? ju(e) : e;
-                    return Cd(this._renderer, null, t, 'register', [n]), new _d(t, this._renderer);
+                    return wd(this._renderer, null, t, 'register', [n]), new Cd(t, this._renderer);
                   }
                 }
               ]),
               n
             );
           })(Iu)).ɵfac = function(e) {
-            return new (e || gd)(i.Zb(i.E), i.Zb(a.c));
+            return new (e || _d)(i.Zb(i.E), i.Zb(a.c));
           }),
-          (gd.ɵprov = i.Ib({ token: gd, factory: gd.ɵfac })),
-          gd),
-        _d = (function(e) {
+          (_d.ɵprov = i.Ib({ token: _d, factory: _d.ɵfac })),
+          _d),
+        Cd = (function(e) {
           _inherits(n, e);
           var t = _createSuper(n);
           function n(e, r) {
@@ -21751,7 +21774,7 @@ function _createClass(e, t, n) {
               {
                 key: 'create',
                 value: function(e, t) {
-                  return new bd(this._id, e, t || {}, this._renderer);
+                  return new kd(this._id, e, t || {}, this._renderer);
                 }
               }
             ]),
@@ -21764,7 +21787,7 @@ function _createClass(e, t, n) {
             };
           })()
         ),
-        bd = (function() {
+        kd = (function() {
           function e(t, n, r, i) {
             _classCallCheck(this, e),
               (this.id = t),
@@ -21788,7 +21811,7 @@ function _createClass(e, t, n) {
                 value: function(e) {
                   for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)
                     n[r - 1] = arguments[r];
-                  return Cd(this._renderer, this.element, this.id, e, n);
+                  return wd(this._renderer, this.element, this.id, e, n);
                 }
               },
               {
@@ -21873,14 +21896,14 @@ function _createClass(e, t, n) {
             e
           );
         })();
-      function Cd(e, t, n, r, i) {
+      function wd(e, t, n, r, i) {
         return e.setProperty(t, '@@'.concat(n, ':').concat(r), i);
       }
-      var kd,
-        wd,
-        Sd,
-        Ed =
-          (((kd = (function() {
+      var Sd,
+        Ed,
+        Od,
+        Td =
+          (((Sd = (function() {
             function e(t, n, r) {
               _classCallCheck(this, e),
                 (this.delegate = t),
@@ -21905,7 +21928,7 @@ function _createClass(e, t, n) {
                       r = this.delegate.createRenderer(e, t);
                     if (!(e && t && t.data && t.data.animation)) {
                       var i = this._rendererCache.get(r);
-                      return i || ((i = new Od('', r, this.engine)), this._rendererCache.set(r, i)), i;
+                      return i || ((i = new xd('', r, this.engine)), this._rendererCache.set(r, i)), i;
                     }
                     var a = t.id,
                       o = t.id + '-' + this._currentId;
@@ -21915,7 +21938,7 @@ function _createClass(e, t, n) {
                       t.data.animation.forEach(function t(r) {
                         Array.isArray(r) ? r.forEach(t) : n.engine.registerTrigger(a, o, e, r.name, r);
                       }),
-                      new Td(this, o, r, this.engine)
+                      new Ad(this, o, r, this.engine)
                     );
                   }
                 },
@@ -21977,11 +22000,11 @@ function _createClass(e, t, n) {
               e
             );
           })()).ɵfac = function(e) {
-            return new (e || kd)(i.Zb(i.E), i.Zb(Xf), i.Zb(i.z));
+            return new (e || Sd)(i.Zb(i.E), i.Zb(td), i.Zb(i.z));
           }),
-          (kd.ɵprov = i.Ib({ token: kd, factory: kd.ɵfac })),
-          kd),
-        Od = (function() {
+          (Sd.ɵprov = i.Ib({ token: Sd, factory: Sd.ɵfac })),
+          Sd),
+        xd = (function() {
           function e(t, n, r) {
             _classCallCheck(this, e),
               (this.namespaceId = t),
@@ -22127,7 +22150,7 @@ function _createClass(e, t, n) {
             e
           );
         })(),
-        Td = (function(e) {
+        Ad = (function(e) {
           _inherits(n, e);
           var t = _createSuper(n);
           function n(e, r, i, a) {
@@ -22184,74 +22207,74 @@ function _createClass(e, t, n) {
             ]),
             n
           );
-        })(Od),
-        xd =
-          (((wd = (function(e) {
+        })(xd),
+        Id =
+          (((Ed = (function(e) {
             _inherits(n, e);
             var t = _createSuper(n);
             function n(e, r, i) {
               return _classCallCheck(this, n), t.call(this, e.body, r, i);
             }
             return n;
-          })(Xf)).ɵfac = function(e) {
-            return new (e || wd)(i.Zb(a.c), i.Zb(Lh), i.Zb(Of));
+          })(td)).ɵfac = function(e) {
+            return new (e || Ed)(i.Zb(a.c), i.Zb(Vh), i.Zb(xf));
           }),
-          (wd.ɵprov = i.Ib({ token: wd, factory: wd.ɵfac })),
-          wd),
-        Ad = [
+          (Ed.ɵprov = i.Ib({ token: Ed, factory: Ed.ɵfac })),
+          Ed),
+        Pd = [
           {
-            provide: Lh,
+            provide: Vh,
             useFactory: function() {
-              return 'function' == typeof yd() ? new vd() : new dd();
+              return 'function' == typeof md() ? new gd() : new vd();
             }
           },
           { provide: new i.q('AnimationModuleType'), useValue: 'BrowserAnimations' },
-          { provide: Iu, useClass: md },
+          { provide: Iu, useClass: bd },
           {
-            provide: Of,
+            provide: xf,
             useFactory: function() {
-              return new Tf();
+              return new Af();
             }
           },
-          { provide: Xf, useClass: xd },
+          { provide: td, useClass: Id },
           {
             provide: i.E,
             useFactory: function(e, t, n) {
-              return new Ed(e, t, n);
+              return new Td(e, t, n);
             },
-            deps: [r.e, Xf, i.z]
+            deps: [r.e, td, i.z]
           }
         ],
-        Id =
-          (((Sd = function e() {
+        jd =
+          (((Od = function e() {
             _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: Sd })),
-          (Sd.ɵinj = i.Jb({
+          }).ɵmod = i.Kb({ type: Od })),
+          (Od.ɵinj = i.Jb({
             factory: function(e) {
-              return new (e || Sd)();
+              return new (e || Od)();
             },
-            providers: Ad,
+            providers: Pd,
             imports: [r.a]
           })),
-          Sd);
-      function Pd(e, t) {
+          Od);
+      function Rd(e, t) {
         if (
           (1 & e &&
-            (i.Rb(0, 'div', 8), i.Cc(1, '\n        '), i.Nb(2, 'app-entrie-card', 9), i.Cc(3, '\n      '), i.Qb()),
+            (i.Rb(0, 'div', 9), i.Cc(1, '\n        '), i.Nb(2, 'app-entrie-card', 10), i.Cc(3, '\n      '), i.Qb()),
           2 & e)
         ) {
           var n = t.$implicit;
           i.zb(2), i.kc('entrie', n);
         }
       }
-      function jd(e, t) {
+      function Dd(e, t) {
         if (
           (1 & e &&
-            (i.Rb(0, 'div', 5),
+            (i.Rb(0, 'div', 6),
             i.Cc(1, '\n    '),
-            i.Rb(2, 'div', 6),
+            i.Rb(2, 'div', 7),
             i.Cc(3, '\n      '),
-            i.Ac(4, Pd, 4, 1, 'div', 7),
+            i.Ac(4, Rd, 4, 1, 'div', 8),
             i.Cc(5, '\n    '),
             i.Qb(),
             i.Cc(6, '\n  '),
@@ -22262,16 +22285,16 @@ function _createClass(e, t, n) {
           i.zb(4), i.kc('ngForOf', n.allAPI);
         }
       }
-      var Rd,
-        Dd,
-        Nd,
+      var Nd,
         Md,
-        Ld = [
-          Wl.childRoutes([
+        Ld,
+        Fd,
+        Vd = [
+          Jl.childRoutes([
             {
               path: 'all',
               component:
-                ((Rd = (function() {
+                ((Nd = (function() {
                   function e(t) {
                     _classCallCheck(this, e), (this.entriesService = t), (this.allAPI = []), (this.isLoading = !0);
                   }
@@ -22303,13 +22326,13 @@ function _createClass(e, t, n) {
                     e
                   );
                 })()),
-                (Rd.ɵfac = function(e) {
-                  return new (e || Rd)(i.Mb(Gc));
+                (Nd.ɵfac = function(e) {
+                  return new (e || Nd)(i.Mb(Gc));
                 }),
-                (Rd.ɵcmp = i.Gb({
-                  type: Rd,
+                (Nd.ɵcmp = i.Gb({
+                  type: Nd,
                   selectors: [['app-all']],
-                  decls: 23,
+                  decls: 26,
                   vars: 3,
                   consts: [
                     [1, 'container-fluid'],
@@ -22317,6 +22340,7 @@ function _createClass(e, t, n) {
                     [1, 'font-weight-bold'],
                     [3, 'isLoading'],
                     ['class', 'container', 4, 'ngIf'],
+                    ['routerLink', '/home', 1, 'back'],
                     [1, 'container'],
                     [1, 'row', 'mb-4'],
                     ['class', 'col-sm-12 col-md-6 col-lg-4 mb-4', 4, 'ngFor', 'ngForOf'],
@@ -22350,10 +22374,14 @@ function _createClass(e, t, n) {
                       i.Nb(17, 'app-loader', 3),
                       i.Cc(18, '\n  '),
                       i.Cc(19, '\n  '),
-                      i.Ac(20, jd, 7, 1, 'div', 4),
-                      i.Cc(21, '\n'),
+                      i.Ac(20, Dd, 7, 1, 'div', 4),
+                      i.Cc(21, '\n  '),
+                      i.Rb(22, 'button', 5),
+                      i.Cc(23, 'Back'),
                       i.Qb(),
-                      i.Cc(22, '\n')),
+                      i.Cc(24, '\n'),
+                      i.Qb(),
+                      i.Cc(25, '\n')),
                       2 & e &&
                         (i.zb(13),
                         i.Ec(' ', t.allAPI.length, ' API '),
@@ -22362,44 +22390,46 @@ function _createClass(e, t, n) {
                         i.zb(3),
                         i.kc('ngIf', !t.isLoading));
                   },
-                  directives: [nl, a.k, a.j, dl],
-                  styles: ['']
+                  directives: [nl, a.k, Zs, a.j, dl],
+                  styles: [
+                    '.back[_ngcontent-%COMP%]{padding:.4rem;border-radius:0 20px 20px 20px;position:relative;bottom:2rem;left:90%;color:#d2691e;background:#fff;border:none;font-weight:700;box-shadow:0 0 0 3px}.back[_ngcontent-%COMP%]:hover{box-shadow:0 0 0 5px;color:#deb887}'
+                  ]
                 })),
-                Rd),
+                Nd),
               data: { title: 'All' }
             }
           ])
         ],
-        Fd =
+        Hd =
+          (((Fd = function e() {
+            _classCallCheck(this, e);
+          }).ɵmod = i.Kb({ type: Fd })),
+          (Fd.ɵinj = i.Jb({
+            factory: function(e) {
+              return new (e || Fd)();
+            },
+            providers: [],
+            imports: [[pu.forChild(Vd)], pu]
+          })),
+          Fd),
+        zd =
+          (((Ld = function e() {
+            _classCallCheck(this, e);
+          }).ɵmod = i.Kb({ type: Ld })),
+          (Ld.ɵinj = i.Jb({
+            factory: function(e) {
+              return new (e || Ld)();
+            },
+            imports: [[a.b, Nn, Hd, tl]]
+          })),
+          Ld),
+        Ud =
           (((Md = function e() {
             _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: Md })),
+          }).ɵmod = i.Kb({ type: Md, bootstrap: [ah] })),
           (Md.ɵinj = i.Jb({
             factory: function(e) {
               return new (e || Md)();
-            },
-            providers: [],
-            imports: [[pu.forChild(Ld)], pu]
-          })),
-          Md),
-        Vd =
-          (((Nd = function e() {
-            _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: Nd })),
-          (Nd.ɵinj = i.Jb({
-            factory: function(e) {
-              return new (e || Nd)();
-            },
-            imports: [[a.b, Nn, Fd, tl]]
-          })),
-          Nd),
-        Hd =
-          (((Dd = function e() {
-            _classCallCheck(this, e);
-          }).ɵmod = i.Kb({ type: Dd, bootstrap: [rh] })),
-          (Dd.ɵinj = i.Jb({
-            factory: function(e) {
-              return new (e || Dd)();
             },
             providers: [],
             imports: [
@@ -22412,19 +22442,19 @@ function _createClass(e, t, n) {
                 zc,
                 Kc.forRoot(),
                 tl.forRoot(),
-                Yl,
-                $l,
-                th,
-                Vd,
-                vh,
+                eh,
+                Xl,
+                rh,
+                zd,
+                gh,
                 $i,
-                Id,
+                jd,
                 Pc.forRoot({ positionClass: 'toast-top-right' }),
-                ah
+                sh
               ]
             ]
           })),
-          Dd);
+          Md);
     },
     ZUHj: function(e, t, n) {
       'use strict';

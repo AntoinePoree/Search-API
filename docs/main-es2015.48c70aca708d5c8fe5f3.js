@@ -974,7 +974,7 @@
     ZAI4: function(t, e, n) {
       'use strict';
       n.d(e, 'a', function() {
-        return vh;
+        return Ch;
       });
       var r = n('jhN1'),
         s = n('fXoL'),
@@ -1355,7 +1355,7 @@
           return 0 == e.length
             ? null
             : function(t) {
-                return P(
+                return I(
                   (function(t, e) {
                     return e.map(e => e(t));
                   })(t, e)
@@ -1390,20 +1390,20 @@
                 })(
                   (function(t, e) {
                     return e.map(e => e(t));
-                  })(t, e).map(I)
-                ).pipe(Object(l.a)(P));
+                  })(t, e).map(P)
+                ).pipe(Object(l.a)(I));
               };
         }
       }
       function A(t) {
         return null != t;
       }
-      function I(t) {
+      function P(t) {
         const e = Object(s.qb)(t) ? Object(u.a)(t) : t;
         if (!Object(s.pb)(e)) throw new Error('Expected validator to return Promise or Observable.');
         return e;
       }
-      function P(t) {
+      function I(t) {
         let e = {};
         return (
           t.forEach(t => {
@@ -2001,7 +2001,7 @@
         _runAsyncValidator(t) {
           if (this.asyncValidator) {
             this.status = 'PENDING';
-            const e = I(this.asyncValidator(this));
+            const e = P(this.asyncValidator(this));
             this._asyncValidationSubscription = e.subscribe(e => this.setErrors(e, { emitEvent: t }));
           }
         }
@@ -2754,8 +2754,8 @@
           e && this.destination.next(t);
         }
       }
-      class It {}
       class Pt {}
+      class It {}
       class Rt {
         constructor(t) {
           (this.normalizedNames = new Map()),
@@ -3234,7 +3234,7 @@
         }
         return (
           (t.ɵfac = function(e) {
-            return new (e || t)(s.Zb(It));
+            return new (e || t)(s.Zb(Pt));
           }),
           (t.ɵprov = s.Ib({ token: t, factory: t.ɵfac })),
           t
@@ -3463,7 +3463,7 @@
           }
           return (
             (t.ɵfac = function(e) {
-              return new (e || t)(s.Zb(Pt), s.Zb(s.r));
+              return new (e || t)(s.Zb(It), s.Zb(s.r));
             }),
             (t.ɵprov = s.Ib({ token: t, factory: t.ɵfac })),
             t
@@ -3511,9 +3511,9 @@
               },
               providers: [
                 Qt,
-                { provide: It, useClass: ie },
+                { provide: Pt, useClass: ie },
                 Xt,
-                { provide: Pt, useExisting: Xt },
+                { provide: It, useExisting: Xt },
                 Yt,
                 { provide: Jt, useExisting: Yt }
               ],
@@ -3682,10 +3682,10 @@
               )(e);
             };
       }
-      function Ie(t, e, n) {
+      function Pe(t, e, n) {
         return 0 === n ? [e] : (t.push(e), t);
       }
-      var Pe = n('l7GE'),
+      var Ie = n('l7GE'),
         Re = n('51Dv'),
         De = n('ZUHj');
       function je(t, e) {
@@ -3701,7 +3701,7 @@
           return e.subscribe(new Me(t, this.project));
         }
       }
-      class Me extends Pe.a {
+      class Me extends Ie.a {
         constructor(t, e) {
           super(t), (this.project = e), (this.index = 0);
         }
@@ -4010,7 +4010,7 @@
                     t = void 0 === t ? e : Object(le.a)(t, e);
                   }
                   return t.pipe(
-                    Ae(Ie, []),
+                    Ae(Pe, []),
                     Object(l.a)(t => {
                       let n = {};
                       return (
@@ -4325,7 +4325,7 @@
           return e.subscribe(new ln(t, this.resultSelector));
         }
       }
-      class ln extends Pe.a {
+      class ln extends Ie.a {
         constructor(t, e) {
           super(t), (this.resultSelector = e), (this.active = 0), (this.values = []), (this.observables = []);
         }
@@ -4424,7 +4424,7 @@
           return r && !n.seenValue ? (n.add(r), e.subscribe(n)) : n;
         }
       }
-      class gn extends Pe.a {
+      class gn extends Ie.a {
         constructor(t) {
           super(t), (this.seenValue = !1);
         }
@@ -4501,7 +4501,7 @@
           return e.subscribe(new wn(t, this.observables, this.project));
         }
       }
-      class wn extends Pe.a {
+      class wn extends Ie.a {
         constructor(t, e, n) {
           super(t), (this.observables = e), (this.project = n), (this.toRespond = []);
           const r = e.length;
@@ -4557,10 +4557,10 @@
       function An(t, e) {
         1 & t && (s.Rb(0, 'span', 8), s.Vb(1, xn), s.Qb());
       }
-      function In(t, e) {
+      function Pn(t, e) {
         1 & t && (s.Rb(0, 'span', 8), s.Vb(1, On), s.Qb());
       }
-      function Pn(t, e) {
+      function In(t, e) {
         1 & t && (s.Rb(0, 'span', 8), s.Vb(1, kn), s.Qb());
       }
       function Rn(t, e) {
@@ -5572,7 +5572,7 @@
             t
           );
         })(),
-        Ir = (() => {
+        Pr = (() => {
           let t = class {
             constructor(t) {
               this.templateRef = t;
@@ -5586,7 +5586,7 @@
             t
           );
         })(),
-        Pr = (() => {
+        Ir = (() => {
           let t = class {
             constructor(t) {
               this.templateRef = t;
@@ -5750,8 +5750,8 @@
               contentQueries: function(t, e, n) {
                 var r;
                 1 & t &&
-                  (s.Fb(n, Ir, !0),
-                  s.Fb(n, Pr, !0),
+                  (s.Fb(n, Pr, !0),
+                  s.Fb(n, Ir, !0),
                   s.Fb(n, Rr, !0),
                   s.Fb(n, Dr, !0),
                   s.Fb(n, jr, !0),
@@ -5808,9 +5808,9 @@
                   s.Cc(3, '\n    '),
                   s.Ac(4, An, 2, 0, 'ng-template', null, 1, s.Bc),
                   s.Cc(6, '\n    '),
-                  s.Ac(7, In, 2, 0, 'ng-template', null, 2, s.Bc),
+                  s.Ac(7, Pn, 2, 0, 'ng-template', null, 2, s.Bc),
                   s.Cc(9, '\n    '),
-                  s.Ac(10, Pn, 2, 0, 'ng-template', null, 3, s.Bc),
+                  s.Ac(10, In, 2, 0, 'ng-template', null, 3, s.Bc),
                   s.Cc(12, '\n    '),
                   s.Ac(13, Rn, 1, 0, 'ng-template', null, 4, s.Bc),
                   s.Cc(15, '\n    '),
@@ -6052,7 +6052,7 @@
           return e.subscribe(new ss(t, this.selector, this.caught));
         }
       }
-      class ss extends Pe.a {
+      class ss extends Ie.a {
         constructor(t, e, n) {
           super(t), (this.selector = e), (this.caught = n);
         }
@@ -6307,10 +6307,10 @@
           return Object.keys(this.params);
         }
       }
-      function Is(t) {
+      function Ps(t) {
         return new As(t);
       }
-      function Ps(t) {
+      function Is(t) {
         const e = Error('NavigationCancelingError: ' + t);
         return (e.ngNavigationCancelingError = !0), e;
       }
@@ -6448,7 +6448,7 @@
           (this.root = t), (this.queryParams = e), (this.fragment = n);
         }
         get queryParamMap() {
-          return this._queryParamMap || (this._queryParamMap = Is(this.queryParams)), this._queryParamMap;
+          return this._queryParamMap || (this._queryParamMap = Ps(this.queryParams)), this._queryParamMap;
         }
         toString() {
           return Ys.serialize(this);
@@ -6473,7 +6473,7 @@
           (this.path = t), (this.parameters = e);
         }
         get parameterMap() {
-          return this._parameterMap || (this._parameterMap = Is(this.parameters)), this._parameterMap;
+          return this._parameterMap || (this._parameterMap = Ps(this.parameters)), this._parameterMap;
         }
         toString() {
           return ii(this);
@@ -6784,11 +6784,11 @@
           return this._routerState.pathFromRoot(this);
         }
         get paramMap() {
-          return this._paramMap || (this._paramMap = this.params.pipe(Object(l.a)(t => Is(t)))), this._paramMap;
+          return this._paramMap || (this._paramMap = this.params.pipe(Object(l.a)(t => Ps(t)))), this._paramMap;
         }
         get queryParamMap() {
           return (
-            this._queryParamMap || (this._queryParamMap = this.queryParams.pipe(Object(l.a)(t => Is(t)))),
+            this._queryParamMap || (this._queryParamMap = this.queryParams.pipe(Object(l.a)(t => Ps(t)))),
             this._queryParamMap
           );
         }
@@ -6850,10 +6850,10 @@
           return this._routerState.pathFromRoot(this);
         }
         get paramMap() {
-          return this._paramMap || (this._paramMap = Is(this.params)), this._paramMap;
+          return this._paramMap || (this._paramMap = Ps(this.params)), this._paramMap;
         }
         get queryParamMap() {
-          return this._queryParamMap || (this._queryParamMap = Is(this.queryParams)), this._queryParamMap;
+          return this._queryParamMap || (this._queryParamMap = Ps(this.queryParams)), this._queryParamMap;
         }
         toString() {
           return `Route(url:'${this.url.map(t => t.toString()).join('/')}', path:'${
@@ -6947,10 +6947,10 @@
           (this.segmentGroup = t), (this.processChildren = e), (this.index = n);
         }
       }
-      function Ii(t) {
+      function Pi(t) {
         return 'object' == typeof t && null != t && t.outlets ? t.outlets.primary : '' + t;
       }
-      function Pi(t, e, n) {
+      function Ii(t, e, n) {
         if ((t || (t = new Qs([], {})), 0 === t.segments.length && t.hasChildren())) return Ri(t, e, n);
         const r = (function(t, e, n) {
             let r = 0,
@@ -6959,7 +6959,7 @@
             for (; s < t.segments.length; ) {
               if (r >= n.length) return i;
               const e = t.segments[s],
-                o = Ii(n[r]),
+                o = Pi(n[r]),
                 a = r < n.length - 1 ? n[r + 1] : null;
               if (s > 0 && void 0 === o) break;
               if (o && a && 'object' == typeof a && void 0 === a.outlets) {
@@ -6995,7 +6995,7 @@
             s = {};
           return (
             Us(r, (n, r) => {
-              null !== n && (s[r] = Pi(t.children[r], e, n));
+              null !== n && (s[r] = Ii(t.children[r], e, n));
             }),
             Us(t.children, (t, e) => {
               void 0 === r[e] && (s[e] = t);
@@ -7016,7 +7016,7 @@
             r.push(new Zs(t.segments[e].path, n[0])), s++;
             continue;
           }
-          const i = Ii(n[s]),
+          const i = Pi(n[s]),
             o = s < n.length - 1 ? n[s + 1] : null;
           i && o && Oi(o) ? (r.push(new Zs(i, Ni(o))), (s += 2)) : (r.push(new Zs(i, {})), s++);
         }
@@ -7378,7 +7378,7 @@
                       : (function(t) {
                           return new o.a(e =>
                             e.error(
-                              Ps(
+                              Is(
                                 `Cannot load children because the guard of the route "path: '${t.path}'" returned false`
                               )
                             )
@@ -8223,7 +8223,7 @@
                     })(this.ngModule.injector, t => this.triggerEvent(t)),
                     mn(t => {
                       if (Hi(t.guardsResult)) {
-                        const e = Ps(`Redirecting to "${this.serializeUrl(t.guardsResult)}"`);
+                        const e = Is(`Redirecting to "${this.serializeUrl(t.guardsResult)}"`);
                         throw ((e.url = t.guardsResult), e);
                       }
                     }),
@@ -8588,7 +8588,7 @@
                     })(i, e, t),
                     a = o.processChildren
                       ? Ri(o.segmentGroup, o.index, i.commands)
-                      : Pi(o.segmentGroup, o.index, i.commands);
+                      : Ii(o.segmentGroup, o.index, i.commands);
                   return ki(o.segmentGroup, a, e, r, s);
                 })(c, this.currentUrlTree, t, h, u)
               );
@@ -8733,8 +8733,8 @@
             }
             onClick() {
               const t = {
-                skipLocationChange: Po(this.skipLocationChange),
-                replaceUrl: Po(this.replaceUrl),
+                skipLocationChange: Io(this.skipLocationChange),
+                replaceUrl: Io(this.replaceUrl),
                 state: this.state
               };
               return this.router.navigateByUrl(this.urlTree, t), !0;
@@ -8744,9 +8744,9 @@
                 relativeTo: this.route,
                 queryParams: this.queryParams,
                 fragment: this.fragment,
-                preserveQueryParams: Po(this.preserve),
+                preserveQueryParams: Io(this.preserve),
                 queryParamsHandling: this.queryParamsHandling,
-                preserveFragment: Po(this.preserveFragment)
+                preserveFragment: Io(this.preserveFragment)
               });
             }
           }
@@ -8778,7 +8778,7 @@
             t
           );
         })(),
-        Io = (() => {
+        Po = (() => {
           class t {
             constructor(t, e, n) {
               (this.router = t),
@@ -8809,8 +8809,8 @@
               if (0 !== t || e || n || r) return !0;
               if ('string' == typeof this.target && '_self' != this.target) return !0;
               const s = {
-                skipLocationChange: Po(this.skipLocationChange),
-                replaceUrl: Po(this.replaceUrl),
+                skipLocationChange: Io(this.skipLocationChange),
+                replaceUrl: Io(this.replaceUrl),
                 state: this.state
               };
               return this.router.navigateByUrl(this.urlTree, s), !1;
@@ -8823,9 +8823,9 @@
                 relativeTo: this.route,
                 queryParams: this.queryParams,
                 fragment: this.fragment,
-                preserveQueryParams: Po(this.preserve),
+                preserveQueryParams: Io(this.preserve),
                 queryParamsHandling: this.queryParamsHandling,
-                preserveFragment: Po(this.preserveFragment)
+                preserveFragment: Io(this.preserveFragment)
               });
             }
           }
@@ -8864,7 +8864,7 @@
             t
           );
         })();
-      function Po(t) {
+      function Io(t) {
         return '' === t || !!t;
       }
       let Ro = (() => {
@@ -8927,14 +8927,14 @@
         }
         return (
           (t.ɵfac = function(e) {
-            return new (e || t)(s.Mb(To), s.Mb(s.l), s.Mb(s.D), s.Mb(Ao, 8), s.Mb(Io, 8));
+            return new (e || t)(s.Mb(To), s.Mb(s.l), s.Mb(s.D), s.Mb(Ao, 8), s.Mb(Po, 8));
           }),
           (t.ɵdir = s.Hb({
             type: t,
             selectors: [['', 'routerLinkActive', '']],
             contentQueries: function(t, e, n) {
               var r;
-              1 & t && (s.Fb(n, Ao, !0), s.Fb(n, Io, !0)),
+              1 & t && (s.Fb(n, Ao, !0), s.Fb(n, Po, !0)),
                 2 & t && (s.rc((r = s.ec())) && (e.links = r), s.rc((r = s.ec())) && (e.linksWithHrefs = r));
             },
             inputs: { routerLinkActiveOptions: 'routerLinkActiveOptions', routerLinkActive: 'routerLinkActive' },
@@ -9816,7 +9816,7 @@
           return this._portalHost.detach();
         }
       }
-      let Ia = (() => {
+      let Pa = (() => {
         let t = class {
           constructor(t, e, n, r) {
             (this._overlayContainer = t),
@@ -9866,7 +9866,7 @@
           t
         );
       })();
-      class Pa {
+      class Ia {
         constructor(t) {
           (this._overlayRef = t),
             (this.duplicatesCount = 0),
@@ -10010,7 +10010,7 @@
               this.index = this.index + 1;
               let l = e;
               e && r.enableHtml && (l = this.sanitizer.sanitize(s.H.HTML, e));
-              const c = new Pa(a),
+              const c = new Ia(a),
                 u = new Sa(this.index, r, l, n, t, c),
                 h = new Ra(u, this._injector),
                 d = new Oa(r.toastComponent, h),
@@ -10039,13 +10039,13 @@
           };
           return (
             (t.ɵfac = function(e) {
-              return new (e || t)(s.Zb(xa), s.Zb(Ia), s.Zb(s.r), s.Zb(r.b), s.Zb(s.z));
+              return new (e || t)(s.Zb(xa), s.Zb(Pa), s.Zb(s.r), s.Zb(r.b), s.Zb(s.z));
             }),
             (t.ɵprov = Object(s.Ib)({
               factory: function() {
                 return new t(
                   Object(s.Zb)(xa),
-                  Object(s.Zb)(Ia),
+                  Object(s.Zb)(Pa),
                   Object(s.Zb)(s.o),
                   Object(s.Zb)(r.b),
                   Object(s.Zb)(s.z)
@@ -10427,7 +10427,7 @@
           }
           return (
             (t.ɵfac = function(e) {
-              return new (e || t)(s.Zb(It), s.Zb(s.r), s.Zb(qa, 8));
+              return new (e || t)(s.Zb(Pt), s.Zb(s.r), s.Zb(qa, 8));
             }),
             (t.ɵprov = s.Ib({ token: t, factory: t.ɵfac, providedIn: 'root' })),
             t
@@ -10866,7 +10866,7 @@
             },
             directives: [i.l, i.k, ul],
             styles: [
-              '.card[_ngcontent-%COMP%]{background-color:#fff;width:20rem;min-height:200px;display:flex;flex-direction:column;padding:20px;margin:5px;box-shadow:0 0 3px 5px silver;border-radius:10px;-webkit-animation-name:shadow-show;-webkit-animation-duration:1.5s;animation-name:shadow-show;animation-duration:1.5s;transition-timing-function:cubic-bezier(.795,0,.165,1)}.card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h5[_ngcontent-%COMP%]{margin:0;padding:0 0 15px;font-family:Noto Sans KR,sans-serif;font-size:30px;color:#282828}.card[_ngcontent-%COMP%]   hr[_ngcontent-%COMP%]{display:block;border:none;height:3px;background-color:grey;margin:0;-webkit-animation-name:line-show;-webkit-animation-duration:.3s;animation-name:line-show;animation-duration:.3s;transition-timing-function:cubic-bezier(.795,0,.165,1)}.card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{margin:15px 0 0;font-weight:100;letter-spacing:-.25px;line-height:1.25;font-size:16px;word-break:break-all;word-wrap:pre-wrap;color:#282828;-webkit-animation-name:p-show;-webkit-animation-duration:1.5s;animation-name:p-show;animation-duration:1.5s}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{font-family:Noto Sans KR,sans-serif}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]{border:none;background-color:#5f9ea0;width:100%;margin:10px auto;padding:10px 30px;border-radius:20px;color:#fff;text-transform:uppercase}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover{background-color:#d3d3d3}@-webkit-keyframes line-show{0%{margin:0 100px}to{margin:0}}@keyframes line-show{0%{margin:0 100px}to{margin:0}}@-webkit-keyframes p-show{0%{color:#fff}to{color:#282828}}@keyframes p-show{0%{color:#fff}to{color:#282828}}@-webkit-keyframes shadow-show{0%{box-shadow:0 0 0 0 #e0e0e0}to{box-shadow:0 0 3px 5px silver}}@keyframes shadow-show{0%{box-shadow:0 0 0 0 #e0e0e0}to{box-shadow:0 0 3px 5px silver}}'
+              '.card[_ngcontent-%COMP%]{background-color:#fff;width:100%;min-height:200px;display:flex;flex-direction:column;padding:20px;margin:5px;box-shadow:0 0 3px 5px #d2691e;border-radius:10px;-webkit-animation-name:shadow-show;-webkit-animation-duration:1.5s;animation-name:shadow-show;animation-duration:1.5s;transition-timing-function:cubic-bezier(.795,0,.165,1)}.card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   h5[_ngcontent-%COMP%]{margin:0;padding:0 0 15px;font-family:Noto Sans KR,sans-serif;font-size:30px;color:#000}.card[_ngcontent-%COMP%]   hr[_ngcontent-%COMP%]{display:block;border:none;height:3px;background-color:#deb887;margin:0;-webkit-animation-name:line-show;-webkit-animation-duration:.3s;animation-name:line-show;animation-duration:.3s;transition-timing-function:cubic-bezier(.795,0,.165,1)}.card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{margin:15px 0 0;font-weight:100;letter-spacing:-.25px;line-height:1.25;font-size:16px;word-break:break-all;word-wrap:pre-wrap;color:#000;-webkit-animation-name:p-show;-webkit-animation-duration:1.5s;animation-name:p-show;animation-duration:1.5s}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%], .card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{font-family:Noto Sans KR,sans-serif}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]{border:none;background-color:#d2691e;width:100%;margin:10px auto;padding:10px 30px;border-radius:20px;color:#fff;text-transform:uppercase}.card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover{background-color:#deb887}@-webkit-keyframes line-show{0%{margin:0 100px}to{margin:0}}@keyframes line-show{0%{margin:0 100px}to{margin:0}}@-webkit-keyframes p-show{0%{color:#fff}to{color:#000}}@keyframes p-show{0%{color:#fff}to{color:#000}}@-webkit-keyframes shadow-show{0%{box-shadow:0 0 0 0 #e0e0e0}to{box-shadow:0 0 3px 5px #d2691e}}@keyframes shadow-show{0%{box-shadow:0 0 0 0 #e0e0e0}to{box-shadow:0 0 3px 5px #d2691e}}'
             ]
           })),
           t
@@ -10980,7 +10980,7 @@
               },
               directives: [Ao, i.l],
               styles: [
-                '*[_ngcontent-%COMP%]{box-sizing:border-box}h5[_ngcontent-%COMP%]{margin:0;font-size:1.4em;font-weight:700}p[_ngcontent-%COMP%]{font-size:12px}.property-card[_ngcontent-%COMP%]{height:18em;cursor:pointer;display:flex;flex-direction:column;position:relative;border-radius:16px;overflow:hidden;box-shadow:15px 15px 27px #e1e1e3,-15px -15px 27px #fff}.property-card[_ngcontent-%COMP%], .property-image[_ngcontent-%COMP%]{width:14em;transition:all .4s cubic-bezier(.645,.045,.355,1)}.property-image[_ngcontent-%COMP%]{height:100%;padding:1em 2em;position:Absolute;top:0;background-image:url(nothing.6ce26b55900d4c525236.jpg);background-size:cover;background-repeat:no-repeat}.property-description[_ngcontent-%COMP%]{background-color:#fafafc;height:4em;width:14em;bottom:0;padding:.5em 1em;text-align:center}.property-description[_ngcontent-%COMP%], .property-social-icons[_ngcontent-%COMP%]{position:absolute;transition:all .4s cubic-bezier(.645,.045,.355,1)}.property-social-icons[_ngcontent-%COMP%]{width:1em;height:1em;background-color:#000;bottom:1em;left:1em}.property-card[_ngcontent-%COMP%]:hover   .property-description[_ngcontent-%COMP%]{height:3em;padding:0 1em}.property-card[_ngcontent-%COMP%]:hover   .property-image[_ngcontent-%COMP%]{height:15em}.property-card[_ngcontent-%COMP%]:hover   .property-social-icons[_ngcontent-%COMP%]{background-color:#fff}.property-card[_ngcontent-%COMP%]:hover   .property-social-icons[_ngcontent-%COMP%]:hover{background-color:#00f;cursor:pointer}'
+                '*[_ngcontent-%COMP%]{box-sizing:border-box}h5[_ngcontent-%COMP%]{margin:0;font-size:1.4em;font-weight:700}p[_ngcontent-%COMP%]{font-size:12px}.property-card[_ngcontent-%COMP%]{height:18em;cursor:pointer;display:flex;flex-direction:column;position:relative;border-radius:16px;overflow:hidden;box-shadow:15px 15px 27px #e1e1e3,-15px -15px 27px #fff}.property-card[_ngcontent-%COMP%], .property-image[_ngcontent-%COMP%]{width:100%;transition:all .4s cubic-bezier(.645,.045,.355,1)}.property-image[_ngcontent-%COMP%]{height:100%;padding:1em 2em;position:Absolute;top:0;background-image:url(nothing.6ce26b55900d4c525236.jpg);background-size:cover;background-repeat:no-repeat}.property-description[_ngcontent-%COMP%]{background-color:#fafafc;height:4em;width:100%;bottom:0;padding:.5em 1em;text-align:center}.property-description[_ngcontent-%COMP%], .property-social-icons[_ngcontent-%COMP%]{position:absolute;transition:all .4s cubic-bezier(.645,.045,.355,1)}.property-social-icons[_ngcontent-%COMP%]{width:1em;height:1em;background-color:#000;bottom:1em;left:1em}.property-card[_ngcontent-%COMP%]:hover   .property-description[_ngcontent-%COMP%]{height:3em;padding:0 1em}.property-card[_ngcontent-%COMP%]:hover   .property-image[_ngcontent-%COMP%]{height:15em}.property-card[_ngcontent-%COMP%]:hover   .property-social-icons[_ngcontent-%COMP%]{background-color:#fff}.property-card[_ngcontent-%COMP%]:hover   .property-social-icons[_ngcontent-%COMP%]:hover{background-color:#00f;cursor:pointer}'
               ]
             })),
             t
@@ -11171,49 +11171,60 @@
             s.kc('ngIf', '' !== t.searchedTerm && !t.focus);
         }
       }
-      const Il = function() {
+      const Pl = function() {
         return { 'text-align': '-webkit-center' };
       };
-      function Pl(t, e) {
+      function Il(t, e) {
         if (
           (1 & t &&
-            (s.Rb(0, 'div', 28), s.Cc(1, '\n          '), s.Nb(2, 'app-card', 29), s.Cc(3, '\n        '), s.Qb()),
+            (s.Rb(0, 'div', 29), s.Cc(1, '\n          '), s.Nb(2, 'app-card', 30), s.Cc(3, '\n        '), s.Qb()),
           2 & t)
         ) {
           const t = e.$implicit;
-          s.kc('ngStyle', s.nc(2, Il)), s.zb(2), s.kc('title', t);
+          s.kc('ngStyle', s.nc(2, Pl)), s.zb(2), s.kc('title', t);
         }
       }
-      function Rl(t, e) {
+      const Rl = function() {
+        return { float: 'right' };
+      };
+      function Dl(t, e) {
         if (
           (1 & t &&
             (s.Pb(0),
             s.Cc(1, '\n      '),
             s.Rb(2, 'h1', 24),
-            s.Cc(3, 'All API by categories'),
+            s.Cc(3, 'All API by categories '),
+            s.Rb(4, 'span', 25),
+            s.Cc(5),
             s.Qb(),
-            s.Cc(4, '\n      '),
-            s.Rb(5, 'a', 25),
-            s.Cc(6, 'Thanks to Unsplash for all pictures'),
             s.Qb(),
-            s.Cc(7, '\n      '),
-            s.Rb(8, 'div', 26),
-            s.Cc(9, '\n        '),
-            s.Ac(10, Pl, 4, 3, 'div', 27),
-            s.Cc(11, '\n      '),
+            s.Cc(6, '\n      '),
+            s.Rb(7, 'a', 26),
+            s.Cc(8, 'Thanks to Unsplash for all pictures'),
             s.Qb(),
-            s.Cc(12, '\n    '),
+            s.Cc(9, '\n      '),
+            s.Rb(10, 'div', 27),
+            s.Cc(11, '\n        '),
+            s.Ac(12, Il, 4, 3, 'div', 28),
+            s.Cc(13, '\n      '),
+            s.Qb(),
+            s.Cc(14, '\n    '),
             s.Ob()),
           2 & t)
         ) {
           const t = s.fc(2);
-          s.zb(10), s.kc('ngForOf', t.categorie);
+          s.zb(4),
+            s.kc('ngStyle', s.nc(3, Rl)),
+            s.zb(1),
+            s.Ec('(', t.categorie.length, ')'),
+            s.zb(7),
+            s.kc('ngForOf', t.categorie);
         }
       }
-      function Dl(t, e) {
+      function jl(t, e) {
         if (
           (1 & t &&
-            (s.Rb(0, 'div', 2), s.Cc(1, '\n    '), s.Ac(2, Rl, 13, 1, 'ng-container', 23), s.Cc(3, '\n  '), s.Qb()),
+            (s.Rb(0, 'div', 2), s.Cc(1, '\n    '), s.Ac(2, Dl, 15, 4, 'ng-container', 23), s.Cc(3, '\n  '), s.Qb()),
           2 & t)
         ) {
           const t = s.fc(),
@@ -11221,13 +11232,13 @@
           s.zb(2), s.kc('ngIf', t.categorie)('ngIfElse', e);
         }
       }
-      function jl(t, e) {
+      function Nl(t, e) {
         1 & t && (s.Cc(0, '\n  '), s.Rb(1, 'p'), s.Cc(2, 'Not available'), s.Qb(), s.Cc(3, '\n'));
       }
-      const Nl = function(t) {
+      const Ml = function(t) {
         return { focused: t };
       };
-      let Ml = (() => {
+      let Ll = (() => {
         class t {
           constructor(t, e) {
             (this.categoriesService = t),
@@ -11320,10 +11331,11 @@
               [1, 'clean', 'box', 3, 'click'],
               [4, 'ngIf', 'ngIfElse'],
               [1, 'mb-0', 'titre'],
+              [1, 'text-muted', 3, 'ngStyle'],
               ['href', 'https://unsplash.com/', 'target', '_blank', 1, 'unsplash', 'mb-5'],
               [1, 'row', 'mt-5'],
-              ['class', 'col-lg-3 col-md-4 mb-3', 3, 'ngStyle', 4, 'ngFor', 'ngForOf'],
-              [1, 'col-lg-3', 'col-md-4', 'mb-3', 3, 'ngStyle'],
+              ['class', 'col-lg-3 col-md-4 col-12 mb-3', 3, 'ngStyle', 4, 'ngFor', 'ngForOf'],
+              [1, 'col-lg-3', 'col-md-4', 'col-12', 'mb-3', 3, 'ngStyle'],
               [3, 'title']
             ],
             template: function(t, e) {
@@ -11373,15 +11385,15 @@
                 s.Cc(29, '\n  '),
                 s.Qb(),
                 s.Cc(30, '\n\n  '),
-                s.Ac(31, Dl, 4, 2, 'div', 9),
+                s.Ac(31, jl, 4, 2, 'div', 9),
                 s.Cc(32, '\n'),
                 s.Qb(),
                 s.Cc(33, '\n\n'),
-                s.Ac(34, jl, 4, 0, 'ng-template', null, 10, s.Bc),
+                s.Ac(34, Nl, 4, 0, 'ng-template', null, 10, s.Bc),
                 s.Cc(36, '\n')),
                 2 & t &&
                   (s.zb(12),
-                  s.kc('ngClass', s.oc(6, Nl, e.focus)),
+                  s.kc('ngClass', s.oc(6, Ml, e.focus)),
                   s.zb(7),
                   s.kc('ngModel', e.searchedTerm),
                   s.zb(3),
@@ -11396,16 +11408,19 @@
             directives: [i.i, b, S, bt, i.k, ll, i.j, Mr, ml, i.l, vl],
             pipes: [wl, i.p],
             styles: [
-              '@charset "UTF-8";.logo[_ngcontent-%COMP%]{width:100px}q[_ngcontent-%COMP%]{font-style:italic;font-size:1.2rem;quotes:"\xab " " \xbb"}.titre[_ngcontent-%COMP%]{border-bottom:1px solid #000}.focused[_ngcontent-%COMP%]{box-shadow:0 0 6px rgba(0,0,0,.3)}.clean[_ngcontent-%COMP%]{height:48px;border:none;font-size:1.2rem;border-radius:40px;color:#000;background-color:#fff;width:3rem}.box[_ngcontent-%COMP%]{box-shadow:0 0 1px 1px}.search-box[_ngcontent-%COMP%]{margin:2rem auto;border-radius:40px}.search-box[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]{display:flex;justify-content:center;align-items:center;border-radius:40px 0 0 40px;background-color:#fff;width:48px;height:48px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]{height:48px;border:none;font-size:1.2rem;border-radius:0 40px 40px 0;color:grey;display:block;width:300px;transition:all .25s;box-shadow:20%}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:focus{box-shadow:none;width:100%}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-moz-placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.unsplash[_ngcontent-%COMP%]{color:#e51050;font-weight:700}'
+              '@charset "UTF-8";.logo[_ngcontent-%COMP%]{width:100px}q[_ngcontent-%COMP%]{font-style:italic;font-size:1.2rem;quotes:"\xab " " \xbb"}.titre[_ngcontent-%COMP%]{border-bottom:1px solid #000}.focused[_ngcontent-%COMP%]{box-shadow:0 0 6px rgba(0,0,0,.3)}.clean[_ngcontent-%COMP%]{height:48px;border:none;font-size:1.2rem;border-radius:40px;color:#000;background-color:#fff;width:3rem}.box[_ngcontent-%COMP%]{box-shadow:0 0 1px 1px}.search-box[_ngcontent-%COMP%]{margin:2rem auto;border-radius:40px}.search-box[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]{display:flex;justify-content:center;align-items:center;border-radius:40px 0 0 40px;background-color:#fff;width:48px;height:48px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]{height:48px;border:none;font-size:1.2rem;border-radius:0 40px 40px 0;color:grey;display:block;width:300px;transition:all .25s;box-shadow:20%}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:focus{box-shadow:none;width:100%}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-moz-placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.search-box[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder{color:grey;font-size:1.2rem;font-weight:700;letter-spacing:1px}.unsplash[_ngcontent-%COMP%]{color:#deb887;font-weight:700}'
             ]
           })),
           t
         );
       })();
-      const Ll = function() {
-        return { exact: !0 };
-      };
-      let Fl = (() => {
+      const Fl = function() {
+          return { 'font-size': '2rem', color: 'chocolate' };
+        },
+        Vl = function() {
+          return { exact: !0 };
+        };
+      let Hl = (() => {
           class t {
             constructor() {
               this.menuHidden = !0;
@@ -11423,10 +11438,11 @@
               type: t,
               selectors: [['app-header']],
               decls: 44,
-              vars: 8,
+              vars: 10,
               consts: [
                 [1, 'navbar', 'navbar-expand-lg', 'navbar-'],
                 ['routerLink', '/home', 1, 'navbar-brand'],
+                [1, 'fas', 'fa-search', 3, 'ngStyle'],
                 [
                   'type',
                   'button',
@@ -11502,25 +11518,25 @@
                   s.Rb(2, 'nav', 0),
                   s.Cc(3, '\n    '),
                   s.Rb(4, 'span', 1),
-                  s.Cc(5, 'Find an API'),
+                  s.Nb(5, 'i', 2),
                   s.Qb(),
                   s.Cc(6, '\n    '),
-                  s.Rb(7, 'button', 2),
+                  s.Rb(7, 'button', 3),
                   s.dc('click', function() {
                     return e.toggleMenu();
                   }),
                   s.Cc(8, '\n      '),
-                  s.Nb(9, 'span', 3),
+                  s.Nb(9, 'span', 4),
                   s.Cc(10, '\n    '),
                   s.Qb(),
                   s.Cc(11, '\n    '),
-                  s.Rb(12, 'div', 4),
+                  s.Rb(12, 'div', 5),
                   s.Cc(13, '\n      '),
-                  s.Rb(14, 'div', 5),
+                  s.Rb(14, 'div', 6),
                   s.Cc(15, '\n        '),
-                  s.Rb(16, 'a', 6),
+                  s.Rb(16, 'a', 7),
                   s.Cc(17, '\n          '),
-                  s.Nb(18, 'i', 7),
+                  s.Nb(18, 'i', 8),
                   s.Cc(19, '\n          '),
                   s.Rb(20, 'span'),
                   s.Cc(21, 'Home'),
@@ -11528,9 +11544,9 @@
                   s.Cc(22, '\n        '),
                   s.Qb(),
                   s.Cc(23, '\n        '),
-                  s.Rb(24, 'a', 8),
+                  s.Rb(24, 'a', 9),
                   s.Cc(25, '\n          '),
-                  s.Nb(26, 'i', 9),
+                  s.Nb(26, 'i', 10),
                   s.Cc(27, '\n          '),
                   s.Rb(28, 'span'),
                   s.Cc(29, 'About me'),
@@ -11538,9 +11554,9 @@
                   s.Cc(30, '\n        '),
                   s.Qb(),
                   s.Cc(31, '\n        '),
-                  s.Rb(32, 'a', 10),
+                  s.Rb(32, 'a', 11),
                   s.Cc(33, '\n          '),
-                  s.Nb(34, 'i', 11),
+                  s.Nb(34, 'i', 12),
                   s.Cc(35, '\n          '),
                   s.Rb(36, 'span'),
                   s.Cc(37, 'Show me all api'),
@@ -11557,18 +11573,20 @@
                   s.Qb(),
                   s.Cc(43, '\n')),
                   2 & t &&
-                    (s.zb(7),
+                    (s.zb(5),
+                    s.kc('ngStyle', s.nc(6, Fl)),
+                    s.zb(2),
                     s.Ab('aria-expanded', !e.menuHidden),
                     s.zb(5),
                     s.kc('ngbCollapse', e.menuHidden),
                     s.zb(4),
-                    s.kc('routerLinkActive', s.nc(5, Ll)),
+                    s.kc('routerLinkActive', s.nc(7, Vl)),
                     s.zb(8),
-                    s.kc('routerLinkActive', s.nc(6, Ll)),
+                    s.kc('routerLinkActive', s.nc(8, Vl)),
                     s.zb(8),
-                    s.kc('routerLinkActive', s.nc(7, Ll)));
+                    s.kc('routerLinkActive', s.nc(9, Vl)));
               },
-              directives: [fr, Ao, lr, Io, Ro],
+              directives: [fr, Ao, i.l, lr, Po, Ro],
               styles: [
                 ".navbar[_ngcontent-%COMP%]{border-radius:35px;background:#eff0f1;box-shadow:11px 6px 36px #cbcccd,-41px -41px 61px #000}.nav-link.dropdown-toggle[_ngcontent-%COMP%]{cursor:pointer;border:none}button[_ngcontent-%COMP%]:focus{outline:none}button[_ngcontent-%COMP%]:active{background:linear-gradient(45deg,#b0b8bf,#d2dae3);box-shadow:41px -41px 82px #a7adb4,-41px 41px 82px #e1ebf4}.navbar-toggler[_ngcontent-%COMP%]{border-radius:50px;background:#c4ccd4;box-shadow:inset 41px -41px 82px #a7adb4,inset -41px 41px 82px #e1ebf4;border:none}.navbar-toggler-icon[_ngcontent-%COMP%]{background-image:url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")}span[_ngcontent-%COMP%]{color:#000}a[_ngcontent-%COMP%]{border-bottom:none}.bor[_ngcontent-%COMP%]{position:relative;padding:10px 10px 10px 65px;border-bottom:2px solid transparent;transition:all 1s;color:#d2691e}.bor.active[_ngcontent-%COMP%], .bor[_ngcontent-%COMP%]   [_ngcontent-%COMP%]:hover{color:salmon;border-bottom:2px solid salmon}"
               ]
@@ -11576,7 +11594,7 @@
             t
           );
         })(),
-        Vl = (() => {
+        zl = (() => {
           class t {
             constructor() {}
             ngOnInit() {}
@@ -11593,24 +11611,24 @@
               template: function(t, e) {
                 1 & t && (s.Nb(0, 'app-header'), s.Cc(1, '\n'), s.Nb(2, 'router-outlet'), s.Cc(3, '\n'));
               },
-              directives: [Fl, No],
+              directives: [Hl, No],
               styles: ['']
             })),
             t
           );
         })();
-      class Hl {
+      class Ul {
         static childRoutes(t) {
-          return { path: '', component: Vl, children: t, data: { reuse: !0 } };
+          return { path: '', component: zl, children: t, data: { reuse: !0 } };
         }
       }
-      const zl = [
-        Hl.childRoutes([
+      const $l = [
+        Ul.childRoutes([
           { path: '', redirectTo: '/home', pathMatch: 'full' },
-          { path: 'home', component: Ml, data: { title: 'Search API' } }
+          { path: 'home', component: Ll, data: { title: 'Search API' } }
         ])
       ];
-      let Ul = (() => {
+      let Bl = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -11619,12 +11637,12 @@
                 return new (e || t)();
               },
               providers: [],
-              imports: [[Qo.forChild(zl)], Qo]
+              imports: [[Qo.forChild($l)], Qo]
             })),
             t
           );
         })(),
-        $l = (() => {
+        ql = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -11632,12 +11650,12 @@
               factory: function(e) {
                 return new (e || t)();
               },
-              imports: [[i.b, en, Za, al, Ul, _t, Lr]]
+              imports: [[i.b, en, Za, al, Bl, _t, Lr]]
             })),
             t
           );
         })(),
-        Bl = (() => {
+        Ql = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -11650,8 +11668,8 @@
             t
           );
         })();
-      const ql = [
-        Hl.childRoutes([
+      const Zl = [
+        Ul.childRoutes([
           {
             path: 'about',
             component: (() => {
@@ -11706,7 +11724,7 @@
                       s.Rb(18, 'p'),
                       s.Cc(19, '\n        '),
                       s.Rb(20, 'a', 5),
-                      s.Cc(21, 'If you want to address me a little coffee, is here!'),
+                      s.Cc(21, 'If you want to support me, is here!'),
                       s.Qb(),
                       s.Cc(22, '\n      '),
                       s.Qb(),
@@ -11727,7 +11745,7 @@
                       s.Cc(32, '\n'));
                   },
                   directives: [tn],
-                  styles: ['']
+                  styles: ['a[_ngcontent-%COMP%]{color:#d2691e}']
                 })),
                 t
               );
@@ -11736,7 +11754,7 @@
           }
         ])
       ];
-      let Ql = (() => {
+      let Gl = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -11745,12 +11763,12 @@
                 return new (e || t)();
               },
               providers: [],
-              imports: [[Qo.forChild(ql)], Qo]
+              imports: [[Qo.forChild(Zl)], Qo]
             })),
             t
           );
         })(),
-        Zl = (() => {
+        Kl = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -11758,13 +11776,13 @@
               factory: function(e) {
                 return new (e || t)();
               },
-              imports: [[i.b, en, Ql]]
+              imports: [[i.b, en, Gl]]
             })),
             t
           );
         })();
-      const Gl = new ia('App');
-      let Kl = (() => {
+      const Wl = new ia('App');
+      let Jl = (() => {
         class t {
           constructor(t, e, n, r, s) {
             (this.router = t),
@@ -11775,7 +11793,7 @@
           }
           ngOnInit() {
             ra.a.production && ia.enableProductionMode(),
-              Gl.debug('init'),
+              Wl.debug('init'),
               this.i18nService.init(ra.a.defaultLanguage, ra.a.supportedLanguages);
             const t = this.router.events.pipe(kt(t => t instanceof ps));
             Object(le.a)(this.translateService.onLangChange, t)
@@ -11830,8 +11848,8 @@
           t
         );
       })();
-      const Wl = [{ path: '**', redirectTo: '', pathMatch: 'full' }];
-      let Jl = (() => {
+      const Yl = [{ path: '**', redirectTo: '', pathMatch: 'full' }];
+      let Xl = (() => {
         class t {}
         return (
           (t.ɵmod = s.Kb({ type: t })),
@@ -11841,37 +11859,37 @@
             },
             providers: [],
             imports: [
-              [Qo.forRoot(Wl, { enableTracing: !1, preloadingStrategy: Fo, scrollPositionRestoration: 'enabled' })],
+              [Qo.forRoot(Yl, { enableTracing: !1, preloadingStrategy: Fo, scrollPositionRestoration: 'enabled' })],
               Qo
             ]
           })),
           t
         );
       })();
-      function Yl(t, e) {
-        if ((1 & t && (s.Rb(0, 'h2', 5), s.Cc(1), s.Qb()), 2 & t)) {
+      function tc(t, e) {
+        if ((1 & t && (s.Rb(0, 'h2', 6), s.Cc(1), s.Qb()), 2 & t)) {
           const t = s.fc();
           s.zb(1), s.Dc(t.title ? t.title : 'No title, No cookie');
         }
       }
-      function Xl(t, e) {
+      function ec(t, e) {
         if (
           (1 & t &&
-            (s.Rb(0, 'div', 8), s.Cc(1, '\n          '), s.Nb(2, 'app-entrie-card', 9), s.Cc(3, '\n        '), s.Qb()),
+            (s.Rb(0, 'div', 9), s.Cc(1, '\n          '), s.Nb(2, 'app-entrie-card', 10), s.Cc(3, '\n        '), s.Qb()),
           2 & t)
         ) {
           const t = e.$implicit;
           s.zb(2), s.kc('entrie', t);
         }
       }
-      function tc(t, e) {
+      function nc(t, e) {
         if (
           (1 & t &&
             (s.Pb(0),
             s.Cc(1, '\n      '),
-            s.Rb(2, 'div', 6),
+            s.Rb(2, 'div', 7),
             s.Cc(3, '\n        '),
-            s.Ac(4, Xl, 4, 1, 'div', 7),
+            s.Ac(4, ec, 4, 1, 'div', 8),
             s.Cc(5, '\n      '),
             s.Qb(),
             s.Cc(6, '\n    '),
@@ -11882,11 +11900,11 @@
           s.zb(4), s.kc('ngForOf', t.allEntries);
         }
       }
-      function ec(t, e) {
+      function rc(t, e) {
         1 & t && (s.Cc(0, '\n  '), s.Rb(1, 'p'), s.Cc(2, 'No entries available'), s.Qb(), s.Cc(3, '\n'));
       }
-      const nc = [
-        Hl.childRoutes([
+      const sc = [
+        Ul.childRoutes([
           {
             path: 'categorie',
             resolve: { entries: sl },
@@ -11910,13 +11928,14 @@
                 (t.ɵcmp = s.Gb({
                   type: t,
                   selectors: [['app-index']],
-                  decls: 13,
+                  decls: 16,
                   vars: 3,
                   consts: [
                     [1, 'full'],
                     [1, 'container'],
                     ['class', 'mb-5 titre pt-5', 4, 'ngIf'],
                     [4, 'ngIf', 'ngIfElse'],
+                    ['routerLink', '/home', 1, 'back'],
                     ['noEntries', ''],
                     [1, 'mb-5', 'titre', 'pt-5'],
                     [1, 'row'],
@@ -11931,25 +11950,29 @@
                         s.Cc(1, '\n  '),
                         s.Rb(2, 'div', 1),
                         s.Cc(3, '\n    '),
-                        s.Ac(4, Yl, 2, 1, 'h2', 2),
+                        s.Ac(4, tc, 2, 1, 'h2', 2),
                         s.Cc(5, '\n    '),
-                        s.Ac(6, tc, 7, 1, 'ng-container', 3),
+                        s.Ac(6, nc, 7, 1, 'ng-container', 3),
                         s.Cc(7, '\n  '),
                         s.Qb(),
-                        s.Cc(8, '\n'),
+                        s.Cc(8, '\n  '),
+                        s.Rb(9, 'button', 4),
+                        s.Cc(10, 'Back'),
                         s.Qb(),
-                        s.Cc(9, '\n'),
-                        s.Ac(10, ec, 4, 0, 'ng-template', null, 4, s.Bc),
-                        s.Cc(12, '\n')),
+                        s.Cc(11, '\n'),
+                        s.Qb(),
+                        s.Cc(12, '\n'),
+                        s.Ac(13, rc, 4, 0, 'ng-template', null, 5, s.Bc),
+                        s.Cc(15, '\n')),
                       2 & t)
                     ) {
-                      const t = s.sc(11);
+                      const t = s.sc(14);
                       s.zb(4), s.kc('ngIf', e.title), s.zb(2), s.kc('ngIf', e.allEntries)('ngIfElse', t);
                     }
                   },
-                  directives: [i.k, i.j, ml],
+                  directives: [i.k, Ao, i.j, ml],
                   styles: [
-                    '.titre[_ngcontent-%COMP%]{border-bottom:1px solid #000}.full[_ngcontent-%COMP%]{background-color:#f5f5f5}'
+                    '.titre[_ngcontent-%COMP%]{border-bottom:1px solid #000}.full[_ngcontent-%COMP%]{background-color:#f5f5f5}.back[_ngcontent-%COMP%]{padding:.4rem;border-radius:0 20px 20px 20px;position:relative;bottom:2rem;left:90%;color:#d2691e;background:#fff;border:none;font-weight:700;box-shadow:0 0 0 3px}.back[_ngcontent-%COMP%]:hover{box-shadow:0 0 0 5px;color:#deb887}'
                   ]
                 })),
                 t
@@ -11958,7 +11981,7 @@
           }
         ])
       ];
-      let rc = (() => {
+      let ic = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -11966,12 +11989,12 @@
               factory: function(e) {
                 return new (e || t)();
               },
-              imports: [[Qo.forChild(nc)], Qo]
+              imports: [[Qo.forChild(sc)], Qo]
             })),
             t
           );
         })(),
-        sc = (() => {
+        oc = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -11979,15 +12002,15 @@
               factory: function(e) {
                 return new (e || t)();
               },
-              imports: [[i.b, rc, al]]
+              imports: [[i.b, ic, al]]
             })),
             t
           );
         })();
-      function ic() {
+      function ac() {
         return 'undefined' != typeof process && '[object process]' === {}.toString.call(process);
       }
-      function oc(t) {
+      function lc(t) {
         switch (t.length) {
           case 0:
             return new fa();
@@ -11997,7 +12020,7 @@
             return new ga(t);
         }
       }
-      function ac(t, e, n, r, s = {}, i = {}) {
+      function cc(t, e, n, r, s = {}, i = {}) {
         const o = [],
           a = [];
         let l = -1,
@@ -12034,21 +12057,21 @@
         }
         return a;
       }
-      function lc(t, e, n, r) {
+      function uc(t, e, n, r) {
         switch (e) {
           case 'start':
-            t.onStart(() => r(n && cc(n, 'start', t)));
+            t.onStart(() => r(n && hc(n, 'start', t)));
             break;
           case 'done':
-            t.onDone(() => r(n && cc(n, 'done', t)));
+            t.onDone(() => r(n && hc(n, 'done', t)));
             break;
           case 'destroy':
-            t.onDestroy(() => r(n && cc(n, 'destroy', t)));
+            t.onDestroy(() => r(n && hc(n, 'destroy', t)));
         }
       }
-      function cc(t, e, n) {
+      function hc(t, e, n) {
         const r = n.totalTime,
-          s = uc(
+          s = dc(
             t.element,
             t.triggerName,
             t.fromState,
@@ -12060,25 +12083,25 @@
           i = t._data;
         return null != i && (s._data = i), s;
       }
-      function uc(t, e, n, r, s = '', i = 0, o) {
+      function dc(t, e, n, r, s = '', i = 0, o) {
         return { element: t, triggerName: e, fromState: n, toState: r, phaseName: s, totalTime: i, disabled: !!o };
       }
-      function hc(t, e, n) {
+      function pc(t, e, n) {
         let r;
         return t instanceof Map ? ((r = t.get(e)), r || t.set(e, (r = n))) : ((r = t[e]), r || (r = t[e] = n)), r;
       }
-      function dc(t) {
+      function fc(t) {
         const e = t.indexOf(':');
         return [t.substring(1, e), t.substr(e + 1)];
       }
-      let pc = (t, e) => !1,
-        fc = (t, e) => !1,
-        gc = (t, e, n) => [];
-      const mc = ic();
-      (mc || 'undefined' != typeof Element) &&
-        ((pc = (t, e) => t.contains(e)),
-        (fc = (() => {
-          if (mc || Element.prototype.matches) return (t, e) => t.matches(e);
+      let gc = (t, e) => !1,
+        mc = (t, e) => !1,
+        bc = (t, e, n) => [];
+      const yc = ac();
+      (yc || 'undefined' != typeof Element) &&
+        ((gc = (t, e) => t.contains(e)),
+        (mc = (() => {
+          if (yc || Element.prototype.matches) return (t, e) => t.matches(e);
           {
             const t = Element.prototype,
               e =
@@ -12087,10 +12110,10 @@
                 t.msMatchesSelector ||
                 t.oMatchesSelector ||
                 t.webkitMatchesSelector;
-            return e ? (t, n) => e.apply(t, [n]) : fc;
+            return e ? (t, n) => e.apply(t, [n]) : mc;
           }
         })()),
-        (gc = (t, e, n) => {
+        (bc = (t, e, n) => {
           let r = [];
           if (n) r.push(...t.querySelectorAll(e));
           else {
@@ -12099,27 +12122,27 @@
           }
           return r;
         }));
-      let bc = null,
-        yc = !1;
-      function _c(t) {
-        bc ||
-          ((bc = ('undefined' != typeof document ? document.body : null) || {}),
-          (yc = !!bc.style && 'WebkitAppearance' in bc.style));
+      let _c = null,
+        vc = !1;
+      function wc(t) {
+        _c ||
+          ((_c = ('undefined' != typeof document ? document.body : null) || {}),
+          (vc = !!_c.style && 'WebkitAppearance' in _c.style));
         let e = !0;
         return (
-          bc.style &&
+          _c.style &&
             !(function(t) {
               return 'ebkit' == t.substring(1, 6);
             })(t) &&
-            ((e = t in bc.style), !e && yc) &&
-            (e = 'Webkit' + t.charAt(0).toUpperCase() + t.substr(1) in bc.style),
+            ((e = t in _c.style), !e && vc) &&
+            (e = 'Webkit' + t.charAt(0).toUpperCase() + t.substr(1) in _c.style),
           e
         );
       }
-      const vc = fc,
-        wc = pc,
-        Cc = gc;
-      function Sc(t) {
+      const Cc = mc,
+        Sc = gc,
+        Ec = bc;
+      function xc(t) {
         const e = {};
         return (
           Object.keys(t).forEach(n => {
@@ -12129,19 +12152,19 @@
           e
         );
       }
-      let Ec = (() => {
+      let Oc = (() => {
           class t {
             validateStyleProperty(t) {
-              return _c(t);
+              return wc(t);
             }
             matchesElement(t, e) {
-              return vc(t, e);
+              return Cc(t, e);
             }
             containsElement(t, e) {
-              return wc(t, e);
+              return Sc(t, e);
             }
             query(t, e, n) {
-              return Cc(t, e, n);
+              return Ec(t, e, n);
             }
             computeStyle(t, e, n) {
               return n || '';
@@ -12158,16 +12181,16 @@
             t
           );
         })(),
-        xc = (() => {
+        kc = (() => {
           class t {}
-          return (t.NOOP = new Ec()), t;
+          return (t.NOOP = new Oc()), t;
         })();
-      function Oc(t) {
+      function Tc(t) {
         if ('number' == typeof t) return t;
         const e = t.match(/^(-?[\.\d]+)(m?s)/);
-        return !e || e.length < 2 ? 0 : kc(parseFloat(e[1]), e[2]);
+        return !e || e.length < 2 ? 0 : Ac(parseFloat(e[1]), e[2]);
       }
-      function kc(t, e) {
+      function Ac(t, e) {
         switch (e) {
           case 's':
             return 1e3 * t;
@@ -12175,7 +12198,7 @@
             return t;
         }
       }
-      function Tc(t, e, n) {
+      function Pc(t, e, n) {
         return t.hasOwnProperty('duration')
           ? t
           : (function(t, e, n) {
@@ -12186,9 +12209,9 @@
                 const n = t.match(/^(-?[\.\d]+)(m?s)(?:\s+(-?[\.\d]+)(m?s))?(?:\s+([-a-z]+(?:\(.+?\))?))?$/i);
                 if (null === n)
                   return e.push(`The provided timing value "${t}" is invalid.`), { duration: 0, delay: 0, easing: '' };
-                r = kc(parseFloat(n[1]), n[2]);
+                r = Ac(parseFloat(n[1]), n[2]);
                 const o = n[3];
-                null != o && (s = kc(parseFloat(o), n[4]));
+                null != o && (s = Ac(parseFloat(o), n[4]));
                 const a = n[5];
                 a && (i = a);
               } else r = t;
@@ -12202,7 +12225,7 @@
               return { duration: r, delay: s, easing: i };
             })(t, e, n);
       }
-      function Ac(t, e = {}) {
+      function Ic(t, e = {}) {
         return (
           Object.keys(t).forEach(n => {
             e[n] = t[n];
@@ -12210,58 +12233,58 @@
           e
         );
       }
-      function Ic(t, e, n = {}) {
+      function Rc(t, e, n = {}) {
         if (e) for (let r in t) n[r] = t[r];
-        else Ac(t, n);
+        else Ic(t, n);
         return n;
       }
-      function Pc(t, e, n) {
+      function Dc(t, e, n) {
         return n ? e + ':' + n + ';' : '';
       }
-      function Rc(t) {
+      function jc(t) {
         let e = '';
         for (let n = 0; n < t.style.length; n++) {
           const r = t.style.item(n);
-          e += Pc(0, r, t.style.getPropertyValue(r));
+          e += Dc(0, r, t.style.getPropertyValue(r));
         }
         for (const n in t.style)
           t.style.hasOwnProperty(n) &&
             !n.startsWith('_') &&
-            (e += Pc(0, n.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase(), t.style[n]));
+            (e += Dc(0, n.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase(), t.style[n]));
         t.setAttribute('style', e);
       }
-      function Dc(t, e, n) {
+      function Nc(t, e, n) {
         t.style &&
           (Object.keys(e).forEach(r => {
-            const s = zc(r);
+            const s = $c(r);
             n && !n.hasOwnProperty(r) && (n[r] = t.style[s]), (t.style[s] = e[r]);
           }),
-          ic() && Rc(t));
+          ac() && jc(t));
       }
-      function jc(t, e) {
+      function Mc(t, e) {
         t.style &&
           (Object.keys(e).forEach(e => {
-            const n = zc(e);
+            const n = $c(e);
             t.style[n] = '';
           }),
-          ic() && Rc(t));
+          ac() && jc(t));
       }
-      function Nc(t) {
+      function Lc(t) {
         return Array.isArray(t) ? (1 == t.length ? t[0] : ca(t)) : t;
       }
-      const Mc = new RegExp('{{\\s*(.+?)\\s*}}', 'g');
-      function Lc(t) {
+      const Fc = new RegExp('{{\\s*(.+?)\\s*}}', 'g');
+      function Vc(t) {
         let e = [];
         if ('string' == typeof t) {
           let n;
-          for (; (n = Mc.exec(t)); ) e.push(n[1]);
-          Mc.lastIndex = 0;
+          for (; (n = Fc.exec(t)); ) e.push(n[1]);
+          Fc.lastIndex = 0;
         }
         return e;
       }
-      function Fc(t, e, n) {
+      function Hc(t, e, n) {
         const r = t.toString(),
-          s = r.replace(Mc, (t, r) => {
+          s = r.replace(Fc, (t, r) => {
             let s = e[r];
             return (
               e.hasOwnProperty(r) || (n.push('Please provide a value for the animation param ' + r), (s = '')),
@@ -12270,20 +12293,20 @@
           });
         return s == r ? t : s;
       }
-      function Vc(t) {
+      function zc(t) {
         const e = [];
         let n = t.next();
         for (; !n.done; ) e.push(n.value), (n = t.next());
         return e;
       }
-      const Hc = /-+([a-z0-9])/g;
-      function zc(t) {
-        return t.replace(Hc, (...t) => t[1].toUpperCase());
+      const Uc = /-+([a-z0-9])/g;
+      function $c(t) {
+        return t.replace(Uc, (...t) => t[1].toUpperCase());
       }
-      function Uc(t, e) {
+      function Bc(t, e) {
         return 0 === t || 0 === e;
       }
-      function $c(t, e, n) {
+      function qc(t, e, n) {
         const r = Object.keys(n);
         if (r.length && e.length) {
           let i = e[0],
@@ -12297,13 +12320,13 @@
             for (var s = 1; s < e.length; s++) {
               let n = e[s];
               o.forEach(function(e) {
-                n[e] = qc(t, e);
+                n[e] = Zc(t, e);
               });
             }
         }
         return e;
       }
-      function Bc(t, e, n) {
+      function Qc(t, e, n) {
         switch (e.type) {
           case 7:
             return t.visitTrigger(e, n);
@@ -12335,10 +12358,10 @@
             throw new Error('Unable to resolve animation metadata node #' + e.type);
         }
       }
-      function qc(t, e) {
+      function Zc(t, e) {
         return window.getComputedStyle(t)[e];
       }
-      function Qc(t, e) {
+      function Gc(t, e) {
         const n = [];
         return (
           'string' == typeof t
@@ -12368,39 +12391,39 @@
                   const s = r[1],
                     i = r[2],
                     o = r[3];
-                  e.push(Kc(s, o)), '<' != i[0] || ('*' == s && '*' == o) || e.push(Kc(o, s));
+                  e.push(Jc(s, o)), '<' != i[0] || ('*' == s && '*' == o) || e.push(Jc(o, s));
                 })(t, n, e)
               )
             : n.push(t),
           n
         );
       }
-      const Zc = new Set(['true', '1']),
-        Gc = new Set(['false', '0']);
-      function Kc(t, e) {
-        const n = Zc.has(t) || Gc.has(t),
-          r = Zc.has(e) || Gc.has(e);
+      const Kc = new Set(['true', '1']),
+        Wc = new Set(['false', '0']);
+      function Jc(t, e) {
+        const n = Kc.has(t) || Wc.has(t),
+          r = Kc.has(e) || Wc.has(e);
         return (s, i) => {
           let o = '*' == t || t == s,
             a = '*' == e || e == i;
           return (
-            !o && n && 'boolean' == typeof s && (o = s ? Zc.has(t) : Gc.has(t)),
-            !a && r && 'boolean' == typeof i && (a = i ? Zc.has(e) : Gc.has(e)),
+            !o && n && 'boolean' == typeof s && (o = s ? Kc.has(t) : Wc.has(t)),
+            !a && r && 'boolean' == typeof i && (a = i ? Kc.has(e) : Wc.has(e)),
             o && a
           );
         };
       }
-      const Wc = new RegExp('s*:selfs*,?', 'g');
-      function Jc(t, e, n) {
-        return new Yc(t).build(e, n);
+      const Yc = new RegExp('s*:selfs*,?', 'g');
+      function Xc(t, e, n) {
+        return new tu(t).build(e, n);
       }
-      class Yc {
+      class tu {
         constructor(t) {
           this._driver = t;
         }
         build(t, e) {
-          const n = new Xc(e);
-          return this._resetContextStyleTimingState(n), Bc(this, Nc(t), n);
+          const n = new eu(e);
+          return this._resetContextStyleTimingState(n), Qc(this, Lc(t), n);
         }
         _resetContextStyleTimingState(t) {
           (t.currentQuerySelector = ''), (t.collectedStyles = {}), (t.collectedStyles[''] = {}), (t.currentTime = 0);
@@ -12440,10 +12463,10 @@
               i = r || {};
             if (
               (n.styles.forEach(t => {
-                if (tu(t)) {
+                if (nu(t)) {
                   const e = t;
                   Object.keys(e).forEach(t => {
-                    Lc(e[t]).forEach(t => {
+                    Vc(e[t]).forEach(t => {
                       i.hasOwnProperty(t) || s.add(t);
                     });
                   });
@@ -12451,7 +12474,7 @@
               }),
               s.size)
             ) {
-              const n = Vc(s.values());
+              const n = zc(s.values());
               e.errors.push(
                 `state("${t.name}", ...) must define default values for all the following style substitutions: ${n.join(
                   ', '
@@ -12463,40 +12486,40 @@
         }
         visitTransition(t, e) {
           (e.queryCount = 0), (e.depCount = 0);
-          const n = Bc(this, Nc(t.animation), e);
+          const n = Qc(this, Lc(t.animation), e);
           return {
             type: 1,
-            matchers: Qc(t.expr, e.errors),
+            matchers: Gc(t.expr, e.errors),
             animation: n,
             queryCount: e.queryCount,
             depCount: e.depCount,
-            options: eu(t.options)
+            options: ru(t.options)
           };
         }
         visitSequence(t, e) {
-          return { type: 2, steps: t.steps.map(t => Bc(this, t, e)), options: eu(t.options) };
+          return { type: 2, steps: t.steps.map(t => Qc(this, t, e)), options: ru(t.options) };
         }
         visitGroup(t, e) {
           const n = e.currentTime;
           let r = 0;
           const s = t.steps.map(t => {
             e.currentTime = n;
-            const s = Bc(this, t, e);
+            const s = Qc(this, t, e);
             return (r = Math.max(r, e.currentTime)), s;
           });
-          return (e.currentTime = r), { type: 3, steps: s, options: eu(t.options) };
+          return (e.currentTime = r), { type: 3, steps: s, options: ru(t.options) };
         }
         visitAnimate(t, e) {
           const n = (function(t, e) {
             let n = null;
             if (t.hasOwnProperty('duration')) n = t;
-            else if ('number' == typeof t) return nu(Tc(t, e).duration, 0, '');
+            else if ('number' == typeof t) return su(Pc(t, e).duration, 0, '');
             const r = t;
             if (r.split(/\s+/).some(t => '{' == t.charAt(0) && '{' == t.charAt(1))) {
-              const t = nu(0, 0, '');
+              const t = su(0, 0, '');
               return (t.dynamic = !0), (t.strValue = r), t;
             }
-            return (n = n || Tc(r, e)), nu(n.duration, n.delay, n.easing);
+            return (n = n || Pc(r, e)), su(n.duration, n.delay, n.easing);
           })(t.timings, e.errors);
           let r;
           e.currentAnimateTimings = n;
@@ -12535,7 +12558,7 @@
             s = null;
           return (
             n.forEach(t => {
-              if (tu(t)) {
+              if (nu(t)) {
                 const e = t,
                   n = e.easing;
                 if ((n && ((s = n), delete e.easing), !r))
@@ -12577,7 +12600,7 @@
                     e.options &&
                       (function(t, e, n) {
                         const r = e.params || {},
-                          s = Lc(t);
+                          s = Vc(t);
                         s.length &&
                           s.forEach(t => {
                             r.hasOwnProperty(t) ||
@@ -12606,12 +12629,12 @@
                       let e = null;
                       if (Array.isArray(t))
                         t.forEach(t => {
-                          if (tu(t) && t.hasOwnProperty('offset')) {
+                          if (nu(t) && t.hasOwnProperty('offset')) {
                             const n = t;
                             (e = parseFloat(n.offset)), delete n.offset;
                           }
                         });
-                      else if (tu(t) && t.hasOwnProperty('offset')) {
+                      else if (nu(t) && t.hasOwnProperty('offset')) {
                         const n = t;
                         (e = parseFloat(n.offset)), delete n.offset;
                       }
@@ -12647,13 +12670,13 @@
           );
         }
         visitReference(t, e) {
-          return { type: 8, animation: Bc(this, Nc(t.animation), e), options: eu(t.options) };
+          return { type: 8, animation: Qc(this, Lc(t.animation), e), options: ru(t.options) };
         }
         visitAnimateChild(t, e) {
-          return e.depCount++, { type: 9, options: eu(t.options) };
+          return e.depCount++, { type: 9, options: ru(t.options) };
         }
         visitAnimateRef(t, e) {
-          return { type: 10, animation: this.visitReference(t.animation, e), options: eu(t.options) };
+          return { type: 10, animation: this.visitReference(t.animation, e), options: ru(t.options) };
         }
         visitQuery(t, e) {
           const n = e.currentQuerySelector,
@@ -12662,7 +12685,7 @@
           const [s, i] = (function(t) {
             const e = !!t.split(/\s*,\s*/).find(t => ':self' == t);
             return (
-              e && (t = t.replace(Wc, '')),
+              e && (t = t.replace(Yc, '')),
               [
                 (t = t
                   .replace(/@\*/g, '.ng-trigger')
@@ -12672,8 +12695,8 @@
               ]
             );
           })(t.selector);
-          (e.currentQuerySelector = n.length ? n + ' ' + s : s), hc(e.collectedStyles, e.currentQuerySelector, {});
-          const o = Bc(this, Nc(t.animation), e);
+          (e.currentQuerySelector = n.length ? n + ' ' + s : s), pc(e.collectedStyles, e.currentQuerySelector, {});
+          const o = Qc(this, Lc(t.animation), e);
           return (
             (e.currentQuery = null),
             (e.currentQuerySelector = n),
@@ -12685,17 +12708,17 @@
               includeSelf: i,
               animation: o,
               originalSelector: t.selector,
-              options: eu(t.options)
+              options: ru(t.options)
             }
           );
         }
         visitStagger(t, e) {
           e.currentQuery || e.errors.push('stagger() can only be used inside of query()');
-          const n = 'full' === t.timings ? { duration: 0, delay: 0, easing: 'full' } : Tc(t.timings, e.errors, !0);
-          return { type: 12, animation: Bc(this, Nc(t.animation), e), timings: n, options: null };
+          const n = 'full' === t.timings ? { duration: 0, delay: 0, easing: 'full' } : Pc(t.timings, e.errors, !0);
+          return { type: 12, animation: Qc(this, Lc(t.animation), e), timings: n, options: null };
         }
       }
-      class Xc {
+      class eu {
         constructor(t) {
           (this.errors = t),
             (this.queryCount = 0),
@@ -12709,17 +12732,17 @@
             (this.options = null);
         }
       }
-      function tu(t) {
+      function nu(t) {
         return !Array.isArray(t) && 'object' == typeof t;
       }
-      function eu(t) {
+      function ru(t) {
         var e;
-        return t ? (t = Ac(t)).params && (t.params = (e = t.params) ? Ac(e) : null) : (t = {}), t;
+        return t ? (t = Ic(t)).params && (t.params = (e = t.params) ? Ic(e) : null) : (t = {}), t;
       }
-      function nu(t, e, n) {
+      function su(t, e, n) {
         return { duration: t, delay: e, easing: n };
       }
-      function ru(t, e, n, r, s, i, o = null, a = !1) {
+      function iu(t, e, n, r, s, i, o = null, a = !1) {
         return {
           type: 1,
           element: t,
@@ -12733,7 +12756,7 @@
           subTimeline: a
         };
       }
-      class su {
+      class ou {
         constructor() {
           this._map = new Map();
         }
@@ -12752,22 +12775,22 @@
           this._map.clear();
         }
       }
-      const iu = new RegExp(':enter', 'g'),
-        ou = new RegExp(':leave', 'g');
-      function au(t, e, n, r, s, i = {}, o = {}, a, l, c = []) {
-        return new lu().buildKeyframes(t, e, n, r, s, i, o, a, l, c);
+      const au = new RegExp(':enter', 'g'),
+        lu = new RegExp(':leave', 'g');
+      function cu(t, e, n, r, s, i = {}, o = {}, a, l, c = []) {
+        return new uu().buildKeyframes(t, e, n, r, s, i, o, a, l, c);
       }
-      class lu {
+      class uu {
         buildKeyframes(t, e, n, r, s, i, o, a, l, c = []) {
-          l = l || new su();
-          const u = new uu(t, e, l, r, s, c, []);
-          (u.options = a), u.currentTimeline.setStyles([i], null, u.errors, a), Bc(this, n, u);
+          l = l || new ou();
+          const u = new du(t, e, l, r, s, c, []);
+          (u.options = a), u.currentTimeline.setStyles([i], null, u.errors, a), Qc(this, n, u);
           const h = u.timelines.filter(t => t.containsAnimation());
           if (h.length && Object.keys(o).length) {
             const t = h[h.length - 1];
             t.allowOnlyTimelineStyles() || t.setStyles([o], null, u.errors, a);
           }
-          return h.length ? h.map(t => t.buildKeyframes()) : [ru(e, [], [], [], 0, 0, '', !1)];
+          return h.length ? h.map(t => t.buildKeyframes()) : [iu(e, [], [], [], 0, 0, '', !1)];
         }
         visitTrigger(t, e) {}
         visitState(t, e) {}
@@ -12791,8 +12814,8 @@
         }
         _visitSubInstructions(t, e, n) {
           let r = e.currentTimeline.currentTime;
-          const s = null != n.duration ? Oc(n.duration) : null,
-            i = null != n.delay ? Oc(n.delay) : null;
+          const s = null != n.duration ? Tc(n.duration) : null,
+            i = null != n.delay ? Tc(n.delay) : null;
           return (
             0 !== s &&
               t.forEach(t => {
@@ -12803,7 +12826,7 @@
           );
         }
         visitReference(t, e) {
-          e.updateOptions(t.options, !0), Bc(this, t.animation, e), (e.previousNode = t);
+          e.updateOptions(t.options, !0), Qc(this, t.animation, e), (e.previousNode = t);
         }
         visitSequence(t, e) {
           const n = e.subContextCount;
@@ -12814,12 +12837,12 @@
             (s.params || s.delay) &&
             ((r = e.createSubContext(s)), r.transformIntoNewTimeline(), null != s.delay)
           ) {
-            6 == r.previousNode.type && (r.currentTimeline.snapshotCurrentStyles(), (r.previousNode = cu));
-            const t = Oc(s.delay);
+            6 == r.previousNode.type && (r.currentTimeline.snapshotCurrentStyles(), (r.previousNode = hu));
+            const t = Tc(s.delay);
             r.delayNextStep(t);
           }
           t.steps.length &&
-            (t.steps.forEach(t => Bc(this, t, r)),
+            (t.steps.forEach(t => Qc(this, t, r)),
             r.currentTimeline.applyStylesToKeyframe(),
             r.subContextCount > n && r.transformIntoNewTimeline()),
             (e.previousNode = t);
@@ -12827,11 +12850,11 @@
         visitGroup(t, e) {
           const n = [];
           let r = e.currentTimeline.currentTime;
-          const s = t.options && t.options.delay ? Oc(t.options.delay) : 0;
+          const s = t.options && t.options.delay ? Tc(t.options.delay) : 0;
           t.steps.forEach(i => {
             const o = e.createSubContext(t.options);
             s && o.delayNextStep(s),
-              Bc(this, i, o),
+              Qc(this, i, o),
               (r = Math.max(r, o.currentTimeline.currentTime)),
               n.push(o.currentTimeline);
           }),
@@ -12842,7 +12865,7 @@
         _visitTiming(t, e) {
           if (t.dynamic) {
             const n = t.strValue;
-            return Tc(e.params ? Fc(n, e.params, e.errors) : n, e.errors);
+            return Pc(e.params ? Hc(n, e.params, e.errors) : n, e.errors);
           }
           return { duration: t.duration, delay: t.delay, easing: t.easing };
         }
@@ -12882,10 +12905,10 @@
         visitQuery(t, e) {
           const n = e.currentTimeline.currentTime,
             r = t.options || {},
-            s = r.delay ? Oc(r.delay) : 0;
+            s = r.delay ? Tc(r.delay) : 0;
           s &&
             (6 === e.previousNode.type || (0 == n && e.currentTimeline.getCurrentStyleProperties().length)) &&
-            (e.currentTimeline.snapshotCurrentStyles(), (e.previousNode = cu));
+            (e.currentTimeline.snapshotCurrentStyles(), (e.previousNode = hu));
           let i = n;
           const o = e.invokeQuery(t.selector, t.originalSelector, t.limit, t.includeSelf, !!r.optional, e.errors);
           e.currentQueryTotal = o.length;
@@ -12895,7 +12918,7 @@
             const o = e.createSubContext(t.options, n);
             s && o.delayNextStep(s),
               n === e.element && (a = o.currentTimeline),
-              Bc(this, t.animation, o),
+              Qc(this, t.animation, o),
               o.currentTimeline.applyStylesToKeyframe(),
               (i = Math.max(i, o.currentTimeline.currentTime));
           }),
@@ -12922,13 +12945,13 @@
           const l = e.currentTimeline;
           a && l.delayNextStep(a);
           const c = l.currentTime;
-          Bc(this, t.animation, e),
+          Qc(this, t.animation, e),
             (e.previousNode = t),
             (n.currentStaggerTime = r.currentTime - c + (r.startTime - n.currentTimeline.startTime));
         }
       }
-      const cu = {};
-      class uu {
+      const hu = {};
+      class du {
         constructor(t, e, n, r, s, i, o, a) {
           (this._driver = t),
             (this.element = e),
@@ -12939,13 +12962,13 @@
             (this.timelines = o),
             (this.parentContext = null),
             (this.currentAnimateTimings = null),
-            (this.previousNode = cu),
+            (this.previousNode = hu),
             (this.subContextCount = 0),
             (this.options = {}),
             (this.currentQueryIndex = 0),
             (this.currentQueryTotal = 0),
             (this.currentStaggerTime = 0),
-            (this.currentTimeline = a || new hu(this._driver, e, 0)),
+            (this.currentTimeline = a || new pu(this._driver, e, 0)),
             o.push(this.currentTimeline);
         }
         get params() {
@@ -12955,13 +12978,13 @@
           if (!t) return;
           const n = t;
           let r = this.options;
-          null != n.duration && (r.duration = Oc(n.duration)), null != n.delay && (r.delay = Oc(n.delay));
+          null != n.duration && (r.duration = Tc(n.duration)), null != n.delay && (r.delay = Tc(n.delay));
           const s = n.params;
           if (s) {
             let t = r.params;
             t || (t = this.options.params = {}),
               Object.keys(s).forEach(n => {
-                (e && t.hasOwnProperty(n)) || (t[n] = Fc(s[n], t, this.errors));
+                (e && t.hasOwnProperty(n)) || (t[n] = Hc(s[n], t, this.errors));
               });
           }
         }
@@ -12980,7 +13003,7 @@
         }
         createSubContext(t = null, e, n) {
           const r = e || this.element,
-            s = new uu(
+            s = new du(
               this._driver,
               r,
               this.subInstructions,
@@ -13004,7 +13027,7 @@
         }
         transformIntoNewTimeline(t) {
           return (
-            (this.previousNode = cu),
+            (this.previousNode = hu),
             (this.currentTimeline = this.currentTimeline.fork(this.element, t)),
             this.timelines.push(this.currentTimeline),
             this.currentTimeline
@@ -13016,7 +13039,7 @@
               delay: this.currentTimeline.currentTime + (null != n ? n : 0) + t.delay,
               easing: ''
             },
-            s = new du(
+            s = new fu(
               this._driver,
               t.element,
               t.keyframes,
@@ -13036,7 +13059,7 @@
         invokeQuery(t, e, n, r, s, i) {
           let o = [];
           if ((r && o.push(this.element), t.length > 0)) {
-            t = (t = t.replace(iu, '.' + this._enterClassName)).replace(ou, '.' + this._leaveClassName);
+            t = (t = t.replace(au, '.' + this._enterClassName)).replace(lu, '.' + this._leaveClassName);
             let e = this._driver.query(this.element, t, 1 != n);
             0 !== n && (e = n < 0 ? e.slice(e.length + n, e.length) : e.slice(0, n)), o.push(...e);
           }
@@ -13050,7 +13073,7 @@
           );
         }
       }
-      class hu {
+      class pu {
         constructor(t, e, n, r) {
           (this._driver = t),
             (this.element = e),
@@ -13097,7 +13120,7 @@
         fork(t, e) {
           return (
             this.applyStylesToKeyframe(),
-            new hu(this._driver, t, e || this.currentTime, this._elementTimelineStylesLookup)
+            new pu(this._driver, t, e || this.currentTime, this._elementTimelineStylesLookup)
           );
         }
         _loadKeyframe() {
@@ -13141,13 +13164,13 @@
                       r.forEach(t => {
                         n[t] = '*';
                       }))
-                    : Ic(t, !1, n);
+                    : Rc(t, !1, n);
                 }),
                 n
               );
             })(t, this._globalTimelineStyles);
           Object.keys(i).forEach(t => {
-            const e = Fc(i[t], s, n);
+            const e = Hc(i[t], s, n);
             (this._pendingStyles[t] = e),
               this._localTimelineStyles.hasOwnProperty(t) ||
                 (this._backFill[t] = this._globalTimelineStyles.hasOwnProperty(t)
@@ -13196,7 +13219,7 @@
             n = 1 === this._keyframes.size && 0 === this.duration;
           let r = [];
           this._keyframes.forEach((s, i) => {
-            const o = Ic(s, !0);
+            const o = Rc(s, !0);
             Object.keys(o).forEach(n => {
               const r = o[n];
               '!' == r ? t.add(n) : '*' == r && e.add(n);
@@ -13204,17 +13227,17 @@
               n || (o.offset = i / this.duration),
               r.push(o);
           });
-          const s = t.size ? Vc(t.values()) : [],
-            i = e.size ? Vc(e.values()) : [];
+          const s = t.size ? zc(t.values()) : [],
+            i = e.size ? zc(e.values()) : [];
           if (n) {
             const t = r[0],
-              e = Ac(t);
+              e = Ic(t);
             (t.offset = 0), (e.offset = 1), (r = [t, e]);
           }
-          return ru(this.element, r, s, i, this.duration, this.startTime, this.easing, !1);
+          return iu(this.element, r, s, i, this.duration, this.startTime, this.easing, !1);
         }
       }
-      class du extends hu {
+      class fu extends pu {
         constructor(t, e, n, r, s, i, o = !1) {
           super(t, e, i.delay),
             (this.element = e),
@@ -13234,33 +13257,33 @@
             const s = [],
               i = n + e,
               o = e / i,
-              a = Ic(t[0], !1);
+              a = Rc(t[0], !1);
             (a.offset = 0), s.push(a);
-            const l = Ic(t[0], !1);
-            (l.offset = pu(o)), s.push(l);
+            const l = Rc(t[0], !1);
+            (l.offset = gu(o)), s.push(l);
             const c = t.length - 1;
             for (let r = 1; r <= c; r++) {
-              let o = Ic(t[r], !1);
-              (o.offset = pu((e + o.offset * n) / i)), s.push(o);
+              let o = Rc(t[r], !1);
+              (o.offset = gu((e + o.offset * n) / i)), s.push(o);
             }
             (n = i), (e = 0), (r = ''), (t = s);
           }
-          return ru(this.element, t, this.preStyleProps, this.postStyleProps, n, e, r, !0);
+          return iu(this.element, t, this.preStyleProps, this.postStyleProps, n, e, r, !0);
         }
       }
-      function pu(t, e = 3) {
+      function gu(t, e = 3) {
         const n = Math.pow(10, e - 1);
         return Math.round(t * n) / n;
       }
-      class fu {}
-      class gu extends fu {
+      class mu {}
+      class bu extends mu {
         normalizePropertyName(t, e) {
-          return zc(t);
+          return $c(t);
         }
         normalizeStyleValue(t, e, n, r) {
           let s = '';
           const i = n.toString().trim();
-          if (mu[e] && 0 !== n && '0' !== n)
+          if (yu[e] && 0 !== n && '0' !== n)
             if ('number' == typeof n) s = 'px';
             else {
               const e = n.match(/^[+-]?[\d\.]+([a-z]*)$/);
@@ -13269,7 +13292,7 @@
           return i + s;
         }
       }
-      const mu = (() =>
+      const yu = (() =>
         (function(t) {
           const e = {};
           return t.forEach(t => (e[t] = !0)), e;
@@ -13278,7 +13301,7 @@
             ','
           )
         ))();
-      function bu(t, e, n, r, s, i, o, a, l, c, u, h, d) {
+      function _u(t, e, n, r, s, i, o, a, l, c, u, h, d) {
         return {
           type: 0,
           element: t,
@@ -13296,8 +13319,8 @@
           errors: d
         };
       }
-      const yu = {};
-      class _u {
+      const vu = {};
+      class wu {
         constructor(t, e, n) {
           (this._triggerName = t), (this.ast = e), (this._stateStyles = n);
         }
@@ -13314,16 +13337,16 @@
         }
         build(t, e, n, r, s, i, o, a, l, c) {
           const u = [],
-            h = (this.ast.options && this.ast.options.params) || yu,
-            d = this.buildStyles(n, (o && o.params) || yu, u),
-            p = (a && a.params) || yu,
+            h = (this.ast.options && this.ast.options.params) || vu,
+            d = this.buildStyles(n, (o && o.params) || vu, u),
+            p = (a && a.params) || vu,
             f = this.buildStyles(r, p, u),
             g = new Set(),
             m = new Map(),
             b = new Map(),
             y = 'void' === r,
             _ = { params: Object.assign(Object.assign({}, h), p) },
-            v = c ? [] : au(t, e, this.ast.animation, s, i, d, f, _, l, u);
+            v = c ? [] : cu(t, e, this.ast.animation, s, i, d, f, _, l, u);
           let w = 0;
           if (
             (v.forEach(t => {
@@ -13331,25 +13354,25 @@
             }),
             u.length)
           )
-            return bu(e, this._triggerName, n, r, y, d, f, [], [], m, b, w, u);
+            return _u(e, this._triggerName, n, r, y, d, f, [], [], m, b, w, u);
           v.forEach(t => {
             const n = t.element,
-              r = hc(m, n, {});
+              r = pc(m, n, {});
             t.preStyleProps.forEach(t => (r[t] = !0));
-            const s = hc(b, n, {});
+            const s = pc(b, n, {});
             t.postStyleProps.forEach(t => (s[t] = !0)), n !== e && g.add(n);
           });
-          const C = Vc(g.values());
-          return bu(e, this._triggerName, n, r, y, d, f, v, C, m, b, w);
+          const C = zc(g.values());
+          return _u(e, this._triggerName, n, r, y, d, f, v, C, m, b, w);
         }
       }
-      class vu {
+      class Cu {
         constructor(t, e) {
           (this.styles = t), (this.defaultParams = e);
         }
         buildStyles(t, e) {
           const n = {},
-            r = Ac(this.defaultParams);
+            r = Ic(this.defaultParams);
           return (
             Object.keys(t).forEach(e => {
               const n = t[e];
@@ -13360,7 +13383,7 @@
                 const s = t;
                 Object.keys(s).forEach(t => {
                   let i = s[t];
-                  i.length > 1 && (i = Fc(i, r, e)), (n[t] = i);
+                  i.length > 1 && (i = Hc(i, r, e)), (n[t] = i);
                 });
               }
             }),
@@ -13368,21 +13391,21 @@
           );
         }
       }
-      class wu {
+      class Su {
         constructor(t, e) {
           (this.name = t),
             (this.ast = e),
             (this.transitionFactories = []),
             (this.states = {}),
             e.states.forEach(t => {
-              this.states[t.name] = new vu(t.style, (t.options && t.options.params) || {});
+              this.states[t.name] = new Cu(t.style, (t.options && t.options.params) || {});
             }),
-            Cu(this.states, 'true', '1'),
-            Cu(this.states, 'false', '0'),
+            Eu(this.states, 'true', '1'),
+            Eu(this.states, 'false', '0'),
             e.transitions.forEach(e => {
-              this.transitionFactories.push(new _u(t, e, this.states));
+              this.transitionFactories.push(new wu(t, e, this.states));
             }),
-            (this.fallbackTransition = new _u(
+            (this.fallbackTransition = new wu(
               t,
               {
                 type: 1,
@@ -13405,11 +13428,11 @@
           return this.fallbackTransition.buildStyles(t, e, n);
         }
       }
-      function Cu(t, e, n) {
+      function Eu(t, e, n) {
         t.hasOwnProperty(e) ? t.hasOwnProperty(n) || (t[n] = t[e]) : t.hasOwnProperty(n) && (t[e] = t[n]);
       }
-      const Su = new su();
-      class Eu {
+      const xu = new ou();
+      class Ou {
         constructor(t, e, n) {
           (this.bodyNode = t),
             (this._driver = e),
@@ -13420,13 +13443,13 @@
         }
         register(t, e) {
           const n = [],
-            r = Jc(this._driver, e, n);
+            r = Xc(this._driver, e, n);
           if (n.length) throw new Error('Unable to build the animation due to the following errors: ' + n.join('\n'));
           this._animations[t] = r;
         }
         _buildPlayer(t, e, n) {
           const r = t.element,
-            s = ac(0, this._normalizer, 0, t.keyframes, e, n);
+            s = cc(0, this._normalizer, 0, t.keyframes, e, n);
           return this._driver.animate(r, s, t.duration, t.delay, t.easing, [], !0);
         }
         create(t, e, n = {}) {
@@ -13436,9 +13459,9 @@
           const o = new Map();
           if (
             (s
-              ? ((i = au(this._driver, e, s, 'ng-enter', 'ng-leave', {}, {}, n, Su, r)),
+              ? ((i = cu(this._driver, e, s, 'ng-enter', 'ng-leave', {}, {}, n, xu, r)),
                 i.forEach(t => {
-                  const e = hc(o, t.element, {});
+                  const e = pc(o, t.element, {});
                   t.postStyleProps.forEach(t => (e[t] = null));
                 }))
               : (r.push("The requested animation doesn't exist or has already been destroyed"), (i = [])),
@@ -13450,7 +13473,7 @@
               t[n] = this._driver.computeStyle(e, n, '*');
             });
           });
-          const a = oc(
+          const a = lc(
             i.map(t => {
               const e = o.get(t.element);
               return this._buildPlayer(t, {}, e);
@@ -13470,8 +13493,8 @@
           return e;
         }
         listen(t, e, n, r) {
-          const s = uc(e, '', '', '');
-          return lc(this._getPlayer(t), n, s, r), () => {};
+          const s = dc(e, '', '', '');
+          return uc(this._getPlayer(t), n, s, r), () => {};
         }
         command(t, e, n, r) {
           if ('register' == n) return void this.register(t, r[0]);
@@ -13504,15 +13527,15 @@
           }
         }
       }
-      const xu = [],
-        Ou = { namespaceId: '', setForRemoval: !1, setForMove: !1, hasAnimation: !1, removedBeforeQueried: !1 },
-        ku = { namespaceId: '', setForMove: !1, setForRemoval: !1, hasAnimation: !1, removedBeforeQueried: !0 };
-      class Tu {
+      const ku = [],
+        Tu = { namespaceId: '', setForRemoval: !1, setForMove: !1, hasAnimation: !1, removedBeforeQueried: !1 },
+        Au = { namespaceId: '', setForMove: !1, setForRemoval: !1, hasAnimation: !1, removedBeforeQueried: !0 };
+      class Pu {
         constructor(t, e = '') {
           this.namespaceId = e;
           const n = t && t.hasOwnProperty('value');
           if (((this.value = null != (r = n ? t.value : t) ? r : null), n)) {
-            const e = Ac(t);
+            const e = Ic(t);
             delete e.value, (this.options = e);
           } else this.options = {};
           var r;
@@ -13531,8 +13554,8 @@
           }
         }
       }
-      const Au = new Tu('void');
-      class Iu {
+      const Iu = new Pu('void');
+      class Ru {
         constructor(t, e, n) {
           (this.id = t),
             (this.hostElement = e),
@@ -13542,7 +13565,7 @@
             (this._queue = []),
             (this._elementListeners = new Map()),
             (this._hostClassName = 'ng-tns-' + t),
-            Lu(e, this._hostClassName);
+            Vu(e, this._hostClassName);
         }
         listen(t, e, n, r) {
           if (!this._triggers.hasOwnProperty(e))
@@ -13558,12 +13581,12 @@
               `The provided animation trigger event "${n}" for the animation trigger "${e}" is not supported!`
             );
           var s;
-          const i = hc(this._elementListeners, t, []),
+          const i = pc(this._elementListeners, t, []),
             o = { name: e, phase: n, callback: r };
           i.push(o);
-          const a = hc(this._engine.statesByElement, t, {});
+          const a = pc(this._engine.statesByElement, t, {});
           return (
-            a.hasOwnProperty(e) || (Lu(t, 'ng-trigger'), Lu(t, 'ng-trigger-' + e), (a[e] = Au)),
+            a.hasOwnProperty(e) || (Vu(t, 'ng-trigger'), Vu(t, 'ng-trigger-' + e), (a[e] = Iu)),
             () => {
               this._engine.afterFlush(() => {
                 const t = i.indexOf(o);
@@ -13582,15 +13605,15 @@
         }
         trigger(t, e, n, r = !0) {
           const s = this._getTrigger(e),
-            i = new Ru(this.id, e, t);
+            i = new ju(this.id, e, t);
           let o = this._engine.statesByElement.get(t);
-          o || (Lu(t, 'ng-trigger'), Lu(t, 'ng-trigger-' + e), this._engine.statesByElement.set(t, (o = {})));
+          o || (Vu(t, 'ng-trigger'), Vu(t, 'ng-trigger-' + e), this._engine.statesByElement.set(t, (o = {})));
           let a = o[e];
-          const l = new Tu(n, this.id);
+          const l = new Pu(n, this.id);
           if (
             (!(n && n.hasOwnProperty('value')) && a && l.absorbOptions(a.options),
             (o[e] = l),
-            a || (a = Au),
+            a || (a = Iu),
             'void' !== l.value && a.value === l.value)
           ) {
             if (
@@ -13611,12 +13634,12 @@
               e.length
                 ? this._engine.reportError(e)
                 : this._engine.afterFlush(() => {
-                    jc(t, n), Dc(t, r);
+                    Mc(t, n), Nc(t, r);
                   });
             }
             return;
           }
-          const c = hc(this._engine.playersByElement, t, []);
+          const c = pc(this._engine.playersByElement, t, []);
           c.forEach(t => {
             t.namespaceId == this.id && t.triggerName == e && t.queued && t.destroy();
           });
@@ -13638,9 +13661,9 @@
               isFallbackTransition: h
             }),
             h ||
-              (Lu(t, 'ng-animate-queued'),
+              (Vu(t, 'ng-animate-queued'),
               i.onStart(() => {
-                Fu(t, 'ng-animate-queued');
+                Hu(t, 'ng-animate-queued');
               })),
             i.onDone(() => {
               let e = this.players.indexOf(i);
@@ -13697,7 +13720,7 @@
             )
               return (
                 this._engine.markElementAsRemoved(this.id, t, !0, e),
-                n && oc(i).onDone(() => this._engine.processLeaveNode(t)),
+                n && lc(i).onDone(() => this._engine.processLeaveNode(t)),
                 !0
               );
           }
@@ -13712,9 +13735,9 @@
               if (n.has(r)) return;
               n.add(r);
               const s = this._triggers[r].fallbackTransition,
-                i = this._engine.statesByElement.get(t)[r] || Au,
-                o = new Tu('void'),
-                a = new Ru(this.id, r, t);
+                i = this._engine.statesByElement.get(t)[r] || Iu,
+                o = new Pu('void'),
+                a = new ju(this.id, r, t);
               this._engine.totalQueuedPlayers++,
                 this._queue.push({
                   element: t,
@@ -13748,12 +13771,12 @@
           if ((this.prepareLeaveAnimationListeners(t), r)) n.markElementAsRemoved(this.id, t, !1, e);
           else {
             const r = t.__ng_removed;
-            (r && r !== Ou) ||
+            (r && r !== Tu) ||
               (n.afterFlush(() => this.clearElementCache(t)), n.destroyInnerAnimations(t), n._onRemovalComplete(t, e));
           }
         }
         insertNode(t, e) {
-          Lu(t, this._hostClassName);
+          Vu(t, this._hostClassName);
         }
         drainQueuedTransitions(t) {
           const e = [];
@@ -13766,8 +13789,8 @@
               i &&
                 i.forEach(e => {
                   if (e.name == n.triggerName) {
-                    const r = uc(s, n.triggerName, n.fromState.value, n.toState.value);
-                    (r._data = t), lc(n.player, e.phase, r, e.callback);
+                    const r = dc(s, n.triggerName, n.fromState.value, n.toState.value);
+                    (r._data = t), uc(n.player, e.phase, r, e.callback);
                   }
                 }),
                 r.markedForDestroy
@@ -13792,7 +13815,7 @@
           return this._elementListeners.has(t) && (e = !0), (e = !!this._queue.find(e => e.element === t) || e), e;
         }
       }
-      class Pu {
+      class Du {
         constructor(t, e, n) {
           (this.bodyNode = t),
             (this.driver = e),
@@ -13829,7 +13852,7 @@
           );
         }
         createNamespace(t, e) {
-          const n = new Iu(t, e, this);
+          const n = new Ru(t, e, this);
           return (
             e.parentNode
               ? this._balanceNamespaceList(n, e)
@@ -13887,14 +13910,14 @@
           return e;
         }
         trigger(t, e, n, r) {
-          if (Du(e)) {
+          if (Nu(e)) {
             const s = this._fetchNamespace(t);
             if (s) return s.trigger(e, n, r), !0;
           }
           return !1;
         }
         insertNode(t, e, n, r) {
-          if (!Du(e)) return;
+          if (!Nu(e)) return;
           const s = e.__ng_removed;
           if (s && s.setForRemoval) {
             (s.setForRemoval = !1), (s.setForMove = !0);
@@ -13912,11 +13935,11 @@
         }
         markElementAsDisabled(t, e) {
           e
-            ? this.disabledNodes.has(t) || (this.disabledNodes.add(t), Lu(t, 'ng-animate-disabled'))
-            : this.disabledNodes.has(t) && (this.disabledNodes.delete(t), Fu(t, 'ng-animate-disabled'));
+            ? this.disabledNodes.has(t) || (this.disabledNodes.add(t), Vu(t, 'ng-animate-disabled'))
+            : this.disabledNodes.has(t) && (this.disabledNodes.delete(t), Hu(t, 'ng-animate-disabled'));
         }
         removeNode(t, e, n, r) {
-          if (Du(e)) {
+          if (Nu(e)) {
             const s = t ? this._fetchNamespace(t) : null;
             if ((s ? s.removeNode(e, r) : this.markElementAsRemoved(t, e, !1, r), n)) {
               const n = this.namespacesByHostElement.get(e);
@@ -13929,7 +13952,7 @@
             (e.__ng_removed = { namespaceId: t, setForRemoval: r, hasAnimation: n, removedBeforeQueried: !1 });
         }
         listen(t, e, n, r, s) {
-          return Du(e) ? this._fetchNamespace(t).listen(e, n, r, s) : () => {};
+          return Nu(e) ? this._fetchNamespace(t).listen(e, n, r, s) : () => {};
         }
         _buildInstruction(t, e, n, r, s) {
           return t.transition.build(
@@ -13965,14 +13988,14 @@
         }
         whenRenderingDone() {
           return new Promise(t => {
-            if (this.players.length) return oc(this.players).onDone(() => t());
+            if (this.players.length) return lc(this.players).onDone(() => t());
             t();
           });
         }
         processLeaveNode(t) {
           const e = t.__ng_removed;
           if (e && e.setForRemoval) {
-            if (((t.__ng_removed = Ou), e.namespaceId)) {
+            if (((t.__ng_removed = Tu), e.namespaceId)) {
               this.destroyInnerAnimations(t);
               const n = this._fetchNamespace(e.namespaceId);
               n && n.clearElementCache(t);
@@ -13992,7 +14015,7 @@
             this.totalAnimations && this.collectedEnterElements.length)
           )
             for (let n = 0; n < this.collectedEnterElements.length; n++)
-              Lu(this.collectedEnterElements[n], 'ng-star-inserted');
+              Vu(this.collectedEnterElements[n], 'ng-star-inserted');
           if (this._namespaceList.length && (this.totalQueuedPlayers || this.collectedLeaveElements.length)) {
             const n = [];
             try {
@@ -14014,7 +14037,7 @@
             const t = this._whenQuietFns;
             (this._whenQuietFns = []),
               e.length
-                ? oc(e).onDone(() => {
+                ? lc(e).onDone(() => {
                     t.forEach(t => t());
                   })
                 : t.forEach(t => t());
@@ -14026,7 +14049,7 @@
           );
         }
         _flushAnimations(t, e) {
-          const n = new su(),
+          const n = new ou(),
             r = [],
             s = new Map(),
             i = [],
@@ -14041,18 +14064,18 @@
           });
           const u = this.bodyNode,
             h = Array.from(this.statesByElement.keys()),
-            d = Mu(h, this.collectedEnterElements),
+            d = Fu(h, this.collectedEnterElements),
             p = new Map();
           let f = 0;
           d.forEach((t, e) => {
             const n = 'ng-enter' + f++;
-            p.set(e, n), t.forEach(t => Lu(t, n));
+            p.set(e, n), t.forEach(t => Vu(t, n));
           });
           const g = [],
             m = new Set(),
             b = new Set();
-          for (let I = 0; I < this.collectedLeaveElements.length; I++) {
-            const t = this.collectedLeaveElements[I],
+          for (let P = 0; P < this.collectedLeaveElements.length; P++) {
+            const t = this.collectedLeaveElements[P],
               e = t.__ng_removed;
             e &&
               e.setForRemoval &&
@@ -14061,19 +14084,19 @@
               e.hasAnimation ? this.driver.query(t, '.ng-star-inserted', !0).forEach(t => m.add(t)) : b.add(t));
           }
           const y = new Map(),
-            _ = Mu(h, Array.from(m));
+            _ = Fu(h, Array.from(m));
           _.forEach((t, e) => {
             const n = 'ng-leave' + f++;
-            y.set(e, n), t.forEach(t => Lu(t, n));
+            y.set(e, n), t.forEach(t => Vu(t, n));
           }),
             t.push(() => {
               d.forEach((t, e) => {
                 const n = p.get(e);
-                t.forEach(t => Fu(t, n));
+                t.forEach(t => Hu(t, n));
               }),
                 _.forEach((t, e) => {
                   const n = y.get(e);
-                  t.forEach(t => Fu(t, n));
+                  t.forEach(t => Hu(t, n));
                 }),
                 g.forEach(t => {
                   this.processLeaveNode(t);
@@ -14081,8 +14104,8 @@
             });
           const v = [],
             w = [];
-          for (let I = this._namespaceList.length - 1; I >= 0; I--)
-            this._namespaceList[I].drainQueuedTransitions(e).forEach(t => {
+          for (let P = this._namespaceList.length - 1; P >= 0; P--)
+            this._namespaceList[P].drainQueuedTransitions(e).forEach(t => {
               const e = t.player,
                 s = t.element;
               if ((v.push(e), this.collectedEnterElements.length)) {
@@ -14096,13 +14119,13 @@
               if (f.errors && f.errors.length) w.push(f);
               else {
                 if (c)
-                  return e.onStart(() => jc(s, f.fromStyles)), e.onDestroy(() => Dc(s, f.toStyles)), void r.push(e);
+                  return e.onStart(() => Mc(s, f.fromStyles)), e.onDestroy(() => Nc(s, f.toStyles)), void r.push(e);
                 if (t.isFallbackTransition)
-                  return e.onStart(() => jc(s, f.fromStyles)), e.onDestroy(() => Dc(s, f.toStyles)), void r.push(e);
+                  return e.onStart(() => Mc(s, f.fromStyles)), e.onDestroy(() => Nc(s, f.toStyles)), void r.push(e);
                 f.timelines.forEach(t => (t.stretchStartingKeyframe = !0)),
                   n.append(s, f.timelines),
                   i.push({ instruction: f, player: e, element: s }),
-                  f.queriedElements.forEach(t => hc(o, t, []).push(e)),
+                  f.queriedElements.forEach(t => pc(o, t, []).push(e)),
                   f.preStyleProps.forEach((t, e) => {
                     const n = Object.keys(t);
                     if (n.length) {
@@ -14134,17 +14157,17 @@
             r.forEach(t => {
               const e = t.element;
               this._getPreviousPlayers(e, !1, t.namespaceId, t.triggerName, null).forEach(t => {
-                hc(C, e, []).push(t), t.destroy();
+                pc(C, e, []).push(t), t.destroy();
               });
             });
-          const E = g.filter(t => Hu(t, a, l)),
+          const E = g.filter(t => Uu(t, a, l)),
             x = new Map();
-          Nu(x, this.driver, b, l, '*').forEach(t => {
-            Hu(t, a, l) && E.push(t);
+          Lu(x, this.driver, b, l, '*').forEach(t => {
+            Uu(t, a, l) && E.push(t);
           });
           const O = new Map();
           d.forEach((t, e) => {
-            Nu(O, this.driver, new Set(t), a, '!');
+            Lu(O, this.driver, new Set(t), a, '!');
           }),
             E.forEach(t => {
               const e = x.get(t),
@@ -14159,7 +14182,7 @@
             if (n.has(e)) {
               if (c.has(e))
                 return (
-                  i.onDestroy(() => Dc(e, o.toStyles)),
+                  i.onDestroy(() => Nc(e, o.toStyles)),
                   (i.disabled = !0),
                   i.overrideTotalTime(o.totalTime),
                   void r.push(i)
@@ -14182,24 +14205,24 @@
               if ((i.setRealPlayer(n), t === A)) k.push(i);
               else {
                 const e = this.playersByElement.get(t);
-                e && e.length && (i.parentPlayer = oc(e)), r.push(i);
+                e && e.length && (i.parentPlayer = lc(e)), r.push(i);
               }
-            } else jc(e, o.fromStyles), i.onDestroy(() => Dc(e, o.toStyles)), T.push(i), c.has(e) && r.push(i);
+            } else Mc(e, o.fromStyles), i.onDestroy(() => Nc(e, o.toStyles)), T.push(i), c.has(e) && r.push(i);
           }),
             T.forEach(t => {
               const e = s.get(t.element);
               if (e && e.length) {
-                const n = oc(e);
+                const n = lc(e);
                 t.setRealPlayer(n);
               }
             }),
             r.forEach(t => {
               t.parentPlayer ? t.syncPlayerEvents(t.parentPlayer) : t.destroy();
             });
-          for (let I = 0; I < g.length; I++) {
-            const t = g[I],
+          for (let P = 0; P < g.length; P++) {
+            const t = g[P],
               e = t.__ng_removed;
-            if ((Fu(t, 'ng-leave'), e && e.hasAnimation)) continue;
+            if ((Hu(t, 'ng-leave'), e && e.hasAnimation)) continue;
             let n = [];
             if (o.size) {
               let e = o.get(t);
@@ -14211,7 +14234,7 @@
               }
             }
             const r = n.filter(t => !t.destroyed);
-            r.length ? Vu(this, t, r) : this.processLeaveNode(t);
+            r.length ? zu(this, t, r) : this.processLeaveNode(t);
           }
           return (
             (g.length = 0),
@@ -14267,13 +14290,13 @@
           for (const o of e.timelines) {
             const t = o.element,
               a = t !== r,
-              l = hc(n, t, []);
+              l = pc(n, t, []);
             this._getPreviousPlayers(t, a, s, i, e.toState).forEach(t => {
               const e = t.getRealPlayer();
               e.beforeDestroy && e.beforeDestroy(), t.destroy(), l.push(t);
             });
           }
-          jc(r, e.fromStyles);
+          Mc(r, e.fromStyles);
         }
         _buildAnimation(t, e, n, r, s, i) {
           const o = e.triggerName,
@@ -14298,19 +14321,19 @@
                     })(t, e),
                     e
                   );
-                })((n.get(h) || xu).map(t => t.getRealPlayer())).filter(t => !!t.element && t.element === h),
+                })((n.get(h) || ku).map(t => t.getRealPlayer())).filter(t => !!t.element && t.element === h),
                 g = s.get(h),
                 m = i.get(h),
-                b = ac(0, this._normalizer, 0, e.keyframes, g, m),
+                b = cc(0, this._normalizer, 0, e.keyframes, g, m),
                 y = this._buildPlayer(e, b, f);
               if ((e.subTimeline && r && u.add(h), p)) {
-                const e = new Ru(t, o, h);
+                const e = new ju(t, o, h);
                 e.setRealPlayer(y), l.push(e);
               }
               return y;
             });
           l.forEach(t => {
-            hc(this.playersByQueriedElement, t.element, []).push(t),
+            pc(this.playersByQueriedElement, t.element, []).push(t),
               t.onDone(() =>
                 (function(t, e, n) {
                   let r;
@@ -14333,14 +14356,14 @@
                 })(this.playersByQueriedElement, t.element, t)
               );
           }),
-            c.forEach(t => Lu(t, 'ng-animating'));
-          const d = oc(h);
+            c.forEach(t => Vu(t, 'ng-animating'));
+          const d = lc(h);
           return (
             d.onDestroy(() => {
-              c.forEach(t => Fu(t, 'ng-animating')), Dc(a, e.toStyles);
+              c.forEach(t => Hu(t, 'ng-animating')), Nc(a, e.toStyles);
             }),
             u.forEach(t => {
-              hc(r, t, []).push(d);
+              pc(r, t, []).push(d);
             }),
             d
           );
@@ -14351,7 +14374,7 @@
             : new fa(t.duration, t.delay);
         }
       }
-      class Ru {
+      class ju {
         constructor(t, e, n) {
           (this.namespaceId = t),
             (this.triggerName = e),
@@ -14369,7 +14392,7 @@
           this._containsRealPlayer ||
             ((this._player = t),
             Object.keys(this._queuedCallbacks).forEach(e => {
-              this._queuedCallbacks[e].forEach(n => lc(t, e, void 0, n));
+              this._queuedCallbacks[e].forEach(n => uc(t, e, void 0, n));
             }),
             (this._queuedCallbacks = {}),
             (this._containsRealPlayer = !0),
@@ -14389,7 +14412,7 @@
             t.onDestroy(() => this.destroy());
         }
         _queueEvent(t, e) {
-          hc(this._queuedCallbacks, t, []).push(e);
+          pc(this._queuedCallbacks, t, []).push(e);
         }
         onDone(t) {
           this.queued && this._queueEvent('done', t), this._player.onDone(t);
@@ -14435,29 +14458,29 @@
           e.triggerCallback && e.triggerCallback(t);
         }
       }
-      function Du(t) {
+      function Nu(t) {
         return t && 1 === t.nodeType;
       }
-      function ju(t, e) {
+      function Mu(t, e) {
         const n = t.style.display;
         return (t.style.display = null != e ? e : 'none'), n;
       }
-      function Nu(t, e, n, r, s) {
+      function Lu(t, e, n, r, s) {
         const i = [];
-        n.forEach(t => i.push(ju(t)));
+        n.forEach(t => i.push(Mu(t)));
         const o = [];
         r.forEach((n, r) => {
           const i = {};
           n.forEach(t => {
             const n = (i[t] = e.computeStyle(r, t, s));
-            (n && 0 != n.length) || ((r.__ng_removed = ku), o.push(r));
+            (n && 0 != n.length) || ((r.__ng_removed = Au), o.push(r));
           }),
             t.set(r, i);
         });
         let a = 0;
-        return n.forEach(t => ju(t, i[a++])), o;
+        return n.forEach(t => Mu(t, i[a++])), o;
       }
-      function Mu(t, e) {
+      function Fu(t, e) {
         const n = new Map();
         if ((t.forEach(t => n.set(t, [])), 0 == e.length)) return n;
         const r = new Set(e),
@@ -14476,37 +14499,37 @@
           n
         );
       }
-      function Lu(t, e) {
+      function Vu(t, e) {
         if (t.classList) t.classList.add(e);
         else {
           let n = t.$$classes;
           n || (n = t.$$classes = {}), (n[e] = !0);
         }
       }
-      function Fu(t, e) {
+      function Hu(t, e) {
         if (t.classList) t.classList.remove(e);
         else {
           let n = t.$$classes;
           n && delete n[e];
         }
       }
-      function Vu(t, e, n) {
-        oc(n).onDone(() => t.processLeaveNode(e));
+      function zu(t, e, n) {
+        lc(n).onDone(() => t.processLeaveNode(e));
       }
-      function Hu(t, e, n) {
+      function Uu(t, e, n) {
         const r = n.get(t);
         if (!r) return !1;
         let s = e.get(t);
         return s ? r.forEach(t => s.add(t)) : e.set(t, r), n.delete(t), !0;
       }
-      class zu {
+      class $u {
         constructor(t, e, n) {
           (this.bodyNode = t),
             (this._driver = e),
             (this._triggerCache = {}),
             (this.onRemovalComplete = (t, e) => {}),
-            (this._transitionEngine = new Pu(t, e, n)),
-            (this._timelineEngine = new Eu(t, e, n)),
+            (this._transitionEngine = new Du(t, e, n)),
+            (this._timelineEngine = new Ou(t, e, n)),
             (this._transitionEngine.onRemovalComplete = (t, e) => this.onRemovalComplete(t, e));
         }
         registerTrigger(t, e, n, r, s) {
@@ -14514,13 +14537,13 @@
           let o = this._triggerCache[i];
           if (!o) {
             const t = [],
-              e = Jc(this._driver, s, t);
+              e = Xc(this._driver, s, t);
             if (t.length)
               throw new Error(
                 `The animation trigger "${r}" has failed to build due to the following errors:\n - ${t.join('\n - ')}`
               );
             (o = (function(t, e) {
-              return new wu(t, e);
+              return new Su(t, e);
             })(r, e)),
               (this._triggerCache[i] = o);
           }
@@ -14543,13 +14566,13 @@
         }
         process(t, e, n, r) {
           if ('@' == n.charAt(0)) {
-            const [t, s] = dc(n);
+            const [t, s] = fc(n);
             this._timelineEngine.command(t, e, s, r);
           } else this._transitionEngine.trigger(t, e, n, r);
         }
         listen(t, e, n, r, s) {
           if ('@' == n.charAt(0)) {
-            const [t, r] = dc(n);
+            const [t, r] = fc(n);
             return this._timelineEngine.listen(t, e, r, s);
           }
           return this._transitionEngine.listen(t, e, n, r, s);
@@ -14564,15 +14587,15 @@
           return this._transitionEngine.whenRenderingDone();
         }
       }
-      function Uu(t, e) {
+      function Bu(t, e) {
         let n = null,
           r = null;
         return (
-          Array.isArray(e) && e.length ? ((n = Bu(e[0])), e.length > 1 && (r = Bu(e[e.length - 1]))) : e && (n = Bu(e)),
-          n || r ? new $u(t, n, r) : null
+          Array.isArray(e) && e.length ? ((n = Qu(e[0])), e.length > 1 && (r = Qu(e[e.length - 1]))) : e && (n = Qu(e)),
+          n || r ? new qu(t, n, r) : null
         );
       }
-      let $u = (() => {
+      let qu = (() => {
         class t {
           constructor(e, n, r) {
             (this._element = e), (this._startStyles = n), (this._endStyles = r), (this._state = 0);
@@ -14581,40 +14604,40 @@
           }
           start() {
             this._state < 1 &&
-              (this._startStyles && Dc(this._element, this._startStyles, this._initialStyles), (this._state = 1));
+              (this._startStyles && Nc(this._element, this._startStyles, this._initialStyles), (this._state = 1));
           }
           finish() {
             this.start(),
               this._state < 2 &&
-                (Dc(this._element, this._initialStyles),
-                this._endStyles && (Dc(this._element, this._endStyles), (this._endStyles = null)),
+                (Nc(this._element, this._initialStyles),
+                this._endStyles && (Nc(this._element, this._endStyles), (this._endStyles = null)),
                 (this._state = 1));
           }
           destroy() {
             this.finish(),
               this._state < 3 &&
                 (t.initialStylesByElement.delete(this._element),
-                this._startStyles && (jc(this._element, this._startStyles), (this._endStyles = null)),
-                this._endStyles && (jc(this._element, this._endStyles), (this._endStyles = null)),
-                Dc(this._element, this._initialStyles),
+                this._startStyles && (Mc(this._element, this._startStyles), (this._endStyles = null)),
+                this._endStyles && (Mc(this._element, this._endStyles), (this._endStyles = null)),
+                Nc(this._element, this._initialStyles),
                 (this._state = 3));
           }
         }
         return (t.initialStylesByElement = new WeakMap()), t;
       })();
-      function Bu(t) {
+      function Qu(t) {
         let e = null;
         const n = Object.keys(t);
         for (let r = 0; r < n.length; r++) {
           const s = n[r];
-          qu(s) && ((e = e || {}), (e[s] = t[s]));
+          Zu(s) && ((e = e || {}), (e[s] = t[s]));
         }
         return e;
       }
-      function qu(t) {
+      function Zu(t) {
         return 'display' === t || 'position' === t;
       }
-      class Qu {
+      class Gu {
         constructor(t, e, n, r, s, i, o) {
           (this._element = t),
             (this._name = e),
@@ -14631,30 +14654,30 @@
         }
         apply() {
           !(function(t, e) {
-            const n = Yu(t, '').trim();
+            const n = th(t, '').trim();
             n.length &&
               ((function(t, e) {
                 let n = 0;
                 for (let r = 0; r < t.length; r++) ',' === t.charAt(r) && n++;
               })(n),
               (e = `${n}, ${e}`)),
-              Ju(t, '', e);
+              Xu(t, '', e);
           })(
             this._element,
             `${this._duration}ms ${this._easing} ${this._delay}ms 1 normal ${this._fillMode} ${this._name}`
           ),
-            Wu(this._element, this._eventFn, !1),
+            Yu(this._element, this._eventFn, !1),
             (this._startTime = Date.now());
         }
         pause() {
-          Zu(this._element, this._name, 'paused');
+          Ku(this._element, this._name, 'paused');
         }
         resume() {
-          Zu(this._element, this._name, 'running');
+          Ku(this._element, this._name, 'running');
         }
         setPosition(t) {
-          const e = Gu(this._element, this._name);
-          (this._position = t * this._duration), Ju(this._element, 'Delay', `-${this._position}ms`, e);
+          const e = Wu(this._element, this._name);
+          (this._position = t * this._duration), Xu(this._element, 'Delay', `-${this._position}ms`, e);
         }
         getPosition() {
           return this._position;
@@ -14668,34 +14691,34 @@
             this.finish();
         }
         finish() {
-          this._finished || ((this._finished = !0), this._onDoneFn(), Wu(this._element, this._eventFn, !0));
+          this._finished || ((this._finished = !0), this._onDoneFn(), Yu(this._element, this._eventFn, !0));
         }
         destroy() {
           this._destroyed ||
             ((this._destroyed = !0),
             this.finish(),
             (function(t, e) {
-              const n = Yu(t, '').split(','),
-                r = Ku(n, e);
-              r >= 0 && (n.splice(r, 1), Ju(t, '', n.join(',')));
+              const n = th(t, '').split(','),
+                r = Ju(n, e);
+              r >= 0 && (n.splice(r, 1), Xu(t, '', n.join(',')));
             })(this._element, this._name));
         }
       }
-      function Zu(t, e, n) {
-        Ju(t, 'PlayState', n, Gu(t, e));
+      function Ku(t, e, n) {
+        Xu(t, 'PlayState', n, Wu(t, e));
       }
-      function Gu(t, e) {
-        const n = Yu(t, '');
-        return n.indexOf(',') > 0 ? Ku(n.split(','), e) : Ku([n], e);
+      function Wu(t, e) {
+        const n = th(t, '');
+        return n.indexOf(',') > 0 ? Ju(n.split(','), e) : Ju([n], e);
       }
-      function Ku(t, e) {
+      function Ju(t, e) {
         for (let n = 0; n < t.length; n++) if (t[n].indexOf(e) >= 0) return n;
         return -1;
       }
-      function Wu(t, e, n) {
+      function Yu(t, e, n) {
         n ? t.removeEventListener('animationend', e) : t.addEventListener('animationend', e);
       }
-      function Ju(t, e, n, r) {
+      function Xu(t, e, n, r) {
         const s = 'animation' + e;
         if (null != r) {
           const e = t.style[s];
@@ -14706,10 +14729,10 @@
         }
         t.style[s] = n;
       }
-      function Yu(t, e) {
+      function th(t, e) {
         return t.style['animation' + e];
       }
-      class Xu {
+      class eh {
         constructor(t, e, n, r, s, i, o, a) {
           (this.element = t),
             (this.keyframes = e),
@@ -14791,7 +14814,7 @@
           this._styler.destroy(), this._buildStyler(), this._styler.apply();
         }
         _buildStyler() {
-          this._styler = new Qu(
+          this._styler = new Gu(
             this.element,
             this.animationName,
             this._duration,
@@ -14811,15 +14834,15 @@
           if (this.hasStarted()) {
             const e = this._state >= 3;
             Object.keys(this._finalStyles).forEach(n => {
-              'offset' != n && (t[n] = e ? this._finalStyles[n] : qc(this.element, n));
+              'offset' != n && (t[n] = e ? this._finalStyles[n] : Zc(this.element, n));
             });
           }
           this.currentSnapshot = t;
         }
       }
-      class th extends fa {
+      class nh extends fa {
         constructor(t, e) {
-          super(), (this.element = t), (this._startingStyles = {}), (this.__initialized = !1), (this._styles = Sc(e));
+          super(), (this.element = t), (this._startingStyles = {}), (this.__initialized = !1), (this._styles = xc(e));
         }
         init() {
           !this.__initialized &&
@@ -14846,27 +14869,27 @@
             super.destroy());
         }
       }
-      class eh {
+      class rh {
         constructor() {
           (this._count = 0), (this._head = document.querySelector('head')), (this._warningIssued = !1);
         }
         validateStyleProperty(t) {
-          return _c(t);
+          return wc(t);
         }
         matchesElement(t, e) {
-          return vc(t, e);
+          return Cc(t, e);
         }
         containsElement(t, e) {
-          return wc(t, e);
+          return Sc(t, e);
         }
         query(t, e, n) {
-          return Cc(t, e, n);
+          return Ec(t, e, n);
         }
         computeStyle(t, e, n) {
           return window.getComputedStyle(t)[e];
         }
         buildKeyframeElement(t, e, n) {
-          n = n.map(t => Sc(t));
+          n = n.map(t => xc(t));
           let r = `@keyframes ${e} {\n`,
             s = '';
           n.forEach(t => {
@@ -14893,9 +14916,9 @@
         }
         animate(t, e, n, r, s, i = [], o) {
           o && this._notifyFaultyScrubber();
-          const a = i.filter(t => t instanceof Xu),
+          const a = i.filter(t => t instanceof eh),
             l = {};
-          Uc(n, r) &&
+          Bc(n, r) &&
             a.forEach(t => {
               let e = t.currentSnapshot;
               Object.keys(e).forEach(t => (l[t] = e[t]));
@@ -14911,13 +14934,13 @@
                 }),
               e
             );
-          })((e = $c(t, e, l)));
-          if (0 == n) return new th(t, c);
+          })((e = qc(t, e, l)));
+          if (0 == n) return new nh(t, c);
           const u = 'gen_css_kf_' + this._count++,
             h = this.buildKeyframeElement(t, u, e);
           document.querySelector('head').appendChild(h);
-          const d = Uu(t, e),
-            p = new Xu(t, e, u, n, r, s, c, d);
+          const d = Bu(t, e),
+            p = new eh(t, e, u, n, r, s, c, d);
           return (
             p.onDestroy(() => {
               var t;
@@ -14935,7 +14958,7 @@
             (this._warningIssued = !0));
         }
       }
-      class nh {
+      class sh {
         constructor(t, e, n, r) {
           (this.element = t),
             (this.keyframes = e),
@@ -15033,7 +15056,7 @@
           const t = {};
           this.hasStarted() &&
             Object.keys(this._finalKeyframe).forEach(e => {
-              'offset' != e && (t[e] = this._finished ? this._finalKeyframe[e] : qc(this.element, e));
+              'offset' != e && (t[e] = this._finished ? this._finalKeyframe[e] : Zc(this.element, e));
             }),
             (this.currentSnapshot = t);
         }
@@ -15042,22 +15065,22 @@
           e.forEach(t => t()), (e.length = 0);
         }
       }
-      class rh {
+      class ih {
         constructor() {
-          (this._isNativeImpl = /\{\s*\[native\s+code\]\s*\}/.test(sh().toString())),
-            (this._cssKeyframesDriver = new eh());
+          (this._isNativeImpl = /\{\s*\[native\s+code\]\s*\}/.test(oh().toString())),
+            (this._cssKeyframesDriver = new rh());
         }
         validateStyleProperty(t) {
-          return _c(t);
+          return wc(t);
         }
         matchesElement(t, e) {
-          return vc(t, e);
+          return Cc(t, e);
         }
         containsElement(t, e) {
-          return wc(t, e);
+          return Sc(t, e);
         }
         query(t, e, n) {
-          return Cc(t, e, n);
+          return Ec(t, e, n);
         }
         computeStyle(t, e, n) {
           return window.getComputedStyle(t)[e];
@@ -15070,20 +15093,20 @@
           const a = { duration: n, delay: r, fill: 0 == r ? 'both' : 'forwards' };
           s && (a.easing = s);
           const l = {},
-            c = i.filter(t => t instanceof nh);
-          Uc(n, r) &&
+            c = i.filter(t => t instanceof sh);
+          Bc(n, r) &&
             c.forEach(t => {
               let e = t.currentSnapshot;
               Object.keys(e).forEach(t => (l[t] = e[t]));
             });
-          const u = Uu(t, (e = $c(t, (e = e.map(t => Ic(t, !1))), l)));
-          return new nh(t, e, a, u);
+          const u = Bu(t, (e = qc(t, (e = e.map(t => Rc(t, !1))), l)));
+          return new sh(t, e, a, u);
         }
       }
-      function sh() {
+      function oh() {
         return ('undefined' != typeof window && void 0 !== window.document && Element.prototype.animate) || {};
       }
-      let ih = (() => {
+      let ah = (() => {
         class t extends oa {
           constructor(t, e) {
             super(),
@@ -15099,7 +15122,7 @@
             const e = this._nextAnimationId.toString();
             this._nextAnimationId++;
             const n = Array.isArray(t) ? ca(t) : t;
-            return lh(this._renderer, null, e, 'register', [n]), new oh(e, this._renderer);
+            return uh(this._renderer, null, e, 'register', [n]), new lh(e, this._renderer);
           }
         }
         return (
@@ -15110,15 +15133,15 @@
           t
         );
       })();
-      class oh extends class {} {
+      class lh extends class {} {
         constructor(t, e) {
           super(), (this._id = t), (this._renderer = e);
         }
         create(t, e) {
-          return new ah(this._id, t, e || {}, this._renderer);
+          return new ch(this._id, t, e || {}, this._renderer);
         }
       }
-      class ah {
+      class ch {
         constructor(t, e, n, r) {
           (this.id = t),
             (this.element = e),
@@ -15132,7 +15155,7 @@
           return this._renderer.listen(this.element, `@@${this.id}:${t}`, e);
         }
         _command(t, ...e) {
-          return lh(this._renderer, this.element, this.id, t, e);
+          return uh(this._renderer, this.element, this.id, t, e);
         }
         onDone(t) {
           this._listen('done', t);
@@ -15174,10 +15197,10 @@
           return 0;
         }
       }
-      function lh(t, e, n, r, s) {
+      function uh(t, e, n, r, s) {
         return t.setProperty(e, `@@${n}:${r}`, s);
       }
-      let ch = (() => {
+      let hh = (() => {
         class t {
           constructor(t, e, n) {
             (this.delegate = t),
@@ -15197,7 +15220,7 @@
             const n = this.delegate.createRenderer(t, e);
             if (!(t && e && e.data && e.data.animation)) {
               let t = this._rendererCache.get(n);
-              return t || ((t = new uh('', n, this.engine)), this._rendererCache.set(n, t)), t;
+              return t || ((t = new dh('', n, this.engine)), this._rendererCache.set(n, t)), t;
             }
             const r = e.id,
               s = e.id + '-' + this._currentId;
@@ -15205,7 +15228,7 @@
             const i = e => {
               Array.isArray(e) ? e.forEach(i) : this.engine.registerTrigger(r, s, t, e.name, e);
             };
-            return e.data.animation.forEach(i), new hh(this, s, n, this.engine);
+            return e.data.animation.forEach(i), new ph(this, s, n, this.engine);
           }
           begin() {
             this._cdRecurDepth++, this.delegate.begin && this.delegate.begin();
@@ -15244,13 +15267,13 @@
         }
         return (
           (t.ɵfac = function(e) {
-            return new (e || t)(s.Zb(s.E), s.Zb(zu), s.Zb(s.z));
+            return new (e || t)(s.Zb(s.E), s.Zb($u), s.Zb(s.z));
           }),
           (t.ɵprov = s.Ib({ token: t, factory: t.ɵfac })),
           t
         );
       })();
-      class uh {
+      class dh {
         constructor(t, e, n) {
           (this.namespaceId = t),
             (this.delegate = e),
@@ -15321,7 +15344,7 @@
           this.engine.disableAnimations(t, e);
         }
       }
-      class hh extends uh {
+      class ph extends dh {
         constructor(t, e, n, r) {
           super(e, n, r), (this.factory = t), (this.namespaceId = e);
         }
@@ -15362,45 +15385,45 @@
           return this.delegate.listen(t, e, n);
         }
       }
-      let dh = (() => {
-        class t extends zu {
+      let fh = (() => {
+        class t extends $u {
           constructor(t, e, n) {
             super(t.body, e, n);
           }
         }
         return (
           (t.ɵfac = function(e) {
-            return new (e || t)(s.Zb(i.c), s.Zb(xc), s.Zb(fu));
+            return new (e || t)(s.Zb(i.c), s.Zb(kc), s.Zb(mu));
           }),
           (t.ɵprov = s.Ib({ token: t, factory: t.ɵfac })),
           t
         );
       })();
-      const ph = [
+      const gh = [
         {
-          provide: xc,
+          provide: kc,
           useFactory: function() {
-            return 'function' == typeof sh() ? new rh() : new eh();
+            return 'function' == typeof oh() ? new ih() : new rh();
           }
         },
         { provide: new s.q('AnimationModuleType'), useValue: 'BrowserAnimations' },
-        { provide: oa, useClass: ih },
+        { provide: oa, useClass: ah },
         {
-          provide: fu,
+          provide: mu,
           useFactory: function() {
-            return new gu();
+            return new bu();
           }
         },
-        { provide: zu, useClass: dh },
+        { provide: $u, useClass: fh },
         {
           provide: s.E,
           useFactory: function(t, e, n) {
-            return new ch(t, e, n);
+            return new hh(t, e, n);
           },
-          deps: [r.e, zu, s.z]
+          deps: [r.e, $u, s.z]
         }
       ];
-      let fh = (() => {
+      let mh = (() => {
         class t {}
         return (
           (t.ɵmod = s.Kb({ type: t })),
@@ -15408,30 +15431,30 @@
             factory: function(e) {
               return new (e || t)();
             },
-            providers: ph,
+            providers: gh,
             imports: [r.a]
           })),
           t
         );
       })();
-      function gh(t, e) {
+      function bh(t, e) {
         if (
           (1 & t &&
-            (s.Rb(0, 'div', 8), s.Cc(1, '\n        '), s.Nb(2, 'app-entrie-card', 9), s.Cc(3, '\n      '), s.Qb()),
+            (s.Rb(0, 'div', 9), s.Cc(1, '\n        '), s.Nb(2, 'app-entrie-card', 10), s.Cc(3, '\n      '), s.Qb()),
           2 & t)
         ) {
           const t = e.$implicit;
           s.zb(2), s.kc('entrie', t);
         }
       }
-      function mh(t, e) {
+      function yh(t, e) {
         if (
           (1 & t &&
-            (s.Rb(0, 'div', 5),
+            (s.Rb(0, 'div', 6),
             s.Cc(1, '\n    '),
-            s.Rb(2, 'div', 6),
+            s.Rb(2, 'div', 7),
             s.Cc(3, '\n      '),
-            s.Ac(4, gh, 4, 1, 'div', 7),
+            s.Ac(4, bh, 4, 1, 'div', 8),
             s.Cc(5, '\n    '),
             s.Qb(),
             s.Cc(6, '\n  '),
@@ -15442,8 +15465,8 @@
           s.zb(4), s.kc('ngForOf', t.allAPI);
         }
       }
-      const bh = [
-        Hl.childRoutes([
+      const _h = [
+        Ul.childRoutes([
           {
             path: 'all',
             component: (() => {
@@ -15468,7 +15491,7 @@
                 (t.ɵcmp = s.Gb({
                   type: t,
                   selectors: [['app-all']],
-                  decls: 23,
+                  decls: 26,
                   vars: 3,
                   consts: [
                     [1, 'container-fluid'],
@@ -15476,6 +15499,7 @@
                     [1, 'font-weight-bold'],
                     [3, 'isLoading'],
                     ['class', 'container', 4, 'ngIf'],
+                    ['routerLink', '/home', 1, 'back'],
                     [1, 'container'],
                     [1, 'row', 'mb-4'],
                     ['class', 'col-sm-12 col-md-6 col-lg-4 mb-4', 4, 'ngFor', 'ngForOf'],
@@ -15509,10 +15533,14 @@
                       s.Nb(17, 'app-loader', 3),
                       s.Cc(18, '\n  '),
                       s.Cc(19, '\n  '),
-                      s.Ac(20, mh, 7, 1, 'div', 4),
-                      s.Cc(21, '\n'),
+                      s.Ac(20, yh, 7, 1, 'div', 4),
+                      s.Cc(21, '\n  '),
+                      s.Rb(22, 'button', 5),
+                      s.Cc(23, 'Back'),
                       s.Qb(),
-                      s.Cc(22, '\n')),
+                      s.Cc(24, '\n'),
+                      s.Qb(),
+                      s.Cc(25, '\n')),
                       2 & t &&
                         (s.zb(13),
                         s.Ec(' ', e.allAPI.length, ' API '),
@@ -15521,8 +15549,10 @@
                         s.zb(3),
                         s.kc('ngIf', !e.isLoading));
                   },
-                  directives: [ll, i.k, i.j, ml],
-                  styles: ['']
+                  directives: [ll, i.k, Ao, i.j, ml],
+                  styles: [
+                    '.back[_ngcontent-%COMP%]{padding:.4rem;border-radius:0 20px 20px 20px;position:relative;bottom:2rem;left:90%;color:#d2691e;background:#fff;border:none;font-weight:700;box-shadow:0 0 0 3px}.back[_ngcontent-%COMP%]:hover{box-shadow:0 0 0 5px;color:#deb887}'
+                  ]
                 })),
                 t
               );
@@ -15531,7 +15561,7 @@
           }
         ])
       ];
-      let yh = (() => {
+      let vh = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -15540,12 +15570,12 @@
                 return new (e || t)();
               },
               providers: [],
-              imports: [[Qo.forChild(bh)], Qo]
+              imports: [[Qo.forChild(_h)], Qo]
             })),
             t
           );
         })(),
-        _h = (() => {
+        wh = (() => {
           class t {}
           return (
             (t.ɵmod = s.Kb({ type: t })),
@@ -15553,15 +15583,15 @@
               factory: function(e) {
                 return new (e || t)();
               },
-              imports: [[i.b, en, yh, al]]
+              imports: [[i.b, en, vh, al]]
             })),
             t
           );
         })(),
-        vh = (() => {
+        Ch = (() => {
           class t {}
           return (
-            (t.ɵmod = s.Kb({ type: t, bootstrap: [Kl] })),
+            (t.ɵmod = s.Kb({ type: t, bootstrap: [Jl] })),
             (t.ɵinj = s.Jb({
               factory: function(e) {
                 return new (e || t)();
@@ -15577,15 +15607,15 @@
                   Za,
                   el.forRoot(),
                   al.forRoot(),
-                  Bl,
-                  $l,
-                  Zl,
-                  _h,
-                  sc,
+                  Ql,
+                  ql,
+                  Kl,
+                  wh,
+                  oc,
                   Lr,
-                  fh,
+                  mh,
                   La.forRoot({ positionClass: 'toast-top-right' }),
-                  Jl
+                  Xl
                 ]
               ]
             })),
@@ -15760,7 +15790,7 @@
           return Ln;
         }),
         n.d(e, 'S', function() {
-          return I;
+          return P;
         }),
         n.d(e, 'T', function() {
           return Mn;
@@ -15799,10 +15829,10 @@
           return Dn;
         }),
         n.d(e, 'fb', function() {
-          return Pn;
+          return In;
         }),
         n.d(e, 'gb', function() {
-          return In;
+          return Pn;
         }),
         n.d(e, 'hb', function() {
           return Rn;
@@ -15928,7 +15958,7 @@
           return xl;
         }),
         n.d(e, 'Wb', function() {
-          return Il;
+          return Pl;
         }),
         n.d(e, 'Xb', function() {
           return Ol;
@@ -16129,20 +16159,20 @@
         return null == t || '' === t ? (null === e ? '' : e) : null == e || '' === e ? t : t + ' ' + e;
       }
       const A = g({ __forward_ref__: g });
-      function I(t) {
+      function P(t) {
         return (
-          (t.__forward_ref__ = I),
+          (t.__forward_ref__ = P),
           (t.toString = function() {
             return k(this());
           }),
           t
         );
       }
-      function P(t) {
+      function I(t) {
         return R(t) ? t() : t;
       }
       function R(t) {
-        return 'function' == typeof t && t.hasOwnProperty(A) && t.__forward_ref__ === I;
+        return 'function' == typeof t && t.hasOwnProperty(A) && t.__forward_ref__ === P;
       }
       const D = 'undefined' != typeof globalThis && globalThis,
         j = 'undefined' != typeof window && window,
@@ -16193,7 +16223,7 @@
         return null === J ? nt(t, void 0, e) : J.get(t, e & f.Optional ? null : void 0, e);
       }
       function et(t, e = f.Default) {
-        return (W || tt)(P(t), e);
+        return (W || tt)(I(t), e);
       }
       function nt(t, e, n) {
         const r = _(t);
@@ -16205,7 +16235,7 @@
       function rt(t) {
         const e = [];
         for (let n = 0; n < t.length; n++) {
-          const r = P(t[n]);
+          const r = I(t[n]);
           if (Array.isArray(r)) {
             if (0 === r.length) throw new Error('Arguments array must have arguments.');
             let t = void 0,
@@ -16399,7 +16429,7 @@
       }
       function xt(t, e) {
         return l(() => {
-          const n = Pt(t, !0);
+          const n = It(t, !0);
           (n.declarations = e.declarations || yt), (n.imports = e.imports || yt), (n.exports = e.exports || yt);
         });
       }
@@ -16427,10 +16457,10 @@
       function At(t) {
         return t[F] || null;
       }
-      function It(t, e) {
+      function Pt(t, e) {
         return t.hasOwnProperty($) ? t[$] : null;
       }
-      function Pt(t, e) {
+      function It(t, e) {
         const n = t[z] || null;
         if (!n && !0 === e) throw new Error(`Type ${k(t)} does not have '\u0275mod' property.`);
         return n;
@@ -16636,10 +16666,10 @@
       function Ae() {
         return ne.lFrame.selectedIndex;
       }
-      function Ie(t) {
+      function Pe(t) {
         ne.lFrame.selectedIndex = t;
       }
-      function Pe() {
+      function Ie() {
         const t = ne.lFrame;
         return Zt(t.tView, t.selectedIndex);
       }
@@ -17000,10 +17030,10 @@
                 const n = e;
                 if (R(e))
                   return () => {
-                    const e = t(P(n));
+                    const e = t(I(n));
                     return e ? e() : null;
                   };
-                let r = It(n);
+                let r = Pt(n);
                 if (null === r) {
                   const t = w(n);
                   r = t && t.factory;
@@ -17099,10 +17129,10 @@
       function An(t) {
         return new wn(t);
       }
-      function In(t) {
+      function Pn(t) {
         return new Cn(t);
       }
-      function Pn(t) {
+      function In(t) {
         return new Sn(t);
       }
       function Rn(t) {
@@ -17570,10 +17600,10 @@
         const e = t[3];
         return Dt(e) ? e[3] : e;
       }
-      function Ir(t) {
+      function Pr(t) {
         return Rr(t[13]);
       }
-      function Pr(t) {
+      function Ir(t) {
         return Rr(t[4]);
       }
       function Rr(t) {
@@ -17592,7 +17622,7 @@
             const r = t.preOrderHooks;
             null !== r && je(e, r, 0, n);
           }
-        Ie(n);
+        Pe(n);
       }
       const Nr = { marker: 'element' },
         Mr = { marker: 'comment' };
@@ -17702,7 +17732,7 @@
             }
           if (
             ((function(t) {
-              for (let e = Ir(t); null !== e; e = Pr(e)) {
+              for (let e = Pr(t); null !== e; e = Ir(e)) {
                 if (!e[2]) continue;
                 const t = e[9];
                 for (let e = 0; e < t.length; e++) {
@@ -17713,7 +17743,7 @@
               }
             })(e),
             (function(t) {
-              for (let e = Ir(t); null !== e; e = Pr(e))
+              for (let e = Pr(t); null !== e; e = Ir(e))
                 for (let t = 10; t < e.length; t++) {
                   const n = e[t],
                     r = n[1];
@@ -17741,13 +17771,13 @@
                   const o = n[t];
                   'number' == typeof o
                     ? o <= 0
-                      ? ((i = 0 - o), Ie(i), (r += 9 + n[++t]), (s = r))
+                      ? ((i = 0 - o), Pe(i), (r += 9 + n[++t]), (s = r))
                       : (r += o)
                     : (null !== o && (be(r, s), o(2, e[s])), s++);
                 }
               }
             } finally {
-              Ie(-1);
+              Pe(-1);
             }
           })(t, e);
           const a = t.components;
@@ -17784,9 +17814,9 @@
       function Wr(t, e, n, r, s) {
         const i = Ae();
         try {
-          Ie(-1), 2 & r && e.length > 20 && jr(t, e, 0, he()), n(r, s);
+          Pe(-1), 2 & r && e.length > 20 && jr(t, e, 0, he()), n(r, s);
         } finally {
-          Ie(i);
+          Pe(i);
         }
       }
       function Jr(t, e, n) {
@@ -17822,7 +17852,7 @@
                 a = n.index - 20,
                 l = ne.lFrame.currentDirectiveIndex;
               try {
-                Ie(a);
+                Pe(a);
                 for (let n = r; n < s; n++) {
                   const r = t.data[n],
                     s = e[n];
@@ -17830,7 +17860,7 @@
                     null !== r.hostBindings || 0 !== r.hostVars || null !== r.hostAttrs ? ls(r, s) : o && i.push(null);
                 }
               } finally {
-                Ie(-1), ye(l);
+                Pe(-1), ye(l);
               }
             })(t, e, n));
       }
@@ -17952,7 +17982,7 @@
           u = e.inputs;
         var h;
         !a && null != u && (c = u[r])
-          ? (Is(t, n, c, r, s),
+          ? (Ps(t, n, c, r, s),
             Nt(e) &&
               (function(t, e) {
                 const n = Kt(e, t);
@@ -18083,7 +18113,7 @@
       }
       function ps(t, e, n) {
         t.data.push(n);
-        const r = n.factory || (n.factory = It(n.type)),
+        const r = n.factory || (n.factory = Pt(n.type)),
           s = new Fe(r, Lt(n), null);
         t.blueprint.push(s), e.push(s);
       }
@@ -18140,7 +18170,7 @@
             ? Gr(t, n, t.template, n[8])
             : n[5] > 0 &&
               (function t(e) {
-                for (let r = Ir(e); null !== r; r = Pr(r))
+                for (let r = Pr(e); null !== r; r = Ir(r))
                   for (let e = 10; e < r.length; e++) {
                     const n = r[e];
                     if (1024 & n[2]) {
@@ -18213,7 +18243,7 @@
           r = n ? n.get(_n, null) : null;
         r && r.handleError(e);
       }
-      function Is(t, e, n, r, s) {
+      function Ps(t, e, n, r, s) {
         for (let i = 0; i < n.length; ) {
           const o = n[i++],
             a = n[i++],
@@ -18222,7 +18252,7 @@
           null !== c.setInput ? c.setInput(l, s, r, a) : (l[a] = s);
         }
       }
-      function Ps(t, e, n) {
+      function Is(t, e, n) {
         const r = qt(e, t),
           s = t[11];
         Ut(s) ? s.setValue(r, n) : (r.textContent = n);
@@ -18849,7 +18879,7 @@
           if (this._destroyed) throw new Error('Injector has already been destroyed.');
         }
         processInjectorType(t, e, n) {
-          if (!(t = P(t))) return !1;
+          if (!(t = I(t))) return !1;
           let r = w(t);
           const s = (null == r && t.ngModule) || void 0,
             i = void 0 === s ? t : s,
@@ -18879,7 +18909,7 @@
           return void 0 !== s && void 0 !== t.providers;
         }
         processProvider(t, e, n) {
-          let r = Oi((t = P(t))) ? t : P(t && t.provide);
+          let r = Oi((t = I(t))) ? t : I(t && t.provide);
           const s = (function(t, e, n) {
             return xi(t) ? Ei(void 0, t.useValue) : Ei(Si(t, e, n), gi);
           })(t, e, n);
@@ -18924,7 +18954,7 @@
       }
       function Ci(t) {
         const e = _(t),
-          n = null !== e ? e.factory : It(t);
+          n = null !== e ? e.factory : Pt(t);
         if (null !== n) return n;
         const r = w(t);
         if (null !== r) return r.factory;
@@ -18960,19 +18990,19 @@
       function Si(t, e, n) {
         let r = void 0;
         if (Oi(t)) {
-          const e = P(t);
-          return It(e) || Ci(e);
+          const e = I(t);
+          return Pt(e) || Ci(e);
         }
-        if (xi(t)) r = () => P(t.useValue);
+        if (xi(t)) r = () => I(t.useValue);
         else if ((s = t) && s.useFactory) r = () => t.useFactory(...rt(t.deps || []));
         else if (
           (function(t) {
             return !(!t || !t.useExisting);
           })(t)
         )
-          r = () => et(P(t.useExisting));
+          r = () => et(I(t.useExisting));
         else {
-          const s = P(t && (t.useClass || t.provide));
+          const s = I(t && (t.useClass || t.provide));
           if (
             (s ||
               (function(t, e, n) {
@@ -18988,7 +19018,7 @@
               return !!t.deps;
             })(t))
           )
-            return It(s) || Ci(s);
+            return Pt(s) || Ci(s);
           r = () => new s(...rt(t.deps));
         }
         var s;
@@ -19024,8 +19054,8 @@
         );
       })();
       const Ai = new q('AnalyzeForEntryComponents');
-      let Ii = new Map();
-      const Pi = new Set();
+      let Pi = new Map();
+      const Ii = new Set();
       function Ri(t) {
         return 'string' == typeof t ? t : t.text();
       }
@@ -19090,7 +19120,7 @@
       }
       function $i(t, e, n, r) {
         const s = se();
-        return zi(s, ge(), e) && (ie(), gs(Pe(), s, t, e, n, r)), $i;
+        return zi(s, ge(), e) && (ie(), gs(Ie(), s, t, e, n, r)), $i;
       }
       function Bi(t, e, n, r) {
         return zi(t, ge(), n) ? e + Ge(n) + r : Tr;
@@ -19123,7 +19153,7 @@
       }
       function Zi(t, e = f.Default) {
         const n = se();
-        return null == n ? et(t, e) : an(ae(), n, P(t), e);
+        return null == n ? et(t, e) : an(ae(), n, I(t), e);
       }
       function Gi(t) {
         return (function(t, e) {
@@ -19152,11 +19182,11 @@
       }
       function Wi(t, e, n) {
         const r = se();
-        return zi(r, ge(), e) && ss(ie(), Pe(), r, t, e, r[11], n, !1), Wi;
+        return zi(r, ge(), e) && ss(ie(), Ie(), r, t, e, r[11], n, !1), Wi;
       }
       function Ji(t, e, n, r, s) {
         const i = s ? 'class' : 'style';
-        Is(t, n, e.inputs[i], i, r);
+        Ps(t, n, e.inputs[i], i, r);
       }
       function Yi(t, e, n, r) {
         const s = se(),
@@ -19379,7 +19409,7 @@
       function bo(t, e, n, r, s) {
         const i = se(),
           o = Bi(i, e, n, r);
-        return o !== Tr && ss(ie(), Pe(), i, t, o, i[11], s, !1), bo;
+        return o !== Tr && ss(ie(), Ie(), i, t, o, i[11], s, !1), bo;
       }
       const yo = [];
       function _o(t, e, n, r, s) {
@@ -19426,7 +19456,7 @@
         return Ao(t, e, null, !0), Oo;
       }
       function ko(t) {
-        Io(dt, To, t, !0);
+        Po(dt, To, t, !0);
       }
       function To(t, e) {
         for (
@@ -19477,14 +19507,14 @@
             );
         }
       }
-      function Io(t, e, n, r) {
+      function Po(t, e, n, r) {
         const s = ie(),
           i = me(2);
         s.firstUpdatePass && Ro(s, null, i, r);
         const o = se();
         if (n !== Tr && zi(o, i, n)) {
           const a = s.data[Ae() + 20];
-          if (Fo(a, r) && !Po(s, i)) {
+          if (Fo(a, r) && !Io(s, i)) {
             let t = r ? a.classesWithoutHost : a.stylesWithoutHost;
             null !== t && (n = T(t, n || '')), Ji(s, a, o, n, r);
           } else
@@ -19528,14 +19558,14 @@
             );
         }
       }
-      function Po(t, e) {
+      function Io(t, e) {
         return e >= t.expandoStartIndex;
       }
       function Ro(t, e, n, r) {
         const s = t.data;
         if (null === s[n + 1]) {
           const i = s[Ae() + 20],
-            o = Po(t, n);
+            o = Io(t, n);
           Fo(i, r) && null === e && !o && (e = !1),
             (e = (function(t, e, n, r) {
               const s = _e(t);
@@ -19685,7 +19715,7 @@
       function zo(t, e, n) {
         const r = se(),
           s = Bi(r, t, e, n);
-        return s !== Tr && Ps(r, Ae(), s), zo;
+        return s !== Tr && Is(r, Ae(), s), zo;
       }
       function Uo(t, e, n, r, s) {
         const i = se(),
@@ -19693,13 +19723,13 @@
             const o = Ui(t, fe(), n, s);
             return me(2), o ? e + Ge(n) + r + Ge(s) + i : Tr;
           })(i, t, e, n, r, s);
-        return o !== Tr && Ps(i, Ae(), o), Uo;
+        return o !== Tr && Is(i, Ae(), o), Uo;
       }
       function $o(t, e, n) {
-        Io(dt, To, Bi(se(), t, e, n), !0);
+        Po(dt, To, Bi(se(), t, e, n), !0);
       }
       function Bo(t, e, n, r, s, i, o, a, l) {
-        Io(
+        Po(
           dt,
           To,
           (function(t, e, n, r, s, i, o, a, l, c) {
@@ -19714,13 +19744,13 @@
       }
       function qo(t, e, n) {
         const r = se();
-        return zi(r, ge(), e) && ss(ie(), Pe(), r, t, e, r[11], n, !0), qo;
+        return zi(r, ge(), e) && ss(ie(), Ie(), r, t, e, r[11], n, !0), qo;
       }
       function Qo(t, e, n) {
         const r = se();
         if (zi(r, ge(), e)) {
           const s = ie(),
-            i = Pe();
+            i = Ie();
           ss(
             s,
             i,
@@ -19873,11 +19903,11 @@
         return t.__ngSimpleChanges__ || null;
       }
       function ra(t, e, n, r, s) {
-        if (((t = P(t)), Array.isArray(t))) for (let i = 0; i < t.length; i++) ra(t[i], e, n, r, s);
+        if (((t = I(t)), Array.isArray(t))) for (let i = 0; i < t.length; i++) ra(t[i], e, n, r, s);
         else {
           const i = ie(),
             o = se();
-          let a = Oi(t) ? t : P(t.provide),
+          let a = Oi(t) ? t : I(t.provide),
             l = Si(t);
           const c = ae(),
             u = 65535 & c.providerIndexes,
@@ -20351,16 +20381,16 @@
         let s = 0;
         return n && r < n.length && (s = n[r]), r + e + s;
       }
-      class Ia {
+      class Pa {
         constructor() {}
         supports(t) {
           return t instanceof Map || Vi(t);
         }
         create() {
-          return new Pa();
+          return new Ia();
         }
       }
-      class Pa {
+      class Ia {
         constructor() {
           (this._records = new Map()),
             (this._mapHead = null),
@@ -20567,9 +20597,9 @@
               throw new Error(`Cannot find a differ supporting object '${t}'`);
             }
           }
-          return (t.ɵprov = b({ token: t, providedIn: 'root', factory: () => new t([new Ia()]) })), t;
+          return (t.ɵprov = b({ token: t, providedIn: 'root', factory: () => new t([new Pa()]) })), t;
         })();
-      const Na = [new Ia()],
+      const Na = [new Pa()],
         Ma = new Da([new Sa()]),
         La = new ja(Na);
       let Fa = (() => {
@@ -20718,7 +20748,7 @@
                 e.contentQueries && e.contentQueries(1, o, n.length - 1);
               const a = ae();
               if (i.firstCreatePass && (null !== e.hostBindings || null !== e.hostAttrs)) {
-                Ie(a.index - 20);
+                Pe(a.index - 20);
                 const t = n[1];
                 os(t, e), as(t, n, e.hostVars), ls(e, o);
               }
@@ -21194,7 +21224,7 @@
                   const n = Zt(e, s);
                   3 === n.type && gs(n, t, a, o, null, null);
                   const r = null !== n.inputs && n.inputs[a];
-                  r && Is(e, t, r, a, o);
+                  r && Ps(e, t, r, a, o);
                 }
             }
           }
@@ -21206,7 +21236,7 @@
       function Al(t) {
         return zi(se(), ge(), t) && (kl |= 1 << Tl), Tl++, Al;
       }
-      function Il(t) {
+      function Pl(t) {
         if (Tl) {
           const e = ie(),
             n = e.data[t + 20];
@@ -21237,7 +21267,7 @@
                           ss(i, Zt(i, h), o, c, a, o[11], g, !1);
                           break;
                         case 0:
-                          Ps(o, h, a);
+                          Is(o, h, a);
                           break;
                         case 2:
                           if (((d = e[++u]), (p = n[d]), (f = Zt(i, h)), null !== f.activeCaseIndex)) {
@@ -21254,7 +21284,7 @@
                               }
                             }
                           }
-                          const m = Pl(p, a);
+                          const m = Il(p, a);
                           (f.activeCaseIndex = -1 !== m ? m : null), m > -1 && (Sl(-1, p.create[m], i, o), (l = !0));
                           break;
                         case 3:
@@ -21273,7 +21303,7 @@
             (Tl = 0);
         }
       }
-      function Pl(t, e) {
+      function Il(t, e) {
         let n = t.cases.indexOf(e);
         if (-1 === n)
           switch (t.type) {
@@ -21404,7 +21434,7 @@
             (this.injector = this),
             (this.destroyCbs = []),
             (this.componentFactoryResolver = new $a(this));
-          const n = Pt(t),
+          const n = It(t),
             r = t[U] || null;
           r && Ll(r),
             (this._bootstrapComponents = Je(n.bootstrap)),
@@ -21435,7 +21465,7 @@
         constructor(t) {
           super(),
             (this.moduleType = t),
-            null !== Pt(t) &&
+            null !== It(t) &&
               (function t(e) {
                 if (null !== e.ɵmod.id) {
                   const t = e.ɵmod.id;
@@ -21505,7 +21535,7 @@
             (n.data[s] = r),
             r.onDestroy && (n.destroyHooks || (n.destroyHooks = [])).push(s, r.onDestroy))
           : (r = n.data[s]);
-        const i = r.factory || (r.factory = It(r.type)),
+        const i = r.factory || (r.factory = Pt(r.type)),
           o = X(Zi),
           a = Xe(!1),
           l = i();
@@ -21991,13 +22021,13 @@
       const Ac = function(t) {
           return new Hl(t);
         },
-        Ic = Ac,
-        Pc = function(t) {
+        Pc = Ac,
+        Ic = function(t) {
           return Promise.resolve(Ac(t));
         },
         Rc = function(t) {
           const e = Ac(t),
-            n = Je(Pt(t).declarations).reduce((t, e) => {
+            n = Je(It(t).declarations).reduce((t, e) => {
               const n = At(e);
               return n && t.push(new Qa(n)), t;
             }, []);
@@ -22010,8 +22040,8 @@
       let Nc = (() => {
         class t {
           constructor() {
-            (this.compileModuleSync = Ic),
-              (this.compileModuleAsync = Pc),
+            (this.compileModuleSync = Pc),
+              (this.compileModuleAsync = Ic),
               (this.compileModuleAndAllComponentsSync = Dc),
               (this.compileModuleAndAllComponentsAsync = jc);
           }
@@ -22336,7 +22366,7 @@
         Xc = function(t, e, n) {
           const r = t.get(Mc, []).concat(e),
             s = new Hl(n);
-          if (0 === Ii.size) return Promise.resolve(s);
+          if (0 === Pi.size) return Promise.resolve(s);
           const i = (function(t) {
             const e = [];
             return t.forEach(t => t && e.push(...t)), e;
@@ -22363,7 +22393,7 @@
               return e;
             }
             return (
-              Ii.forEach((t, n) => {
+              Pi.forEach((t, n) => {
                 const s = [];
                 t.templateUrl &&
                   s.push(
@@ -22385,12 +22415,12 @@
                   });
                 const l = Promise.all(s).then(() =>
                   (function(t) {
-                    Pi.delete(t);
+                    Ii.delete(t);
                   })(n)
                 );
                 e.push(l);
               }),
-              (Ii = new Map()),
+              (Pi = new Map()),
               Promise.all(e).then(() => {})
             );
           })().then(() => s);
@@ -22820,7 +22850,7 @@
         return L;
       }),
         n.d(e, 'b', function() {
-          return P;
+          return I;
         }),
         n.d(e, 'c', function() {
           return V;
@@ -23336,7 +23366,7 @@
           '\x90': 'NumLock'
         },
         A = { alt: t => t.altKey, control: t => t.ctrlKey, meta: t => t.metaKey, shift: t => t.shiftKey };
-      let I = (() => {
+      let P = (() => {
           class t extends f {
             constructor(t) {
               super(t);
@@ -23411,7 +23441,7 @@
             t
           );
         })(),
-        P = (() => {
+        I = (() => {
           class t {}
           return (
             (t.ɵfac = function(e) {
@@ -23431,7 +23461,7 @@
         return new D(t.get(r.c));
       }
       let D = (() => {
-        class t extends P {
+        class t extends I {
           constructor(t) {
             super(), (this._doc = t);
           }
@@ -23515,7 +23545,7 @@
             deps: []
           },
           { provide: d, useClass: x, multi: !0, deps: [r.c, s.z, s.B] },
-          { provide: d, useClass: I, multi: !0, deps: [r.c] },
+          { provide: d, useClass: P, multi: !0, deps: [r.c] },
           [],
           { provide: w, useClass: w, deps: [p, m, s.c] },
           { provide: s.E, useExisting: w },
@@ -23741,7 +23771,7 @@
           return R;
         }),
         n.d(e, 'u', function() {
-          return P;
+          return I;
         }),
         n.d(e, 'v', function() {
           return D;
@@ -24091,7 +24121,7 @@
           var t = { Short: 0, Medium: 1, Long: 2, Full: 3 };
           return (t[t.Short] = 'Short'), (t[t.Medium] = 'Medium'), (t[t.Long] = 'Long'), (t[t.Full] = 'Full'), t;
         })(),
-        I = (function() {
+        P = (function() {
           var t = {
             Decimal: 0,
             Group: 1,
@@ -24126,7 +24156,7 @@
             t
           );
         })();
-      function P(t, e, n) {
+      function I(t, e, n) {
         const s = Object(r.ib)(t),
           i = H([s[r.Y.DayPeriodsFormat], s[r.Y.DayPeriodsStandalone]], e);
         return H(i, n);
@@ -24154,8 +24184,8 @@
         const n = Object(r.ib)(t),
           s = n[r.Y.NumberSymbols][e];
         if (void 0 === s) {
-          if (e === I.CurrencyDecimal) return n[r.Y.NumberSymbols][I.Decimal];
-          if (e === I.CurrencyGroup) return n[r.Y.NumberSymbols][I.Group];
+          if (e === P.CurrencyDecimal) return n[r.Y.NumberSymbols][P.Decimal];
+          if (e === P.CurrencyGroup) return n[r.Y.NumberSymbols][P.Group];
         }
         return s;
       }
@@ -24540,7 +24570,7 @@
           if (((n > 0 || a > -n) && (a += n), t === Q.Hours)) 0 === a && -12 === n && (a = 12);
           else if (t === Q.FractionalSeconds) return (l = e), W(a, 3).substr(0, l);
           var l;
-          const c = L(o, I.MinusSign);
+          const c = L(o, P.MinusSign);
           return W(a, e, c, r, s);
         };
       }
@@ -24584,7 +24614,7 @@
                   )
                     return o;
                 }
-                return P(e, i, s)[a < 12 ? 0 : 1];
+                return I(e, i, s)[a < 12 ? 0 : 1];
               case Z.Eras:
                 return (function(t, e) {
                   return H(Object(r.ib)(t)[r.Y.Eras], e);
@@ -24598,7 +24628,7 @@
       function X(t) {
         return function(e, n, r) {
           const s = -1 * r,
-            i = L(n, I.MinusSign),
+            i = L(n, P.MinusSign),
             o = s > 0 ? Math.floor(s / 60) : Math.ceil(s / 60);
           switch (t) {
             case q.Short:
@@ -24632,7 +24662,7 @@
             s = 1 + Math.round(e / 6048e5);
           }
           var i;
-          return W(s, t, L(r, I.MinusSign));
+          return W(s, t, L(r, P.MinusSign));
         };
       }
       const et = {};

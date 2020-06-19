@@ -71,11 +71,13 @@
 
   <div class="container" *ngIf="searchedTerm === ''">
     <ng-container *ngIf="categorie; else noCategorie">
-      <h1 class="mb-0 titre">All API by categories</h1>
+      <h1 class="mb-0 titre">
+        All API by categories <span class="text-muted" [ngStyle]="{ float: 'right' }">({{ categorie.length }})</span>
+      </h1>
       <a href="https://unsplash.com/" target="_blank" class="unsplash mb-5">Thanks to Unsplash for all pictures</a>
       <div class="row mt-5">
         <div
-          class="col-lg-3 col-md-4 mb-3"
+          class="col-lg-3 col-md-4 col-12 mb-3"
           [ngStyle]="{ 'text-align': '-webkit-center' }"
           *ngFor="let item of categorie"
         >

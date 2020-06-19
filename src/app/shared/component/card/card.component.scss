@@ -17,7 +17,7 @@ p {
 
 .property-card {
   height: 18em;
-  width: 14em;
+  width: 100%;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,7 +41,7 @@ p {
 
 .property-image {
   height: 100%;
-  width: 14em;
+  width: 100%;
   padding: 1em 2em;
   position: Absolute;
   top: 0px;
@@ -58,7 +58,7 @@ p {
 .property-description {
   background-color: #fafafc;
   height: 4em;
-  width: 14em;
+  width: 100%;
   position: absolute;
   bottom: 0em;
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
